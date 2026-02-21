@@ -186,10 +186,24 @@ export default function SearchBox({ jobs, phJobs }: { jobs: JobSiteUI[], phJobs:
                 placeholder={`Search ${sanitizedJobs.length} companies...`}
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
+                onFocus={() => {
+                    // Scroll search into view on mobile to clear keyboard overlap better
+                    if (window.innerWidth < 768) {
+                        document.getElementById('hero-search')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                }}
                 className="w-full h-[52px] pl-12 pr-12 bg-bg-input border-[1.5px] border-border-row rounded-xl text-primary focus:border-accent-green focus:ring-[3px] focus:ring-accent-green-glow transition-all outline-none"
             />
-            {showSearchHint && (
-                <div className="absolute right-4 top-1/2 -translate-y-1/2 flex items-center gap-1.5 pointer-events-none">
+            {query && (
+                <button 
+                    onClick={() => setQuery('')}
+                    className="absolute right-4 top-1/2 -translate-y-1/2 text-muted hover:text-primary p-1"
+                >
+                    ✕
+                </button>
+            )}
+            {!query && showSearchHint && (
+                <div className="absolute right-4 top-1/2 -translate-y-1/2 flex items-center gap-1.5 pointer-events-none hidden md:flex">
                     <span className="text-xs text-muted font-mono border border-border-subtle px-1.5 py-0.5 rounded">/</span>
                 </div>
             )}
@@ -424,9 +438,9 @@ export default function SearchBox({ jobs, phJobs }: { jobs: JobSiteUI[], phJobs:
 
                 <button 
                     onClick={() => setIsSidebarOpen(false)}
-                    className="w-full mt-10 bg-accent-green text-[#0d0b18] font-bold py-4 rounded-xl"
+                    className="w-full mt-10 bg-accent-green text-[#0d0b18] font-bold py-4 rounded-xl shadow-[0_8px_24px_rgba(0,230,118,0.2)] text-lg active:scale-[0.98] transition-transform"
                 >
-                    Done ✓
+                    Apply Filters & Go →
                 </button>
             </div>
           </>

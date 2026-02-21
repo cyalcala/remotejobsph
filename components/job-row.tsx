@@ -139,9 +139,9 @@ export default function JobRow({ job, isExpanded, onToggle, isFlashed, onTagClic
                     target="_blank" 
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
-                    className="inline-flex items-center gap-2 bg-accent-green text-[#0d0b18] font-bold text-sm px-5 py-2.5 rounded-xl hover:brightness-110 shadow-lg shadow-accent-green-dim"
+                    className="inline-flex items-center justify-center w-full md:w-auto gap-2 bg-accent-green text-[#0d0b18] font-bold text-sm px-5 py-3 rounded-xl hover:brightness-110 active:scale-95 transition-all shadow-lg shadow-accent-green-dim"
                 >
-                    <span role="img" aria-label="link">🔗</span> Visit <span className="sr-only">{name} — </span> site →
+                    <span role="img" aria-label="link">🔗</span> Visit <span className="sr-only">{name} — </span> company site →
                 </a>
              ) : (
                 <span className="text-xs text-muted"> <span role="img" aria-label="info">📋</span> No website listed</span>
@@ -149,17 +149,18 @@ export default function JobRow({ job, isExpanded, onToggle, isFlashed, onTagClic
           </div>
         </div>
 
-        {/* Mobile Call to Action (line 4 on mobile, only visible if not expanded but has URL) */}
+        {/* Mobile Action (Visible only when expanded or always) */}
         {!isExpanded && job.url && (
-            <div className="md:hidden mt-4 pt-3 border-t border-border-row">
+            <div className="md:hidden mt-3 pt-3 border-t border-border-row">
                  <a 
                     href={job.url}
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
-                    className="text-xs font-bold text-accent-green flex items-center gap-1"
+                    className="text-xs font-bold text-accent-green flex items-center justify-between"
                  >
-                    Visit company site <span className="text-base">→</span>
+                    <span>Visit company site</span>
+                    <span className="text-base">→</span>
                  </a>
             </div>
         )}

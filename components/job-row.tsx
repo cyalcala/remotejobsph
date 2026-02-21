@@ -71,34 +71,44 @@ export default function JobRow({ job, isExpanded, onToggle, isFlashed, onTagClic
       role="button" 
       tabIndex={0}
       onClick={(e) => {
-        if ((e.target as HTMLElement).closest('.visit-btn')) return;
+        // Prevent expansion when clicking ANY link
+        if ((e.target as HTMLElement).closest('a')) return;
         onToggle();
       }}
       onKeyDown={(e) => e.key === 'Enter' && onToggle()}
-      className={`card-row ${isExpanded ? 'border-accent-green shadow-[0_0_0_1px_var(--accent-green),0_8px_32px_var(--accent-green-glow)]' : ''}`}
+      className={`card-row flex-col md:flex-row items-stretch md:items-center ${isExpanded ? 'border-accent-green shadow-[0_0_0_1px_var(--accent-green),0_8px_32px_var(--accent-green-glow)]' : ''}`}
     >
       {/* Left Accent Bar */}
       <div className="card-row-accent" style={{ backgroundColor: `var(${cat.colorVar})` }} />
 
-      {/* Avatar */}
-      <div 
-        className="w-12 h-12 md:w-12 md:h-12 flex-shrink-0 flex items-center justify-center rounded-[10px] text-white font-bold text-base"
-        style={{ backgroundColor: avatarBg }}
-      >
-        {avatarLetters}
-      </div>
+      <div className="flex items-center gap-4 w-full md:w-auto">
+        {/* Avatar */}
+        <div 
+            className="w-10 h-10 md:w-12 md:h-12 flex-shrink-0 flex items-center justify-center rounded-[8px] md:rounded-[10px] text-white font-bold text-sm md:text-base"
+            style={{ backgroundColor: avatarBg }}
+        >
+            {avatarLetters}
+        </div>
 
-      {/* Main Content */}
-      <div className="flex-1 min-width-0">
-        <div className="flex flex-col md:flex-row md:items-baseline md:gap-2">
+        {/* Name (on line 1 with avatar on mobile) */}
+        <div className="flex-1 min-width-0 md:hidden">
             <h3 className="text-base font-semibold text-primary truncate">{name}</h3>
         </div>
-        <p className="text-sm text-secondary mt-0.5 truncate max-w-[400px]">
+      </div>
+
+      {/* Main Content Block */}
+      <div className="flex-1 min-width-0 mt-3 md:mt-0">
+        <div className="hidden md:block">
+            <h3 className="text-base font-semibold text-primary truncate">{name}</h3>
+        </div>
+        
+        {/* Description (line 2 on mobile) */}
+        <p className="text-sm text-secondary mt-0.5 truncate max-w-full md:max-w-[400px]">
           {description}
         </p>
         
-        {/* Tags */}
-        <div className="flex flex-wrap gap-1.5 mt-2">
+        {/* Tags (line 3 on mobile) */}
+        <div className="flex flex-wrap gap-1.5 mt-3">
           <span 
             className="tag-pill" 
             style={{ backgroundColor: `var(${cat.colorVar}-bg)`, color: `var(${cat.colorVar})` }}
@@ -114,13 +124,13 @@ export default function JobRow({ job, isExpanded, onToggle, isFlashed, onTagClic
           </span>
         </div>
 
-        {/* Expanded Content */}
+        {/* Expanded Content Details */}
         <div 
           className="overflow-hidden transition-all duration-normal ease-decelerate"
-          style={{ maxHeight: isExpanded ? '300px' : '0' }}
+          style={{ maxHeight: isExpanded ? '400px' : '0' }}
         >
-          <div className="pt-4 md:pl-0">
-             <p className="text-sm text-secondary leading-relaxed mb-4">
+          <div className="pt-4">
+             <p className="text-sm text-secondary leading-relaxed mb-6">
                 {description}
              </p>
              {job.url ? (
@@ -128,7 +138,8 @@ export default function JobRow({ job, isExpanded, onToggle, isFlashed, onTagClic
                     href={job.url} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-accent-green text-[#0d0b18] font-semibold text-sm px-4 py-2 rounded-lg hover:brightness-110"
+                    onClick={(e) => e.stopPropagation()}
+                    className="inline-flex items-center gap-2 bg-accent-green text-[#0d0b18] font-bold text-sm px-5 py-2.5 rounded-xl hover:brightness-110 shadow-lg shadow-accent-green-dim"
                 >
                     <span role="img" aria-label="link">🔗</span> Visit <span className="sr-only">{name} — </span> site →
                 </a>
@@ -137,16 +148,32 @@ export default function JobRow({ job, isExpanded, onToggle, isFlashed, onTagClic
              )}
           </div>
         </div>
+
+        {/* Mobile Call to Action (line 4 on mobile, only visible if not expanded but has URL) */}
+        {!isExpanded && job.url && (
+            <div className="md:hidden mt-4 pt-3 border-t border-border-row">
+                 <a 
+                    href={job.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="text-xs font-bold text-accent-green flex items-center gap-1"
+                 >
+                    Visit company site <span className="text-base">→</span>
+                 </a>
+            </div>
+        )}
       </div>
 
       {/* Right Action Block (Desktop Only) */}
-      <div className="hidden md:flex flex-col items-end gap-2 flex-shrink-0">
+      <div className="hidden md:flex flex-col items-end gap-2 flex-shrink-0 ml-4">
         {job.url ? (
           <a 
             href={job.url} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="visit-btn text-xs font-semibold text-accent-green border border-accent-green rounded-lg px-3 py-1.5 hover:bg-accent-green hover:text-[#0d0b18] transition-all"
+            onClick={(e) => e.stopPropagation()}
+            className="text-xs font-semibold text-accent-green border border-accent-green rounded-lg px-3 py-1.5 hover:bg-accent-green hover:text-[#0d0b18] transition-all"
           >
             Visit →
           </a>

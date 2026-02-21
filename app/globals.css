@@ -123,6 +123,15 @@ body {
     animation: shimmer 1.6s ease-in-out infinite;
     border-radius: 4px;
   }
+
+  .slide-up {
+    animation: slideUp var(--duration-slow) var(--ease-decelerate) forwards;
+  }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
 }
 
 @keyframes shimmer {

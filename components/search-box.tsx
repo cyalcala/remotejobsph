@@ -450,7 +450,7 @@ function BackToTop() {
         <button 
             onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); document.getElementById('hero-search')?.focus(); }}
             className={`
-                fixed bottom-6 right-6 md:right-10 w-11 h-11 bg-bg-surface text-primary rounded-full flex items-center justify-center shadow-2xl border-[1.5px] border-border-row transition-opacity duration-normal z-[150]
+                fixed bottom-20 md:bottom-6 right-6 md:right-10 w-11 h-11 bg-bg-surface text-primary rounded-full flex items-center justify-center shadow-2xl border-[1.5px] border-border-row transition-opacity duration-normal z-[150]
                 ${visible ? 'opacity-100' : 'opacity-0 pointer-events-none'}
             `}
         >

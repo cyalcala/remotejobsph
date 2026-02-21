@@ -9,7 +9,7 @@ const records = parse(raw, {
   columns: true,
   skip_empty_lines: true,
   relax_quotes: true,
-});
+}) as any[];
 
 const MANUAL_OVERRIDE: Record<string, { category: string, about: string }> = {
   'Athena': {

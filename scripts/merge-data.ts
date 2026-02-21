@@ -17,7 +17,7 @@ function mergeData() {
             relax_quotes: true, 
             relax_column_count: true, 
             skip_records_with_error: true 
-        });
+        }) as any[];
     }
 
     const jobs8Raw = readFileSync(JOBS8_CSV, 'utf-8');
@@ -27,7 +27,7 @@ function mergeData() {
         relax_quotes: true, 
         relax_column_count: true, 
         skip_records_with_error: true 
-    });
+    }) as any[];
 
     const jobs9Raw = readFileSync(JOBS9_CSV, 'utf-8');
     const jobs9Records = parse(jobs9Raw, { 
@@ -36,7 +36,7 @@ function mergeData() {
         relax_quotes: true, 
         relax_column_count: true, 
         skip_records_with_error: true 
-    });
+    }) as any[];
 
     const merged = new Map<string, any>();
 

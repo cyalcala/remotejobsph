@@ -1,43 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #fafafa;
-  --text-main: #111111;
-  --text-muted: #999999;
-  --border: #eeeeee;
-  --row-hover: #f9f9f9;
+  /* Colors */
+  --bg-page: #fafafa;
+  --bg-surface: #ffffff;
+  --bg-hover: #f9f9f9;
+  --text-primary: #111111;
+  --text-secondary: #999999;
+  --text-placeholder: #bbbbbb;
+  --border-structural: #ebebeb;
+  --border-row: #f0f0f0;
+  --bg-group-header: #f5f5f5;
+  --skeleton-base: #eeeeee;
+  --skeleton-highlight: #f5f5f5;
+  --accent: #3b5bdb;
+  --flash-highlight: #fffbe6;
+  
+  /* Animations */
+  --duration-instant: 0ms;
+  --duration-fast: 120ms;
+  --duration-normal: 200ms;
+  --duration-slow: 300ms;
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-decelerate: cubic-bezier(0, 0, 0.2, 1);
+  --ease-accelerate: cubic-bezier(0.4, 0, 1, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-page: #111111;
+    --bg-surface: #1a1a1a;
+    --bg-hover: #222222;
+    --text-primary: #eeeeee;
+    --text-secondary: #888888;
+    --text-placeholder: #555555;
+    --border-structural: #2a2a2a;
+    --border-row: #1e1e1e;
+    --bg-group-header: #161616;
+    --skeleton-base: #1e1e1e;
+    --skeleton-highlight: #2a2a2a;
+  }
 }
 
 body {
-  background-color: var(--background);
-  color: var(--text-main);
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 @layer components {
   .tag-pill {
-    @apply px-2 py-0.5 rounded-[4px] text-[11px] font-semibold tracking-tight uppercase whitespace-nowrap;
+    @apply text-xs px-2 py-0.5 rounded-[4px] font-medium transition-colors;
+  }
+  
+  .checkbox-custom {
+    @apply w-4 h-4 border-[1.5px] border-[#ddd] rounded-[3px] appearance-none cursor-pointer transition-colors;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+    background-size: 0% 0%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .checkbox-custom:checked {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    background-size: 80% 80%;
+  }
+
+  .shimmer {
+    background: linear-gradient(90deg, var(--skeleton-base) 25%, var(--skeleton-highlight) 50%, var(--skeleton-base) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.4s ease-in-out infinite;
   }
 }
 
-/* Transitions */
-.row-transition {
-  transition: background-color 0.15s ease, border-color 0.15s ease;
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
 }
 
-.arrow-transition {
-  transition: color 0.15s ease, transform 0.2s ease;
+@keyframes flash {
+  0% { background-color: var(--flash-highlight); }
+  100% { background-color: transparent; }
 }
 
-/* Hide scrollbar but keep functionality */
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
+.flash-row {
+  animation: flash 600ms ease-out forwards;
 }
-.no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-structural);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-placeholder);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media print {
+  nav, .search-container, .sidebar, .alphabet-bar, .sort-control,
+  .back-to-top, footer, .mobile-filter-pill, .visit-site-link {
+    display: none !important;
+  }
+  .listing-container { height: auto !important; overflow: visible !important; }
+  * { background: #ffffff !important; color: #000000 !important; box-shadow: none !important; }
+  .company-name { font-weight: bold; }
+  .company-row { page-break-inside: avoid; }
+  .listing-container::before {
+    content: "RemoteJobsPH — remotejobsph.vercel.app — Printed " attr(data-print-date);
+    display: block;
+    font-size: 11pt;
+    margin-bottom: 16pt;
+  }
+  body { font-size: 11pt; line-height: 1.4; }
 }

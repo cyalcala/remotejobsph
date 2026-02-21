@@ -5,21 +5,52 @@
 @tailwind utilities;
 
 :root {
-  /* Colors */
-  --bg-page: #fafafa;
-  --bg-surface: #ffffff;
-  --bg-hover: #f9f9f9;
-  --text-primary: #111111;
-  --text-secondary: #999999;
-  --text-placeholder: #bbbbbb;
-  --border-structural: #ebebeb;
-  --border-row: #f0f0f0;
-  --bg-group-header: #f5f5f5;
-  --skeleton-base: #eeeeee;
-  --skeleton-highlight: #f5f5f5;
-  --accent: #3b5bdb;
-  --flash-highlight: #fffbe6;
-  
+  /* Backgrounds */
+  --bg-base: #120f1d;
+  --bg-surface: #1a1726;
+  --bg-row: #1e1b2e;
+  --bg-row-hover: #252238;
+  --bg-tag: #2a2640;
+  --bg-input: #1e1b2e;
+
+  /* Borders */
+  --border-subtle: #2a2640;
+  --border-row: #2e2a45;
+  --border-focus: #00e676;
+
+  /* Text */
+  --text-primary: #f0eeff;
+  --text-secondary: #9d96c0;
+  --text-muted: #5c5880;
+  --text-accent: #00e676;
+
+  /* Accents */
+  --accent-green: #00e676;
+  --accent-green-glow: rgba(0, 230, 118, 0.12);
+  --accent-green-dim: rgba(0, 230, 118, 0.08);
+
+  /* Category colors */
+  --color-pinoy: #a78bfa;
+  --color-pinoy-bg: rgba(167, 139, 250, 0.12);
+  --color-agency: #60a5fa;
+  --color-agency-bg: rgba(96, 165, 250, 0.12);
+  --color-gig: #fb923c;
+  --color-gig-bg: rgba(251, 146, 60, 0.12);
+  --color-ph-freelancing: #f472b6;
+  --color-ph-freelancing-bg: rgba(244, 114, 182, 0.12);
+  --color-australia: #34d399;
+  --color-australia-bg: rgba(52, 211, 153, 0.12);
+  --color-usa: #f87171;
+  --color-usa-bg: rgba(248, 113, 113, 0.12);
+
+  /* Remote type colors */
+  --color-fully-remote: #00e676;
+  --color-fully-remote-bg: rgba(0, 230, 118, 0.1);
+  --color-hybrid: #facc15;
+  --color-hybrid-bg: rgba(250, 204, 21, 0.1);
+  --color-remote-friendly: #38bdf8;
+  --color-remote-friendly-bg: rgba(56, 189, 248, 0.1);
+
   /* Animations */
   --duration-instant: 0ms;
   --duration-fast: 120ms;
@@ -30,24 +61,8 @@
   --ease-accelerate: cubic-bezier(0.4, 0, 1, 1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-page: #111111;
-    --bg-surface: #1a1a1a;
-    --bg-hover: #222222;
-    --text-primary: #eeeeee;
-    --text-secondary: #888888;
-    --text-placeholder: #555555;
-    --border-structural: #2a2a2a;
-    --border-row: #1e1e1e;
-    --bg-group-header: #161616;
-    --skeleton-base: #1e1e1e;
-    --skeleton-highlight: #2a2a2a;
-  }
-}
-
 body {
-  background-color: var(--bg-page);
+  background-color: var(--bg-base);
   color: var(--text-primary);
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 14px;
@@ -58,58 +73,61 @@ body {
 
 @layer components {
   .tag-pill {
-    @apply text-xs px-2 py-0.5 rounded-[4px] font-medium transition-colors;
+    @apply inline-flex items-center gap-[4px] px-[10px] py-[3px] rounded-full text-[12px] font-medium whitespace-nowrap cursor-pointer transition-all;
   }
   
-  .checkbox-custom {
-    @apply w-4 h-4 border-[1.5px] border-[#ddd] rounded-[3px] appearance-none cursor-pointer transition-colors;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
-    background-size: 0% 0%;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  .checkbox-custom:checked {
-    background-color: var(--accent);
-    border-color: var(--accent);
-    background-size: 80% 80%;
+  .tag-pill:hover {
+    filter: brightness(1.2);
   }
 
-  .shimmer {
-    background: linear-gradient(90deg, var(--skeleton-base) 25%, var(--skeleton-highlight) 50%, var(--skeleton-base) 75%);
+  .card-row {
+    background: var(--bg-row);
+    border: 1.5px solid var(--border-row);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background var(--duration-fast), border-color var(--duration-fast), box-shadow var(--duration-fast);
+  }
+
+  .card-row:hover {
+    background: var(--bg-row-hover);
+    border-color: var(--accent-green);
+    box-shadow: 0 0 0 1px var(--accent-green), 0 4px 24px var(--accent-green-glow);
+  }
+
+  .card-row-accent {
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .skeleton-item {
+    background: linear-gradient(90deg, var(--bg-tag) 25%, var(--bg-surface) 50%, var(--bg-tag) 75%);
     background-size: 200% 100%;
-    animation: shimmer 1.4s ease-in-out infinite;
+    animation: shimmer 1.6s ease-in-out infinite;
+    border-radius: 4px;
   }
 }
 
 @keyframes shimmer {
-  0% { background-position: 200% 0; }
-  100% { background-position: -200% 0; }
-}
-
-@keyframes flash {
-  0% { background-color: var(--flash-highlight); }
-  100% { background-color: transparent; }
-}
-
-.flash-row {
-  animation: flash 600ms ease-out forwards;
-}
-
-/* Scrollbar Styles */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--border-structural);
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--text-placeholder);
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -121,19 +139,22 @@ body {
 }
 
 @media print {
-  nav, .search-container, .sidebar, .alphabet-bar, .sort-control,
-  .back-to-top, footer, .mobile-filter-pill, .visit-site-link {
-    display: none !important;
+  .stats-bar, nav, .hero-search, .filter-tag-bar, .sidebar,
+  .alphabet-bar, .results-bar, .back-to-top, footer, .mobile-filter-pill,
+  .visit-btn { display: none !important; }
+  body { background: #fff !important; color: #000 !important; }
+  .company-row {
+    background: #fff !important;
+    border: 1px solid #ddd !important;
+    border-left: 3px solid #000 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
   }
-  .listing-container { height: auto !important; overflow: visible !important; }
-  * { background: #ffffff !important; color: #000000 !important; box-shadow: none !important; }
-  .company-name { font-weight: bold; }
-  .company-row { page-break-inside: avoid; }
+  .company-name { font-weight: bold; color: #000 !important; }
+  .company-description, .tag-pill { color: #444 !important; }
   .listing-container::before {
     content: "RemoteJobsPH — remotejobsph.vercel.app — Printed " attr(data-print-date);
-    display: block;
-    font-size: 11pt;
-    margin-bottom: 16pt;
+    display: block; font-size: 11pt; margin-bottom: 16pt; font-weight: bold;
   }
   body { font-size: 11pt; line-height: 1.4; }
 }

@@ -7,9 +7,10 @@ interface JobRowProps {
   isExpanded: boolean;
   onToggle: () => void;
   isFlashed?: boolean;
+  onTagClick?: (catId: string) => void;
 }
 
-export default function JobRow({ job, isExpanded, onToggle, isFlashed }: JobRowProps) {
+export default function JobRow({ job, isExpanded, onToggle, isFlashed, onTagClick }: JobRowProps) {
   const rowRef = useRef<HTMLDivElement>(null);
 
   // Data Sanitization
@@ -20,7 +21,7 @@ export default function JobRow({ job, isExpanded, onToggle, isFlashed }: JobRowP
   const name = sanitize(job.name).charAt(0).toUpperCase() + sanitize(job.name).slice(1);
   const description = sanitize(job.description);
 
-  // Avatar logic
+  // Avatar logic (RemoteOK style rounded square)
   const getAvatarLetters = (n: string) => {
     const words = n.split(' ').filter(Boolean);
     if (words.length >= 2) return (words[0][0] + words[1][0]).toUpperCase();
@@ -28,156 +29,132 @@ export default function JobRow({ job, isExpanded, onToggle, isFlashed }: JobRowP
   };
 
   const getAvatarColor = (n: string) => {
-    const colors = [
-      { bg: '#e8f0fe', text: '#1a73e8' },
-      { bg: '#f3f0ff', text: '#7048e8' },
-      { bg: '#fff4e6', text: '#e67700' },
-      { bg: '#ebfbee', text: '#212529' },
-      { bg: '#fff0f6', text: '#c2255c' },
-      { bg: '#e0f7fa', text: '#006064' },
-      { bg: '#fce4ec', text: '#880e4f' },
-      { bg: '#f3e5f5', text: '#4a148c' }
-    ];
+    const colors = ['#7c3aed', '#1d4ed8', '#047857', '#b45309', '#be123c', '#0e7490', '#6d28d9', '#15803d'];
     let hash = 0;
     for (let i = 0; i < n.length; i++) hash = n.charCodeAt(i) + ((hash << 5) - hash);
     return colors[Math.abs(hash) % colors.length];
   };
 
   const avatarLetters = getAvatarLetters(name);
-  const avatarTheme = getAvatarColor(name);
+  const avatarBg = getAvatarColor(name);
 
-  // Tag normalization
-  const normalizeTag = (tag: string, type: 'category' | 'remote') => {
-    const t = tag.toLowerCase().trim();
-    if (type === 'category') {
-      if (t === 'agency') return 'Agency';
-      if (t.includes('pinoy') || t.includes('va')) return 'Pinoy VA';
-      if (t === 'gig') return 'Gig';
-      if (t.includes('freelancing')) return 'PH Freelancing';
-      if (t === 'australia') return 'Australia';
-      if (t === 'usa') return 'USA';
-      return tag;
-    } else {
-      if (t.includes('fully')) return 'Fully Remote';
-      if (t === 'hybrid') return 'Hybrid';
-      return 'Remote-Friendly';
-    }
+  // Normalization logic
+  const categoryConfig: Record<string, { label: string, emoji: string, colorVar: string }> = {
+    'hiring-filipino-vas': { label: 'Pinoy VA', emoji: '🇵🇭', colorVar: '--color-pinoy' },
+    'agency': { label: 'Agency', emoji: '🏢', colorVar: '--color-agency' },
+    'gig': { label: 'Gig', emoji: '💼', colorVar: '--color-gig' },
+    'ph-freelance-groups': { label: 'PH Freelancing', emoji: '💻', colorVar: '--color-ph-freelancing' },
+    'australia': { label: 'Australia', emoji: '🦘', colorVar: '--color-australia' },
+    'usa': { label: 'USA', emoji: '🇺🇸', colorVar: '--color-usa' }
   };
 
-  const getTagStyles = (cat: string) => {
-    const t = cat.toLowerCase();
-    const isDark = typeof window !== 'undefined' && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const opacity = isDark ? '26' : 'FF'; // 15% opacity roughly 26 in hex
-    
-    if (t.includes('pinoy') || t.includes('va')) return { background: `#e8f0fe${opacity}`, color: '#3b5bdb' };
-    if (t === 'agency') return { background: `#f3f0ff${opacity}`, color: '#6741d9' };
-    if (t === 'gig') return { background: `#fff4e6${opacity}`, color: '#e67700' };
-    if (t.includes('freelancing')) return { background: `#fff9db${opacity}`, color: '#e67700' };
-    if (t === 'australia') return { background: `#ebfbee${opacity}`, color: '#2f9e44' };
-    if (t === 'usa') return { background: `#fff0f6${opacity}`, color: '#c2255c' };
-    return { background: `#f1f3f5${opacity}`, color: '#555555' };
+  const remoteConfig: Record<string, { label: string, emoji: string, colorVar: string }> = {
+    'fully-remote': { label: 'Fully Remote', emoji: '🌏', colorVar: '--color-fully-remote' },
+    'hybrid': { label: 'Hybrid', emoji: '🏠', colorVar: '--color-hybrid' },
+    'remote-friendly': { label: 'Remote-Friendly', emoji: '✅', colorVar: '--color-remote-friendly' },
+    'unknown': { label: 'Remote-Friendly', emoji: '✅', colorVar: '--color-remote-friendly' },
+    'remote': { label: 'Fully Remote', emoji: '🌏', colorVar: '--color-fully-remote' }
   };
 
-  const categoryLabel = normalizeTag(job.category, 'category');
-  const remoteLabel = normalizeTag(job.remote_type, 'remote');
-  const tagStyles = getTagStyles(categoryLabel);
-
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') onToggle();
-  };
-
-  // Duplicate logic placeholder (handled in parent render normally, but we ensure cleanliness here)
-  // const isDuplicate = Array.isArray(job.description) && job.description.length > 1;
+  const cat = categoryConfig[job.category] || { label: job.category, emoji: '📁', colorVar: '--text-muted' };
+  const rem = remoteConfig[job.remote_type] || remoteConfig['remote-friendly'];
 
   useEffect(() => {
-    if (isExpanded && rowRef.current) {
-        rowRef.current.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    if (isFlashed && rowRef.current) {
+      rowRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
-  }, [isExpanded]);
+  }, [isFlashed]);
 
   return (
     <div 
       ref={rowRef}
       role="button" 
       tabIndex={0}
-      onClick={onToggle}
-      onKeyDown={handleKeyDown}
-      className={`
-        flex flex-col w-full border-bottom border-row cursor-pointer select-none
-        ${isExpanded ? 'bg-surface border-l-[3px] border-l-accent' : 'bg-transparent border-b border-row hover:bg-hover'}
-        ${isFlashed ? 'flash-row' : ''}
-        transition-all duration-normal ease-decelerate overflow-hidden
-      `}
-      style={{ maxHeight: isExpanded ? '400px' : '48px' }}
+      onClick={(e) => {
+        if ((e.target as HTMLElement).closest('.visit-btn')) return;
+        onToggle();
+      }}
+      onKeyDown={(e) => e.key === 'Enter' && onToggle()}
+      className={`card-row ${isExpanded ? 'border-accent-green shadow-[0_0_0_1px_var(--accent-green),0_8px_32px_var(--accent-green-glow)]' : ''}`}
     >
-      <div className="flex items-center min-h-[48px] px-3 gap-3">
-        {/* Avatar */}
-        <div 
-          className="flex-shrink-0 w-8 h-8 md:w-8 md:h-8 rounded-full flex items-center justify-center text-xs font-semibold"
-          style={{ backgroundColor: avatarTheme.bg, color: avatarTheme.text }}
-        >
-          {avatarLetters}
-        </div>
+      {/* Left Accent Bar */}
+      <div className="card-row-accent" style={{ backgroundColor: `var(${cat.colorVar})` }} />
 
-        {/* Company Name */}
-        <div className="flex-shrink-0 w-[140px] md:w-[220px] overflow-hidden">
-          <span className="text-sm font-medium text-primary block truncate">
-            {name}
-          </span>
-        </div>
-
-        {/* Description (Truncated) */}
-        <div className="flex-grow hidden md:block px-6 overflow-hidden">
-          <span className="text-sm text-secondary block truncate max-w-[400px]">
-            {description}
-          </span>
-        </div>
-
-        {/* Tags & Arrow */}
-        <div className="flex-shrink-0 flex items-center gap-2 ml-auto">
-          <span 
-            className="tag-pill hidden sm:inline-block"
-            style={tagStyles}
-          >
-            {categoryLabel}
-          </span>
-          <span className="tag-pill bg-[#f1f3f5] text-[#555555]">
-            {remoteLabel}
-          </span>
-          <span className={`text-sm text-[#ccc] transition-colors ml-3 ${isExpanded ? 'text-primary rotate-90' : 'group-hover:text-primary'}`}>
-            →
-          </span>
-        </div>
+      {/* Avatar */}
+      <div 
+        className="w-12 h-12 md:w-12 md:h-12 flex-shrink-0 flex items-center justify-center rounded-[10px] text-white font-bold text-base"
+        style={{ backgroundColor: avatarBg }}
+      >
+        {avatarLetters}
       </div>
 
-      {/* Expanded Content */}
-      {isExpanded && (
-        <div className="px-3 pb-4 pt-2">
-          <p className="text-sm text-[#555] mb-2 leading-relaxed">
-            {description}
-          </p>
-          
-          {/* Duplicate Sub-descriptions if any */}
-          {/* Note: This logic assumes parent passes merged records */}
-          
-          <div className="flex items-center gap-2 mt-4">
-             <span className="tag-pill sm:hidden" style={tagStyles}>
-                {categoryLabel}
-             </span>
-             {job.url && (
+      {/* Main Content */}
+      <div className="flex-1 min-width-0">
+        <div className="flex flex-col md:flex-row md:items-baseline md:gap-2">
+            <h3 className="text-base font-semibold text-primary truncate">{name}</h3>
+        </div>
+        <p className="text-sm text-secondary mt-0.5 truncate max-w-[400px]">
+          {description}
+        </p>
+        
+        {/* Tags */}
+        <div className="flex flex-wrap gap-1.5 mt-2">
+          <span 
+            className="tag-pill" 
+            style={{ backgroundColor: `var(${cat.colorVar}-bg)`, color: `var(${cat.colorVar})` }}
+            onClick={(e) => { e.stopPropagation(); onTagClick?.(job.category); }}
+          >
+            {cat.emoji} {cat.label}
+          </span>
+          <span 
+            className="tag-pill"
+            style={{ backgroundColor: `var(${rem.colorVar}-bg)`, color: `var(${rem.colorVar})` }}
+          >
+            {rem.emoji} {rem.label}
+          </span>
+        </div>
+
+        {/* Expanded Content */}
+        <div 
+          className="overflow-hidden transition-all duration-normal ease-decelerate"
+          style={{ maxHeight: isExpanded ? '300px' : '0' }}
+        >
+          <div className="pt-4 md:pl-0">
+             <p className="text-sm text-secondary leading-relaxed mb-4">
+                {description}
+             </p>
+             {job.url ? (
                 <a 
                     href={job.url} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    onClick={(e) => e.stopPropagation()}
-                    className="text-sm text-accent underline font-medium"
+                    className="inline-flex items-center gap-2 bg-accent-green text-[#0d0b18] font-semibold text-sm px-4 py-2 rounded-lg hover:brightness-110"
                 >
-                    <span className="sr-only">{name} — </span>Visit site →
+                    <span role="img" aria-label="link">🔗</span> Visit <span className="sr-only">{name} — </span> site →
                 </a>
+             ) : (
+                <span className="text-xs text-muted"> <span role="img" aria-label="info">📋</span> No website listed</span>
              )}
           </div>
         </div>
-      )}
+      </div>
+
+      {/* Right Action Block (Desktop Only) */}
+      <div className="hidden md:flex flex-col items-end gap-2 flex-shrink-0">
+        {job.url ? (
+          <a 
+            href={job.url} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="visit-btn text-xs font-semibold text-accent-green border border-accent-green rounded-lg px-3 py-1.5 hover:bg-accent-green hover:text-[#0d0b18] transition-all"
+          >
+            Visit →
+          </a>
+        ) : (
+          <span className="text-xs text-muted">Details →</span>
+        )}
+        <span className="text-xs text-muted">🌏 Remote</span>
+      </div>
     </div>
   );
 }

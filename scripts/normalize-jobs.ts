@@ -107,7 +107,7 @@ const normalize = (records: any[]) => {
     let desc = aboutRaw
       .replace(/\[\d+\]/g, '')
       .replace(/CTTO:.*$/i, '')
-      .replace(/Every successful VA.*$/is, '')
+      .replace(/Every successful VA[\s\S]*$/i, '')
       .replace(/^A .* platform that/, 'Platform that')
       .replace(/^A .* company that/, 'Agency')
       .replace(/^An? .* agency/, 'Agency')

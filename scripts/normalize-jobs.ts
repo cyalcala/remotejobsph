@@ -8,6 +8,7 @@ const raw = readFileSync(CSV_PATH, 'utf-8');
 const records = parse(raw, {
   columns: true,
   skip_empty_lines: true,
+  relax_quotes: true,
 });
 
 const MANUAL_OVERRIDE: Record<string, { category: string, about: string }> = {
@@ -87,20 +88,34 @@ const normalize = (records: any[]) => {
         };
     }
 
-    let category = 'agency'; // Default
+    let category = r['Category'] || 'agency'; 
     const lowerAbout = aboutRaw.toLowerCase();
+    const lowerName = name.toLowerCase();
 
-    // Heuristics
-    if (lowerAbout.includes('marketplace') || lowerAbout.includes('direct hiring') || lowerAbout.includes('direct hire') || lowerAbout.includes('link') || lowerAbout.includes('market') || lowerAbout.includes('platform for finding')) {
-      category = 'freelance';
-    } else if (lowerAbout.includes('full-time') || lowerAbout.includes('career') || lowerAbout.includes('stable') || lowerAbout.includes('long-term')) {
-      category = 'full-time';
-    } else if (lowerAbout.includes('part-time') || lowerAbout.includes('flexible') || lowerAbout.includes('boutique')) {
-      category = 'part-time';
-    } else if (lowerAbout.includes('task') || lowerAbout.includes('project-based') || lowerAbout.includes('gig') || lowerAbout.includes('hourly')) {
-      category = 'gig';
-    } else if (lowerAbout.includes('agency') || lowerAbout.includes('staffing') || lowerAbout.includes('outsourcing') || lowerAbout.includes('bpo')) {
-      category = 'agency';
+    // Preserve special categories from merge script
+    const specialCategories = ['usa', 'australia', 'ph-freelance-groups'];
+    if (!specialCategories.includes(category)) {
+        // Heuristics
+        if (lowerAbout.includes('marketplace') || lowerAbout.includes('direct hiring') || lowerAbout.includes('direct hire') || lowerAbout.includes('link') || lowerAbout.includes('market') || lowerAbout.includes('platform for finding')) {
+          category = 'freelance';
+        } else if (lowerAbout.includes('full-time') || lowerAbout.includes('career') || lowerAbout.includes('stable') || lowerAbout.includes('long-term')) {
+          category = 'full-time';
+        } else if (lowerAbout.includes('part-time') || lowerAbout.includes('flexible') || lowerAbout.includes('boutique')) {
+          category = 'part-time';
+        } else if (lowerAbout.includes('task') || lowerAbout.includes('project-based') || lowerAbout.includes('gig') || lowerAbout.includes('hourly')) {
+          category = 'gig';
+        } else if (lowerAbout.includes('agency') || lowerAbout.includes('staffing') || lowerAbout.includes('outsourcing') || lowerAbout.includes('bpo')) {
+          category = 'agency';
+        }
+    }
+
+    // Secondary location check (if still 'agency' or 'freelance')
+    if (category === 'agency' || category === 'freelance') {
+        if (url.includes('.com.au') || lowerAbout.includes('australian company') || lowerAbout.includes('aussie')) {
+            category = 'australia';
+        } else if (lowerAbout.includes('usa based') || lowerAbout.includes('united states') || lowerAbout.includes('u.s. company')) {
+            category = 'usa';
+        }
     }
 
     // Clean description
@@ -124,6 +139,12 @@ const normalize = (records: any[]) => {
       desc = desc.substring(0, 142) + '...';
     }
 
+    // Final validation to ensure category matches schema enum
+    const validEnums = ['freelance', 'full-time', 'part-time', 'gig', 'agency', 'usa', 'australia', 'ph-freelance-groups'];
+    if (!validEnums.includes(category)) {
+        category = 'agency'; // Fallback for things like 'design services'
+    }
+
     return {
       'Remote Work Website': name,
       'Links': url,
@@ -133,12 +154,14 @@ const normalize = (records: any[]) => {
   });
 };
 
+import { stringify } from 'csv-stringify/sync';
+
 const updated = normalize(records);
 
-const csvContent = [
-  'Remote Work Website,Links,About,Category',
-  ...updated.map(r => `"${r['Remote Work Website']}","${r['Links']}","${r['About'].replace(/"/g, '""')}","${r['Category']}"`)
-].join('\n');
+const csvContent = stringify(updated, {
+  header: true,
+  columns: ['Remote Work Website', 'Links', 'About', 'Category']
+});
 
 writeFileSync(CSV_PATH, csvContent);
 console.log('✅ Successfully re-categorized with intelligent descriptions.');

@@ -37,9 +37,12 @@ export default function JobCard({ job }: { job: JobSiteUI }) {
           job.category === 'full-time' ? 'bg-emerald-100 text-emerald-800' :
           job.category === 'part-time' ? 'bg-orange-100 text-orange-800' :
           job.category === 'gig' ? 'bg-pink-100 text-pink-800' :
+          job.category === 'ph-freelance-groups' ? 'bg-indigo-100 text-indigo-800' :
+          job.category === 'usa' ? 'bg-blue-100 text-blue-800' :
+          job.category === 'australia' ? 'bg-sky-100 text-sky-800' :
           'bg-gray-100 text-gray-800'
         }`}>
-          {job.category.replace('-', ' ')}
+          {job.category === 'ph-freelance-groups' ? 'groups' : job.category.replace('-', ' ')}
         </span>
         <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-medium bg-sky-100 text-sky-800">
           {job.remote_type.replace('-', ' ')}

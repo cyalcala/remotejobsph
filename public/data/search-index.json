@@ -1,22 +1,204 @@
 [
   {
+    "id": "remote-jobseeker",
+    "name": "\"\"Remote Jobseeker\"",
+    "description": "Agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "10up",
+    "name": "10up",
+    "description": "Agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "15five",
+    "name": "15Five",
+    "description": "Continuous performance management software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "17hats",
+    "name": "17hats",
+    "description": "Business management platform for entrepreneurs",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "18f",
+    "name": "18F",
+    "description": "Digital services agency within the U.S. government",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "1password",
+    "name": "1Password",
+    "description": "Password management software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
     "id": "247-virtual-assistant",
     "name": "24/7 Virtual Assistant",
-    "description": "Round-the-clock VA support.",
+    "description": "Round-the-clock virtual assistant services",
     "tags": "agency",
     "category": "agency"
   },
   {
     "id": "24x7-direct",
     "name": "24x7 Direct",
-    "description": "24/7 virtual assistants for customer support/admin tasks.",
+    "description": "Offers 24/7 virtual assistant services for customer support and admin tasks.",
     "tags": "gig",
     "category": "gig"
+  },
+  {
+    "id": "42-technologies",
+    "name": "42 Technologies",
+    "description": "Analytics and inventory management platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "99-designs",
+    "name": "99 Designs",
+    "description": "A platform that connects businesses with graphic designers for various projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "abiturma",
+    "name": "abiturma",
+    "description": "Online school administration system",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ably",
+    "name": "Ably",
+    "description": "Real-time data delivery platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "abstract-api",
+    "name": "Abstract API",
+    "description": "API services for IP geolocation and more",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "academia-research",
+    "name": "Academia-Research",
+    "description": "A platform that offers academic writing job opportunities for freelance writers.",
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "access-offshoring",
     "name": "Access Offshoring",
     "description": "Provides tailored offshore staffing solutions for businesses worldwide.",
+    "tags": "australia",
+    "category": "australia"
+  },
+  {
+    "id": "accounting-pifolz",
+    "name": "Accounting Pifolz",
+    "description": "Filipino freelance community group for networking, support, and job leads.",
+    "tags": "ph-freelance-groups",
+    "category": "ph-freelance-groups"
+  },
+  {
+    "id": "acct",
+    "name": "acct",
+    "description": "Accounting and financial services platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "accutrang-global",
+    "name": "Accutrang Global",
+    "description": "A transcription and translation service that hires remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "acivilate",
+    "name": "Acivilate",
+    "description": "Technology solutions for criminal justice",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "acquia",
+    "name": "Acquia",
+    "description": "Digital experience platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "active-campaign",
+    "name": "ActiveCampaign",
+    "description": "Email marketing and automation software",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "ad-hoc",
+    "name": "Ad Hoc",
+    "description": "Digital services agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "adaface",
+    "name": "Adaface",
+    "description": "Pre-employment testing software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "add-structure",
+    "name": "AddStructure",
+    "description": "Product data and review analytics platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "adeva",
+    "name": "Adeva",
+    "description": "Remote software development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "adzuna",
+    "name": "Adzuna",
+    "description": "Job search engine",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ae-studio",
+    "name": "AE Studio",
+    "description": "Software development and design agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "aerolab",
+    "name": "Aerolab",
+    "description": "Digital product agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "aerostrat",
+    "name": "Aerostrat",
+    "description": "Aviation management software",
     "tags": "agency",
     "category": "agency"
   },
@@ -28,6 +210,237 @@
     "category": "full-time"
   },
   {
+    "id": "ag-flow",
+    "name": "AgFlow",
+    "description": "Agricultural commodities marketplace",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "aha",
+    "name": "Aha!",
+    "description": "Product roadmap software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "aim-india",
+    "name": "Aim India",
+    "description": "Business process outsourcing services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "airbank",
+    "name": "Airbank",
+    "description": "Business banking platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "airbyte",
+    "name": "Airbyte",
+    "description": "Open-source data integration platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "air-garage",
+    "name": "AirGarage",
+    "description": "Parking management and reservations platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "air-treks",
+    "name": "AirTreks",
+    "description": "Multi-stop flight booking platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "aivitex",
+    "name": "Aivitex",
+    "description": "IT solutions and consulting services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "alami",
+    "name": "Alami",
+    "description": "Islamic banking and finance platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "alan",
+    "name": "Alan",
+    "description": "Health insurance platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "algorithmia",
+    "name": "Algorithmia",
+    "description": "Enterprise AI platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "alice",
+    "name": "ALICE",
+    "description": "Operations platform for real estate",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "alight-solutions",
+    "name": "Alight Solutions",
+    "description": "HR and financial solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "alley",
+    "name": "Alley",
+    "description": "Digital consulting and development",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ally-dvm",
+    "name": "allyDVM",
+    "description": "Veterinary practice management software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "alpha-sights",
+    "name": "AlphaSights",
+    "description": "Knowledge search platform for professionals",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "description": "E-commerce and technology giant",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ambaum",
+    "name": "Ambaum",
+    "description": "Custom software development",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "analysia",
+    "name": "Analysia",
+    "description": "A platform that connects businesses with users for website testing and feedback.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "andela",
+    "name": "Andela",
+    "description": "Distributed engineering teams",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "angel-list",
+    "name": "AngelList",
+    "description": "A platform for startups that includes remote job opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "animalz",
+    "name": "Animalz",
+    "description": "Content marketing agency",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "annertech",
+    "name": "Annertech",
+    "description": "Drupal web development and consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "anomali",
+    "name": "Anomali",
+    "description": "Threat intelligence and detection",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "apartment-therapy",
+    "name": "apartment therapy",
+    "description": "Home design and decor inspiration",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "appen-online",
+    "name": "Appen Online",
+    "description": "A platform that provides data collection and annotation services, and hires remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "appinio",
+    "name": "Appinio",
+    "description": "Mobile market research platform",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "applaudo",
+    "name": "Applaudo",
+    "description": "Custom software development",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "appstractor-corporation",
+    "name": "Appstractor Corporation",
+    "description": "Software development and consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "appwrite",
+    "name": "Appwrite",
+    "description": "Backend-as-a-Service platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "argyle",
+    "name": "argyle",
+    "description": "Employment data platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ark",
+    "name": "ARK",
+    "description": "Blockchain technology and services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "arkency",
+    "name": "Arkency",
+    "description": "Ruby on Rails development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
     "id": "arm-a-sourcing",
     "name": "ArmA Sourcing",
     "description": "Provides Filipino VA staffing solutions tailored for Australian businesses.",
@@ -35,23 +448,359 @@
     "category": "agency"
   },
   {
-    "id": "athena-executive-assistants",
-    "name": "Athena Executive Assistants",
+    "id": "art--logic",
+    "name": "Art & Logic",
+    "description": "Custom software development",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "artefactual-systems",
+    "name": "Artefactual Systems",
+    "description": "Archival software and digital preservation",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "article-bunny",
+    "name": "ArticleBunny",
+    "description": "Platform that connects businesses with freelance writers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "articulate",
+    "name": "Articulate",
+    "description": "E-learning software and services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "artisan-creative",
+    "name": "Artisan Creative",
+    "description": "Agency that specializes in connecting businesses with creative talent.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "askwonder",
+    "name": "Askwonder",
+    "description": "Platform that offers remote work opportunities for researchers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "astronomer",
+    "name": "Astronomer",
+    "description": "Data engineering platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "athena-go",
+    "name": "Athena Go",
     "description": "Premier agency offering world-class training and high-paying full-time executive assistant roles for top-tier global clients.",
     "tags": "full-time",
     "category": "full-time"
   },
   {
+    "id": "atlassian",
+    "name": "Atlassian",
+    "description": "Collaboration and productivity software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "audiense",
+    "name": "Audiense",
+    "description": "Audience intelligence platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "aula-education",
+    "name": "Aula Education",
+    "description": "Learning experience platform for universities",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "auth0",
+    "name": "Auth0",
+    "description": "Identity and authentication platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "authentic-jobs",
+    "name": "Authentic Jobs",
+    "description": "A job board that focuses on creative and remote job opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "aws-mechanical-turk",
+    "name": "AWS Mechanical Turk",
+    "description": "A crowdsourcing marketplace for micro-tasks, offering remote work opportunities.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "axelerant",
+    "name": "Axelerant",
+    "description": "Open-source software development and support",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "axios",
+    "name": "Axios",
+    "description": "News media company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "bairesdev",
+    "name": "Bairesdev",
+    "description": "Custom software development outsourcing",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "balena",
+    "name": "Balena",
+    "description": "IoT fleet management platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "balsamiq",
+    "name": "Balsamiq",
+    "description": "Rapid wireframing and prototyping tool",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "bandcamp",
+    "name": "Bandcamp",
+    "description": "Online music platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "band-lab",
+    "name": "BandLab",
+    "description": "Music creation and collaboration platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "bandzoogle",
+    "name": "Bandzoogle",
+    "description": "Website builder for musicians",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "baremetrics",
+    "name": "Baremetrics",
+    "description": "Subscription analytics and insights",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "basecamp",
+    "name": "Basecamp",
+    "description": "Project management and collaboration software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "bear-group",
+    "name": "Bear Group",
+    "description": "Custom web development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "be-banjo",
+    "name": "BeBanjo",
+    "description": "Software solutions for the media industry",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "been-verified",
+    "name": "BeenVerified",
+    "description": "Background check and public records search",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
     "id": "beepo",
     "name": "Beepo",
     "description": "Australian outsourcing platform offering Filipino VAs for admin and support roles.",
+    "tags": "australia",
+    "category": "australia"
+  },
+  {
+    "id": "belay-solutions",
+    "name": "Belay Solutions",
+    "description": "Virtual assistants and bookkeepers with high-quality service",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "belay-solutions-1",
+    "name": "Belay Solutions",
+    "description": "Offers virtual staffing solutions, including virtual assistants and bookkeepers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "best-practical-solutions",
+    "name": "Best Practical Solutions",
+    "description": "Help desk and project management software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "betable",
+    "name": "Betable",
+    "description": "Real-money gaming platform and services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "beta-peak",
+    "name": "BetaPeak",
+    "description": "Software development and IT consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "better-up",
+    "name": "BetterUp",
+    "description": "Professional coaching platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "beyond-company",
+    "name": "Beyond Company",
+    "description": "Software development and digital transformation",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "beyond-pricing",
+    "name": "BeyondPricing",
+    "description": "Automated pricing for vacation rentals",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "big-cartel",
+    "name": "Big Cartel",
+    "description": "E-commerce platform for artists and makers",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "bill",
+    "name": "Bill",
+    "description": "Financial automation and billing software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "bit-zesty",
+    "name": "Bit Zesty",
+    "description": "Agile software development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "bitnami",
+    "name": "Bitnami",
+    "description": "Application packaging and deployment",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "bitovi",
+    "name": "Bitovi",
+    "description": "JavaScript consulting and training",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "bizink",
+    "name": "Bizink",
+    "description": "Digital marketing and website solutions",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "bka-content",
+    "name": "BKA Content",
+    "description": "Agency that hires freelance writers for various projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "blameless",
+    "name": "Blameless",
+    "description": "Site reliability engineering platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "bloc",
+    "name": "Bloc",
+    "description": "Online coding bootcamp",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "blogging-pro",
+    "name": "BloggingPro",
+    "description": "Offers resources and job listings for freelance bloggers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "blog-mutt",
+    "name": "BlogMutt",
+    "description": "Platform that connects businesses with freelance writers.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "blue-cat-networks",
+    "name": "BlueCat Networks",
+    "description": "DNS, DHCP, and IP address management",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "bluespark",
+    "name": "Bluespark",
+    "description": "Drupal web development and design agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "boldare",
+    "name": "Boldare",
+    "description": "Agile software development and design",
     "tags": "agency",
     "category": "agency"
   },
   {
     "id": "boldly",
     "name": "Boldly",
-    "description": "Subscription-based VA services with admin, project management, and design expertise.",
+    "description": "Agency provides remote executive assistants.",
     "tags": "agency",
     "category": "agency"
   },
@@ -63,39 +812,641 @@
     "category": "agency"
   },
   {
-    "id": "bottleneck-distant-assistants",
-    "name": "Bottleneck Distant Assistants",
-    "description": "Specialized VA roles with trained staff.",
+    "id": "boss-job-ph",
+    "name": "Boss Job PH",
+    "description": "A job board that connects employers with job seekers in the Philippines.",
     "tags": "agency",
     "category": "agency"
   },
   {
-    "id": "capital-ea",
-    "name": "Capital EA",
-    "description": "Agency targeting executives and educational institutions. Sources Filipino VAs with expertise in high-level admin tasks, report preparati...",
-    "tags": "gig",
-    "category": "gig"
+    "id": "bottleneck-distant-assistants",
+    "name": "Bottleneck Distant Assistants",
+    "description": "Emphasizes well-trained staff for specialized VA roles.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "bottleneck-virtual-assistants",
+    "name": "Bottleneck Virtual Assistants",
+    "description": "Provides dedicated virtual assistants to help businesses streamline their operations.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "bounteous",
+    "name": "Bounteous",
+    "description": "Digital marketing and commerce agency",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "brainstorm-force",
+    "name": "Brainstorm Force",
+    "description": "WordPress plugins and themes development",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "brave-investments",
+    "name": "Brave Investments",
+    "description": "Investment firm focused on Brazil",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "bright-funds",
+    "name": "Bright Funds",
+    "description": "Employee giving and charitable platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "brikl",
+    "name": "Brikl",
+    "description": "3D and customization platform for e-commerce",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "brite-core",
+    "name": "BriteCore",
+    "description": "Insurance software platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "broadwing",
+    "name": "Broadwing",
+    "description": "Digital product development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "buffer",
+    "name": "Buffer",
+    "description": "Social media management platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "bugfender",
+    "name": "Bugfender",
+    "description": "Mobile app log aggregation and monitoring",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "buy-sell-ads",
+    "name": "BuySellAds",
+    "description": "Advertising platform for publishers",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "cabify",
+    "name": "Cabify",
+    "description": "Ride-hailing and mobility platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "cactus-communications",
+    "name": "Cactus Communications",
+    "description": "Agency that offers remote work opportunities for freelance writers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "calamari",
+    "name": "Calamari",
+    "description": "Leave and attendance management software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "calibre",
+    "name": "Calibre",
+    "description": "Web performance monitoring and optimization",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "cancom",
+    "name": "CANCOM",
+    "description": "IT infrastructure and services provider",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "canonical",
+    "name": "Canonical",
+    "description": "Open-source software and services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "capchase",
+    "name": "Capchase",
+    "description": "Revenue-based financing for startups",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "capital-one",
+    "name": "Capital One",
+    "description": "Financial services and banking",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "capitaltyping",
+    "name": "Capitaltyping",
+    "description": "Provides transcription, translation, and data entry services while hiring remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "carbon-black",
+    "name": "Carbon Black",
+    "description": "Endpoint security and threat intelligence",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "cards-against-humanity",
+    "name": "Cards Against Humanity",
+    "description": "Card game and entertainment company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "care-cru",
+    "name": "CareCru",
+    "description": "Dental technology and software solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "career-jet-ph",
+    "name": "Career Jet PH",
+    "description": "A job search engine that includes job listings in the Philippines.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "care-message",
+    "name": "CareMessage",
+    "description": "Patient engagement and messaging platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "carto-db",
+    "name": "CartoDB",
+    "description": "Location intelligence and data visualization",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "cart-stack",
+    "name": "CartStack",
+    "description": "Abandoned cart recovery for e-commerce",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "casumo",
+    "name": "Casumo",
+    "description": "Online casino and gaming platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "celsius",
+    "name": "Celsius",
+    "description": "Cryptocurrency lending and borrowing platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "chain-link-labs",
+    "name": "ChainLink Labs",
+    "description": "Blockchain oracle solutions provider",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "chargify",
+    "name": "Chargify",
+    "description": "Subscription billing and revenue management",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "charity-water",
+    "name": "charity: water",
+    "description": "Non-profit organization bringing clean water",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "checkly",
+    "name": "Checkly",
+    "description": "Active monitoring and testing for APIs",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "chef",
+    "name": "Chef",
+    "description": "Infrastructure automation and management",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "chefs-club",
+    "name": "ChefsClub",
+    "description": "Restaurant membership and benefits",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "chesscom",
+    "name": "Chess.com",
+    "description": "Online chess platform and community",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "chroma",
+    "name": "Chroma",
+    "description": "Design and development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "circle-ci",
+    "name": "CircleCI",
+    "description": "Continuous integration and delivery platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "circonus",
+    "name": "Circonus",
+    "description": "Monitoring and analytics platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "civi-mom",
+    "name": "Civi Mom",
+    "description": "Offers work-from-home opportunities for stay-at-home moms.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "civic-actions",
+    "name": "CivicActions",
+    "description": "Digital services for government and non-profit",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "civo",
+    "name": "Civo",
+    "description": "Managed Kubernetes platform",
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "clear-admin-people",
     "name": "Clear Admin People",
-    "description": "Professional virtual assistants for admin/operational support.",
+    "description": "Delivers professional virtual assistants for administrative and operational support.",
+    "tags": "australia",
+    "category": "australia"
+  },
+  {
+    "id": "clear-voice",
+    "name": "ClearVoice",
+    "description": "A content marketplace that connects businesses with freelance writers.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "clevertech",
+    "name": "Clevertech",
+    "description": "Custom software development company",
     "tags": "agency",
     "category": "agency"
   },
   {
+    "id": "click-up",
+    "name": "ClickUp",
+    "description": "Productivity platform for teams",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "clootrack",
+    "name": "Clootrack",
+    "description": "Customer experience analytics platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "close",
+    "name": "Close",
+    "description": "Sales communication and CRM software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "cloud-app",
+    "name": "CloudApp",
+    "description": "Visual communication and collaboration tool",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "cloud-peeps",
+    "name": "CloudPeeps",
+    "description": "A marketplace for freelance professionals, including virtual assistants and remote workers.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "cloudstaff-careers",
+    "name": "Cloudstaff Careers",
+    "description": "Leading remote staffing firm offering premium work habitats and long-term careers for Philippine professionals.",
+    "tags": "full-time",
+    "category": "full-time"
+  },
+  {
+    "id": "coalition-technologies",
+    "name": "Coalition Technologies",
+    "description": "Web design and digital marketing agency",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
     "id": "coconut-va",
     "name": "Coconut VA",
-    "description": "General business task support.",
+    "description": "Provides virtual assistant services to help businesses with various tasks.",
     "tags": "gig",
     "category": "gig"
   },
   {
-    "id": "cool-pixels",
-    "name": "Cool Pixels",
-    "description": "Specializes in virtual assistants for creative/digital marketing tasks.",
+    "id": "code-like-a-girl",
+    "name": "Code Like a Girl",
+    "description": "Coding education and community for women",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "codea-it",
+    "name": "Codea IT",
+    "description": "Software development and consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "code-pen",
+    "name": "CodePen",
+    "description": "Online code editor and community",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "code-sandbox",
+    "name": "CodeSandbox",
+    "description": "Online code editor and collaboration platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "codeship",
+    "name": "Codeship",
+    "description": "Continuous integration and delivery platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "codestunts",
+    "name": "Codestunts",
+    "description": "Platform for hiring and showcasing developers",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "cofense",
+    "name": "Cofense",
+    "description": "Phishing defense and security solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "coinbase",
+    "name": "Coinbase",
+    "description": "Cryptocurrency exchange and wallet",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "coingape",
+    "name": "Coingape",
+    "description": "Cryptocurrency news and analysis",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "collabora",
+    "name": "Collabora",
+    "description": "Open-source consulting and development",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "comet",
+    "name": "Comet",
+    "description": "Talent marketplace for freelancers",
     "tags": "freelance",
     "category": "freelance"
+  },
+  {
+    "id": "compose",
+    "name": "Compose",
+    "description": "Database-as-a-Service platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "composely",
+    "name": "Compose.ly",
+    "description": "Platform that connects businesses with freelance writers.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "compucorp",
+    "name": "Compucorp",
+    "description": "Open-source web development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "connexa",
+    "name": "Connexa",
+    "description": "Community management software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "consen-sys",
+    "name": "ConsenSys",
+    "description": "Blockchain technology and solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "consumer-financial-protection-bureau",
+    "name": "Consumer Financial Protection Bureau",
+    "description": "Job protection and advocacy organization",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "contena",
+    "name": "Contena",
+    "description": "A platform that offers resources, tools, and job listings for freelance writers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "content-runner",
+    "name": "Content Runner",
+    "description": "A platform that connects businesses with freelance writers for various content writing projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "content-da",
+    "name": "ContentDa",
+    "description": "A content marketplace that connects businesses with freelance writers.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "content-da-da",
+    "name": "ContentDaDa",
+    "description": "A content marketplace that connects businesses with freelance writers.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "contentify",
+    "name": "Contentify",
+    "description": "Platform that connects businesses with freelance writers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "contently",
+    "name": "Contently",
+    "description": "Platform that connects businesses with freelance writers.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "contently-asia",
+    "name": "ContentlyAsia",
+    "description": "Platform that connects businesses with freelance writers in Asia.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "content-writers-ph",
+    "name": "ContentWritersPh",
+    "description": "A platform that connects businesses with Filipino freelance writers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "continu",
+    "name": "Continu",
+    "description": "Learning and development platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "conversio",
+    "name": "Conversio",
+    "description": "E-commerce marketing platform",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "convert",
+    "name": "Convert",
+    "description": "A/B testing and conversion optimization",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "coodesh",
+    "name": "Coodesh",
+    "description": "Remote job platform for developers",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "cool-pixels",
+    "name": "Cool Pixels",
+    "description": "Specializes in virtual assistants for creative and digital marketing tasks.",
+    "tags": "australia",
+    "category": "australia"
+  },
+  {
+    "id": "copify",
+    "name": "Copify",
+    "description": "A content marketplace that connects businesses with freelance writers.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "copy-press",
+    "name": "CopyPress",
+    "description": "Agency that hires freelance writers for various projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "core-apps",
+    "name": "Core-Apps",
+    "description": "Event management and mobile app solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "core-os",
+    "name": "CoreOS",
+    "description": "Container management and Kubernetes solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "corgibytes",
+    "name": "Corgibytes",
+    "description": "Software modernization and refactoring",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "coursera",
+    "name": "Coursera",
+    "description": "Online learning platform",
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "crea-think-solutions",
@@ -105,9 +1456,226 @@
     "category": "agency"
   },
   {
+    "id": "creative-earners-philippines",
+    "name": "Creative Earners Philippines",
+    "description": "Filipino freelance community group for networking, support, and job leads.",
+    "tags": "ph-freelance-groups",
+    "category": "ph-freelance-groups"
+  },
+  {
     "id": "crew-bloom",
     "name": "CrewBloom",
     "description": "High-growth outsourcing agency connecting top 2% of Filipino remote talent with global businesses.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "croissant",
+    "name": "Croissant",
+    "description": "A platform that offers resources and job listings for remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "crossover",
+    "name": "Crossover",
+    "description": "Remote job platform for tech professionals",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "crowd-content",
+    "name": "Crowd Content",
+    "description": "A content marketplace that connects businesses with freelance writers.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "crowdstrike",
+    "name": "Crowdstrike",
+    "description": "Cloud-native endpoint security solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "crowdsurf-work",
+    "name": "Crowdsurf Work",
+    "description": "A platform that offers transcription and captioning work for remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "crowd-tangle",
+    "name": "CrowdTangle",
+    "description": "Social media analytics and monitoring",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "cueup",
+    "name": "Cueup",
+    "description": "Platform for booking DJs and musicians",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "customerio",
+    "name": "Customer.io",
+    "description": "Customer engagement and messaging platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "cuvette",
+    "name": "Cuvette",
+    "description": "Biotechnology and diagnostics solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "cvs-health",
+    "name": "CVS Health",
+    "description": "Healthcare and pharmacy services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "cwt",
+    "name": "CWT",
+    "description": "Travel management and services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "cyber-whale",
+    "name": "Cyber Whale",
+    "description": "Cybersecurity and IT consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "daily-remote",
+    "name": "DailyRemote",
+    "description": "Offers remote job listings and resources for remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "dalenys",
+    "name": "Dalenys",
+    "description": "Payment solutions for e-commerce",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "dapp-radar",
+    "name": "DappRadar",
+    "description": "Platform for discovering and analyzing dapps",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "dare-code",
+    "name": "DareCode",
+    "description": "Custom software development and consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "dashboard-hub",
+    "name": "DashboardHub",
+    "description": "Git analytics and data visualization",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "dashlane",
+    "name": "Dashlane",
+    "description": "Password manager and digital wallet",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "data-science-brigade",
+    "name": "Data Science Brigade",
+    "description": "Data science consulting and solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "data-science-dojo",
+    "name": "Data Science Dojo",
+    "description": "Data science training and education",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "data-camp",
+    "name": "DataCamp",
+    "description": "Online learning platform for data science",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "datadog",
+    "name": "Datadog",
+    "description": "Monitoring and analytics platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "data-stax",
+    "name": "DataStax",
+    "description": "Distributed database management",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "datica",
+    "name": "Datica",
+    "description": "Healthcare compliance and data management",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "deal-dash",
+    "name": "DealDash",
+    "description": "Online auctions and shopping platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "delighted",
+    "name": "Delighted",
+    "description": "Customer feedback and satisfaction platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "deskpass",
+    "name": "Deskpass",
+    "description": "Coworking space access platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "dev-spotlight",
+    "name": "Dev Spotlight",
+    "description": "Developer-focused job board and community",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "devsquad",
+    "name": "Devsquad",
+    "description": "Software development and consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "dgraph",
+    "name": "Dgraph",
+    "description": "Distributed graph database",
     "tags": "agency",
     "category": "agency"
   },
@@ -119,9 +1687,114 @@
     "category": "part-time"
   },
   {
+    "id": "digital-ocean",
+    "name": "DigitalOcean",
+    "description": "Cloud infrastructure provider",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "digitise",
+    "name": "Digitise",
+    "description": "Digital transformation consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
     "id": "digi-works",
     "name": "DigiWorks",
-    "description": "Platform that allows small/medium UK (and other) businesses to hire Filipino remote staff including virtual assistants, with their system...",
+    "description": "Platform that allows small/medium UK (and other) businesses to hire Filipino remote staff including virtual assistants, with their system hand...",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "description": "Voice, video, and text communication platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "discourse",
+    "name": "Discourse",
+    "description": "Open-source community forum software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "dnsimple",
+    "name": "DNSimple",
+    "description": "Domain name management and DNS services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "description": "Containerization platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "doist",
+    "name": "Doist",
+    "description": "Productivity software development",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "donut-app",
+    "name": "Donut App",
+    "description": "Team collaboration and culture platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "drone-deploy",
+    "name": "DroneDeploy",
+    "description": "Drone mapping and aerial data platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "dropbox",
+    "name": "Dropbox",
+    "description": "Cloud storage and file synchronization",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "drupal-jedi",
+    "name": "Drupal Jedi",
+    "description": "Drupal web development and consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "duck-duck-go",
+    "name": "DuckDuckGo",
+    "description": "Privacy-focused search engine",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "dynamite-jobs",
+    "name": "Dynamite Jobs",
+    "description": "A job board that focuses on connecting remote workers with employers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "dyna-pictures",
+    "name": "DynaPictures",
+    "description": "Animation and visual effects studio",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "earth-of-drones",
+    "name": "EarthOfDrones",
+    "description": "Drone-related news, resources, and community",
     "tags": "agency",
     "category": "agency"
   },
@@ -133,51 +1806,709 @@
     "category": "part-time"
   },
   {
-    "id": "elastic-path",
-    "name": "Elastic Path",
-    "description": "Vancouver-based tech company recruiting bilingual (English/French) VAs for sales support and digital operations 14.",
+    "id": "eat-street",
+    "name": "EatStreet",
+    "description": "Online food ordering and delivery platform",
     "tags": "agency",
     "category": "agency"
   },
   {
-    "id": "evirtual-assistants",
-    "name": "EVirtualAssistants",
+    "id": "ebsco-information",
+    "name": "EBSCO Information",
+    "description": "Research databases and library services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ebyline",
+    "name": "Ebyline",
+    "description": "A marketplace for freelance journalists and content creators.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "eco-mind",
+    "name": "Eco-Mind",
+    "description": "Sustainability consulting and services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "edgar",
+    "name": "Edgar",
+    "description": "Social media scheduling and automation",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "edgio",
+    "name": "Edgio",
+    "description": "API management and integration platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "edify",
+    "name": "Edify",
+    "description": "Communication and collaboration platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "e-fishery",
+    "name": "eFishery",
+    "description": "Aquaculture technology and solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "elastic",
+    "name": "Elastic",
+    "description": "Open-source search and analytics platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "emsisoft",
+    "name": "Emsisoft",
+    "description": "Anti-malware and cybersecurity solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "engine-yard-support-team",
+    "name": "EngineYard (Support Team)",
+    "description": "Ruby on Rails cloud hosting and support",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "enok",
+    "name": "Enok",
+    "description": "Technology consulting and solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "enroll-app",
+    "name": "Enroll App",
+    "description": "Allows users to test websites and provide feedback for businesses.",
+    "tags": "gig",
+    "category": "gig"
+  },
+  {
+    "id": "entrision",
+    "name": "Entrision",
+    "description": "Custom software development and consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "envato",
+    "name": "Envato",
+    "description": "Marketplace for creative assets and services",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "envato-careers",
+    "name": "Envato Careers",
+    "description": "Offers remote job opportunities within the creative industry.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "envoy",
+    "name": "Envoy",
+    "description": "Visitor management and workplace platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "epam",
+    "name": "Epam",
+    "description": "Software engineering and IT consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "epic-games",
+    "name": "Epic Games",
+    "description": "Video game development and distribution",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "epilocal",
+    "name": "Epilocal",
+    "description": "Local business discovery and recommendations",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "episource",
+    "name": "Episource",
+    "description": "Healthcare data and analytics solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "equal-experts-portugal",
+    "name": "Equal Experts Portugal",
+    "description": "Agile software development and consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ergeon",
+    "name": "Ergeon",
+    "description": "Home improvement and remodeling services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "essay-writers",
+    "name": "EssayWriters",
+    "description": "A platform that connects freelance academic writers with clients.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "estately",
+    "name": "Estately",
+    "description": "Real estate search and listing platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "etch",
+    "name": "Etch",
+    "description": "Product design and development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "etsy",
+    "name": "Etsy",
+    "description": "Online marketplace for handmade and vintage items",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "euro-freelancers",
+    "name": "EuroFreelancers",
+    "description": "A platform that connects European freelance professionals with clients for various projects, including writing jobs.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "evelo",
+    "name": "EVELO",
+    "description": "Electric bikes and mobility solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "evil-martians",
+    "name": "Evil Martians",
+    "description": "Software development and design agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "e-virtual-assistants",
+    "name": "eVirtualAssistants",
     "description": "Marketplace platform focused on providing direct communication between clients and Filipino virtual assistants.",
     "tags": "freelance",
     "category": "freelance"
   },
   {
-    "id": "fast-track-fba",
-    "name": "Fast Track FBA",
-    "description": "Amazon FBA-focused VA services.",
+    "id": "evrone",
+    "name": "Evrone",
+    "description": "Web and mobile app development services",
     "tags": "agency",
     "category": "agency"
   },
   {
-    "id": "flat-planet",
-    "name": "Flat Planet",
-    "description": "Australian agency linking Aussie businesses with Filipino VAs for admin, support, and marketing roles. 5. Virtual Assistant Team - https:...",
+    "id": "export-data",
+    "name": "ExportData",
+    "description": "Data extraction and automation solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "express-writers",
+    "name": "Express Writers",
+    "description": "Agency that hires freelance writers for various projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "eyeo-adblock-plus",
+    "name": "Eyeo (Adblock Plus)",
+    "description": "Ad-blocking software and browser extensions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "factorial-hr",
+    "name": "FactorialHR",
+    "description": "HR software and employee management platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "fairwinds",
+    "name": "Fairwinds",
+    "description": "Kubernetes optimization and management",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "faithlife",
+    "name": "Faithlife",
+    "description": "Integrated ministry and community platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "fancy-hands",
+    "name": "Fancy Hands",
+    "description": "Subscription-based service for various administrative tasks with a pool of VAs",
+    "tags": "gig",
+    "category": "gig"
+  },
+  {
+    "id": "fast-track-fba",
+    "name": "Fast Track FBA",
+    "description": "Offers Amazon FBA virtual assistant services to help businesses scale.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "fastly",
+    "name": "Fastly",
+    "description": "Content delivery network and edge cloud platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "fatmap",
+    "name": "FATMAP",
+    "description": "Outdoor adventure mapping and planning platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "fauna",
+    "name": "Fauna",
+    "description": "Distributed database for modern applications",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "featurist",
+    "name": "Featurist",
+    "description": "Software testing and quality assurance services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "fetlife",
+    "name": "Fetlife",
+    "description": "Social network for the BDSM and kink community",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ffw-agency",
+    "name": "FFW Agency",
+    "description": "Digital agency specializing in Drupal solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "fhmoms",
+    "name": "FHMOMS",
+    "description": "Filipino freelance community group for networking, support, and job leads.",
+    "tags": "ph-freelance-groups",
+    "category": "ph-freelance-groups"
+  },
+  {
+    "id": "filament-group",
+    "name": "Filament Group",
+    "description": "Web design and development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "findify",
+    "name": "Findify",
+    "description": "E-commerce search and personalization solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "fire-engine-red",
+    "name": "Fire Engine Red",
+    "description": "Marketing and technology solutions",
     "tags": "freelance",
     "category": "freelance"
   },
   {
-    "id": "galilee-business-support-services-gbss",
-    "name": "Galilee Business Support Services (GBSS)",
-    "description": "Sydney-based BPO connecting Australian firms with Filipino VAs for accounting, real estate, and HR roles. Emphasizes cultural alignment a...",
+    "id": "fireball-labs",
+    "name": "Fireball Labs",
+    "description": "Software development and consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "fiverr",
+    "name": "Fiverr",
+    "description": "A marketplace for freelance services, including virtual assistance and other remote work.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "fivex-l",
+    "name": "FivexL",
+    "description": "Data-driven digital marketing agency",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "flat-planet",
+    "name": "Flat Planet",
+    "description": "Australian agency linking Aussie businesses with Filipino VAs for admin, support, and marketing roles. 5. Virtual Assistant Team - https:/ /ww...",
+    "tags": "australia",
+    "category": "australia"
+  },
+  {
+    "id": "flexera",
+    "name": "Flexera",
+    "description": "Software asset management and IT solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "flex-jobs",
+    "name": "FlexJobs",
+    "description": "A job board that offers flexible and remote job opportunities.",
+    "tags": "part-time",
+    "category": "part-time"
+  },
+  {
+    "id": "flight-aware",
+    "name": "FlightAware",
+    "description": "Flight tracking and aviation data platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "flip",
+    "name": "Flip",
+    "description": "Digital wallet and payment solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "flowing",
+    "name": "Flowing",
+    "description": "Digital innovation and design agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "flyio",
+    "name": "Fly.io",
+    "description": "Global edge application delivery network",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "fmx",
+    "name": "FMX",
+    "description": "Facilities management software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "focusnetworks",
+    "name": "Focusnetworks",
+    "description": "IT consulting and managed services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "fohandboh",
+    "name": "fohandboh",
+    "description": "Food and beverage ordering platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "formidable",
+    "name": "Formidable",
+    "description": "Digital product development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "formstack",
+    "name": "Formstack",
+    "description": "Online form builder and data collection platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "four-kitchens",
+    "name": "Four Kitchens",
+    "description": "Web design and development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "fraudio",
+    "name": "Fraudio",
+    "description": "Fraud detection and prevention solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "freeagent",
+    "name": "Freeagent",
+    "description": "Accounting software for small businesses",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "freelance-writing",
+    "name": "Freelance Writing",
+    "description": "Offers resources and job listings for freelance writers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "freelance-writing-gigs",
+    "name": "Freelance Writing Gigs",
+    "description": "Offers resources and job listings for freelance writers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "freelance-writing-jobs-1",
+    "name": "Freelance Writing Jobs",
+    "description": "A job board focused on freelance writing job opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "freelance-writing-jobs-board",
+    "name": "Freelance Writing Jobs Board",
+    "description": "Offers job listings and resources for freelance writers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "freelancer",
+    "name": "Freelancer",
+    "description": "A marketplace for freelance services, including virtual assistance and other remote work.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "freelance-writing-jobs",
+    "name": "FreelanceWritingJobs",
+    "description": "Offers resources and job listings for freelance writers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "freeletics",
+    "name": "Freeletics",
+    "description": "Fitness and training app",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "free-up",
+    "name": "FreeUp",
+    "description": "High-end freelance marketplace that pre-vets talent, connecting top 1% of Filipino freelancers with global business owners.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "fuel-made",
+    "name": "Fuel Made",
+    "description": "E-commerce web design and development",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "full-fabric",
+    "name": "FullFabric",
+    "description": "CRM and marketing automation for higher education",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "functionize",
+    "name": "Functionize",
+    "description": "AI-powered software testing platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "funnel-mastery-community",
+    "name": "Funnel Mastery Community",
+    "description": "Filipino freelance community group for networking, support, and job leads.",
+    "tags": "ph-freelance-groups",
+    "category": "ph-freelance-groups"
+  },
+  {
+    "id": "gaggle",
+    "name": "Gaggle",
+    "description": "Student safety and communication platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "geckoboard",
+    "name": "Geckoboard",
+    "description": "Data dashboard and business intelligence software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "general-assembly",
+    "name": "General Assembly",
+    "description": "Education and career transformation platform",
+    "tags": "full-time",
+    "category": "full-time"
+  },
+  {
+    "id": "geo-jobe",
+    "name": "GEO Jobe",
+    "description": "GIS and geospatial software development",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "gerencianet",
+    "name": "Gerencianet",
+    "description": "Payment solutions for businesses in Brazil",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "get-acopywriter",
+    "name": "GetACopywriter",
+    "description": "A platform that offers copywriting services and hires freelance writers.",
     "tags": "agency",
     "category": "agency"
   },
   {
     "id": "get-friday",
     "name": "GetFriday",
-    "description": "Personalized business/personal assistance.",
+    "description": "Personal and business assistance tailored to client needs",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "gft",
+    "name": "GFT",
+    "description": "IT consulting and solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ghl-champs-community",
+    "name": "GHL Champs Community",
+    "description": "Filipino freelance community group for networking, support, and job leads.",
+    "tags": "ph-freelance-groups",
+    "category": "ph-freelance-groups"
+  },
+  {
+    "id": "ghost-foundation",
+    "name": "Ghost Foundation",
+    "description": "Open-source publishing platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ghost-inspector",
+    "name": "Ghost Inspector",
+    "description": "Automated website testing and monitoring",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "giant-swarm",
+    "name": "Giant Swarm",
+    "description": "Kubernetes infrastructure management platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "gig-salad",
+    "name": "GigSalad",
+    "description": "Online marketplace for booking live entertainment",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "gitbook",
+    "name": "Gitbook",
+    "description": "Documentation platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "git-hub",
+    "name": "GitHub",
+    "description": "Web-based hosting service for version control",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "git-lab",
+    "name": "GitLab",
+    "description": "Web-based DevOps lifecycle tool",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "git-prime",
+    "name": "GitPrime",
+    "description": "Engineering productivity analytics",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "glassdoor",
+    "name": "Glassdoor",
+    "description": "Platform that includes company reviews and remote job opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "glenn-website-design",
+    "name": "Glenn Website Design",
+    "description": "Website design and development services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "glitch",
+    "name": "Glitch",
+    "description": "Collaborative coding platform",
     "tags": "agency",
     "category": "agency"
   },
   {
     "id": "global-hola",
     "name": "Global Hola",
-    "description": "Fun, inclusive virtual culture for Filipino VAs.",
+    "description": "Promotes a fun and inclusive virtual culture for Filipino VAs.",
     "tags": "agency",
     "category": "agency"
   },
@@ -189,18 +2520,242 @@
     "category": "full-time"
   },
   {
-    "id": "go-hire-now",
-    "name": "GoHireNow",
-    "description": "Modern hiring platform connecting Filipino remote talent directly with international business owners.",
+    "id": "gluware",
+    "name": "Gluware",
+    "description": "Intelligent network automation platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "go-transcript",
+    "name": "Go Transcript",
+    "description": "A transcription service that hires remote workers for transcription projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "go-daddy",
+    "name": "GoDaddy",
+    "description": "Domain registration and web hosting services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "go-hiring",
+    "name": "GoHiring",
+    "description": "Applicant tracking system and recruiting software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "gojob",
+    "name": "Gojob",
+    "description": "Freelance job platform for software developers",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "golance",
+    "name": "Golance",
+    "description": "A platform for finding and hiring freelancers, including virtual assistants and remote workers.",
     "tags": "freelance",
     "category": "freelance"
   },
   {
-    "id": "go-virtuals",
-    "name": "GoVirtuals",
-    "description": "Australian-Filipino VA company specializing in digital marketing and brand strategy.",
+    "id": "go-remote",
+    "name": "GoRemote",
+    "description": "A job board focused on remote job opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "gorman-health-group",
+    "name": "Gorman Health Group",
+    "description": "Healthcare solutions provider",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "got-pro",
+    "name": "GotPro",
+    "description": "IT professional services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "got-soccer",
+    "name": "GotSoccer",
+    "description": "Soccer management software and services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "grafana-labs",
+    "name": "Grafana Labs",
+    "description": "Open-source analytics and monitoring platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "granicus",
+    "name": "Granicus",
+    "description": "Digital engagement solutions for government",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "graylog",
+    "name": "Graylog",
+    "description": "Open-source log management and analytics",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "greatlance",
+    "name": "Greatlance",
+    "description": "A platform for finding and hiring freelance professionals, including remote workers.",
     "tags": "freelance",
     "category": "freelance"
+  },
+  {
+    "id": "gremlin",
+    "name": "Gremlin",
+    "description": "Chaos engineering platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "gridium",
+    "name": "Gridium",
+    "description": "Energy management and building operations software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "groove",
+    "name": "Groove",
+    "description": "Help desk software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "groups",
+    "name": "Grou.ps",
+    "description": "Social collaboration platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "growth-assistant",
+    "name": "GrowthAssistant",
+    "description": "Growth marketing team that hires for various roles and offers a positive workplace culture.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "grubhub",
+    "name": "Grubhub",
+    "description": "Online food ordering and delivery platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "gruntwork",
+    "name": "Gruntwork",
+    "description": "Infrastructure as code library and consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "guide-smiths",
+    "name": "GuideSmiths",
+    "description": "Software development and consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "guru",
+    "name": "Guru",
+    "description": "A platform for finding and hiring freelance professionals, including virtual assistants.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "hack-reactor-remote",
+    "name": "Hack Reactor Remote",
+    "description": "Coding bootcamp and remote education",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "hanno",
+    "name": "Hanno",
+    "description": "Digital product design and development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "hanzo",
+    "name": "Hanzo",
+    "description": "Web archiving and compliance solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "happy-cog",
+    "name": "Happy Cog",
+    "description": "Digital experience agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "harvest",
+    "name": "Harvest",
+    "description": "Time tracking and invoicing software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "hashex",
+    "name": "Hashex",
+    "description": "Cryptocurrency and blockchain solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "helabs",
+    "name": "HE:labs",
+    "description": "Software development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "headway",
+    "name": "Headway",
+    "description": "Digital product studio",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "healthfinch",
+    "name": "Healthfinch",
+    "description": "Healthcare automation and optimization platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "heap",
+    "name": "Heap",
+    "description": "Product analytics platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "heetch",
+    "name": "Heetch",
+    "description": "Ride-hailing and transportation app",
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "hello-rache",
@@ -210,32 +2765,522 @@
     "category": "full-time"
   },
   {
+    "id": "hello-rache-1",
+    "name": "HelloRache",
+    "description": "Focuses on providing virtual assistants to healthcare professionals.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "help-scout",
+    "name": "Help Scout",
+    "description": "Customer support software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "heroku",
+    "name": "Heroku",
+    "description": "Cloud platform for deploying applications",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
     "id": "high-call",
     "name": "HighCall",
-    "description": "Medical transcription/billing VAs.",
+    "description": "Virtual assistant service offering medical transcription, billing, and customer service.",
     "tags": "agency",
     "category": "agency"
   },
   {
-    "id": "hilton-hotels-australia",
-    "name": "Hilton Hotels Australia",
-    "description": "Hospitality giant hiring remote customer service VAs for reservations and client management roles 9.",
+    "id": "hireology",
+    "name": "Hireology",
+    "description": "Hiring and talent management platform",
     "tags": "agency",
     "category": "agency"
   },
   {
-    "id": "hire-talentph",
-    "name": "HireTalent.ph",
-    "description": "Rigorous vetting with \"job points\" and sample tasks to showcase skills.",
-    "tags": "gig",
-    "category": "gig"
+    "id": "hire-writers",
+    "name": "HireWriters",
+    "description": "A content marketplace that connects businesses with freelance writers.",
+    "tags": "freelance",
+    "category": "freelance"
   },
   {
-    "id": "i-workph",
-    "name": "iWork.ph",
-    "description": "Platform widely used by Japanese employers to hire VAs for tasks like administrative support, data entry, and customer service. Offers tr...",
-    "tags": "gig",
-    "category": "gig"
+    "id": "home-service-va",
+    "name": "Home Service VA",
+    "description": "Provides virtual assistant services for home service businesses.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "home-flic-we-grow",
+    "name": "HomeFlicWeGrow",
+    "description": "Indoor gardening and automation system",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "home-valet",
+    "name": "HomeValet",
+    "description": "Smart package delivery solution",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "honeybadger",
+    "name": "Honeybadger",
+    "description": "Exception and error monitoring for web applications",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "honeycomb",
+    "name": "Honeycomb",
+    "description": "Observability platform for software engineering",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "hopper",
+    "name": "Hopper",
+    "description": "Travel booking app",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "hotjar",
+    "name": "Hotjar",
+    "description": "Behavior analytics and user feedback platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "hubstaff-talent",
+    "name": "Hubstaff Talent",
+    "description": "A directory of freelance professionals, including remote workers and virtual assistants.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "hudl",
+    "name": "Hudl",
+    "description": "Sports video analysis and coaching platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "hugo",
+    "name": "Hugo",
+    "description": "Meeting notes and collaboration platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "human-made",
+    "name": "Human Made",
+    "description": "WordPress and WooCommerce enterprise development",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "humanatic",
+    "name": "Humanatic",
+    "description": "Offers remote call reviewing opportunities for users.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "husl-digital",
+    "name": "HUSL Digital",
+    "description": "Digital marketing agency",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "hypergiant",
+    "name": "Hypergiant",
+    "description": "AI and machine learning solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "hyperion",
+    "name": "Hyperion",
+    "description": "Coding bootcamp and software development",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "hypothesis",
+    "name": "Hypothesis",
+    "description": "Open annotation and collaboration platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ibm",
+    "name": "IBM",
+    "description": "Technology and consulting corporation",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "i-clinic",
+    "name": "iClinic",
+    "description": "Healthcare management software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "idone-this",
+    "name": "IDoneThis",
+    "description": "Progress tracking and team reporting tool",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "i-fit",
+    "name": "iFit",
+    "description": "Fitness technology and exercise equipment",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "igalia",
+    "name": "Igalia",
+    "description": "Open-source software development and consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "imagine-learning",
+    "name": "Imagine Learning",
+    "description": "Digital curriculum and assessment solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "impala",
+    "name": "Impala",
+    "description": "Hotel data management and connectivity platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "impira",
+    "name": "Impira",
+    "description": "AI-powered document processing and analysis",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "implisense",
+    "name": "Implisense",
+    "description": "AI-based company and market intelligence platform",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "indeed",
+    "name": "Indeed",
+    "description": "A popular job search engine that includes remote job listings.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "infinite-red",
+    "name": "Infinite Red",
+    "description": "Mobile app and web development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "influx-data",
+    "name": "InfluxData",
+    "description": "Time series data platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "inpsyde",
+    "name": "Inpsyde",
+    "description": "WordPress agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "in-quicker",
+    "name": "InQuicker",
+    "description": "Online healthcare appointment scheduling platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "inshorts",
+    "name": "Inshorts",
+    "description": "News app providing summarized news articles",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "instamobile",
+    "name": "Instamobile",
+    "description": "Mobile app templates and development services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "instructure",
+    "name": "Instructure",
+    "description": "Learning management system and education technology",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "intellum",
+    "name": "Intellum",
+    "description": "Learning experience platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "interactive-intelligence",
+    "name": "Interactive Intelligence",
+    "description": "Customer engagement and collaboration solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "intercom",
+    "name": "Intercom",
+    "description": "Customer messaging and support platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "interpersonal-frequency-if",
+    "name": "Interpersonal Frequency (I.F.)",
+    "description": "Customer service automation platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "intevity",
+    "name": "Intevity",
+    "description": "Digital transformation and software engineering company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "intuit-inc",
+    "name": "Intuit Inc.",
+    "description": "Financial software solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "in-vision",
+    "name": "InVision",
+    "description": "Design collaboration and prototyping platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "iohk",
+    "name": "IOHK",
+    "description": "Blockchain and cryptocurrency research and development",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "iopipe",
+    "name": "IOpipe",
+    "description": "Serverless observability platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "i-os-app-templates",
+    "name": "iOS App Templates",
+    "description": "App templates and starter kits for iOS development",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ipinfo",
+    "name": "IPInfo",
+    "description": "IP geolocation and network intelligence API",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ips-group-inc",
+    "name": "IPS Group, Inc.",
+    "description": "Parking management and technology solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "iqvia",
+    "name": "IQVIA",
+    "description": "Healthcare data and technology solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "i-ronin",
+    "name": "iRonin",
+    "description": "Ruby on Rails development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "iterative",
+    "name": "Iterative",
+    "description": "Machine learning model versioning and management platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "iwantmyname",
+    "name": "iwantmyname",
+    "description": "Domain name registration and management",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "i-writer",
+    "name": "iWriter",
+    "description": "A platform that connects freelance writers with clients for various writing projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "jackson-river",
+    "name": "Jackson River",
+    "description": "Digital strategy and technology solutions for nonprofits",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "jaya-tech",
+    "name": "Jaya Tech",
+    "description": "Software development and consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "jbs-custom-software",
+    "name": "JBS Custom Software",
+    "description": "Custom software development",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "jitbit",
+    "name": "Jitbit",
+    "description": "Help desk and customer support software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "jitera",
+    "name": "Jitera",
+    "description": "AI and blockchain solutions provider",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "jobicy",
+    "name": "Jobicy",
+    "description": "A job board that specializes in remote work opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "job-market",
+    "name": "JobMarket",
+    "description": "JobMarket is a job portal that offers job listings across various industries and roles. It also provides career advice and resources to help j...",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "job-quest",
+    "name": "JobQuest",
+    "description": "JobQuest.ph is a job portal in the Philippines that offers a wide range of job opportunities for job seekers. It is designed to connect job se...",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "jobs180",
+    "name": "Jobs180",
+    "description": "Jobs180 is a job portal that offers job listings across various industries and roles. It also provides career advice and resources to help job...",
+    "tags": "full-time",
+    "category": "full-time"
+  },
+  {
+    "id": "jobspresso",
+    "name": "Jobspresso",
+    "description": "A job board specializing in remote work opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "jolly-good-code",
+    "name": "Jolly Good Code",
+    "description": "Software consultancy specializing in Ruby on Rails",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "journalism-jobscom",
+    "name": "JournalismJobs.com",
+    "description": "A job board focused on journalism and media job opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "journyio",
+    "name": "journy.io",
+    "description": "Customer data platform and analytics",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "joyent",
+    "name": "Joyent",
+    "description": "Cloud infrastructure and services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "jupiter-one",
+    "name": "JupiterOne",
+    "description": "Cybersecurity asset management and compliance automation",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "just-remote",
+    "name": "JustRemote",
+    "description": "A job board focused on remote job opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "kaggle",
+    "name": "Kaggle",
+    "description": "Platform for data science and machine learning competitions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "kalibrr",
+    "name": "Kalibrr",
+    "description": "Platform that connects employers with job seekers in the Philippines.",
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "kdci-outsourcing",
@@ -245,25 +3290,361 @@
     "category": "freelance"
   },
   {
-    "id": "kpmg-canada",
-    "name": "KPMG Canada",
-    "description": "Auditing firm hiring remote VAs for finance and project coordination, with sponsorship options under Canada’s TFWP 14.",
+    "id": "kea",
+    "name": "kea",
+    "description": "Customer messaging and chat platform",
     "tags": "agency",
     "category": "agency"
   },
   {
-    "id": "linked-va",
-    "name": "LinkedVA",
-    "description": "Offers paid training and a \"best team in the universe\" culture for Filipino VAs.",
+    "id": "keen-io",
+    "name": "Keen IO",
+    "description": "Analytics and data visualization platform",
     "tags": "agency",
     "category": "agency"
   },
   {
-    "id": "magic-virtual-assistant-services",
-    "name": "Magic Virtual Assistant Services",
-    "description": "On-demand personal assistant app connecting users with VAs for quick tasks and 24/7 on-demand support.",
-    "tags": "gig",
-    "category": "gig"
+    "id": "kentik",
+    "name": "Kentik",
+    "description": "Network intelligence and analytics platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "khan-academy",
+    "name": "Khan Academy",
+    "description": "Online education platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "kick-back-rewards",
+    "name": "KickBack Rewards",
+    "description": "Customer loyalty and engagement solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "kinsta",
+    "name": "Kinsta",
+    "description": "Managed WordPress hosting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "kiprosh",
+    "name": "Kiprosh",
+    "description": "Software development and consulting services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "kissmetrics",
+    "name": "Kissmetrics",
+    "description": "Customer analytics and engagement platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "klaviyo",
+    "name": "Klaviyo",
+    "description": "Marketing automation and email platform",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "knack",
+    "name": "Knack",
+    "description": "No-code database and app builder",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "kodify",
+    "name": "Kodify",
+    "description": "Web and mobile app development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "koding",
+    "name": "Koding",
+    "description": "Cloud-based development environments",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "kohi-klubhouse",
+    "name": "Kohi Klubhouse",
+    "description": "Filipino freelance community group for networking, support, and job leads.",
+    "tags": "ph-freelance-groups",
+    "category": "ph-freelance-groups"
+  },
+  {
+    "id": "komoot",
+    "name": "komoot",
+    "description": "Outdoor adventure and hiking app",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "kona",
+    "name": "Kona",
+    "description": "AI-powered meeting assistant",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "konkurenta",
+    "name": "Konkurenta",
+    "description": "Competitive intelligence platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "kraken",
+    "name": "Kraken",
+    "description": "Cryptocurrency exchange and trading platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "kuali",
+    "name": "Kuali",
+    "description": "Open-source administrative software for higher education",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "labelbox",
+    "name": "Labelbox",
+    "description": "Data labeling and annotation platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "lambda-school",
+    "name": "Lambda School",
+    "description": "Online coding bootcamp and technology education",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "lambert-labs",
+    "name": "Lambert Labs",
+    "description": "Software development and consulting services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "later-pay",
+    "name": "LaterPay",
+    "description": "Digital payment and monetization solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "leadership-success",
+    "name": "Leadership Success",
+    "description": "Leadership and team development services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "leadfeeder",
+    "name": "Leadfeeder",
+    "description": "Website visitor tracking and lead generation tool",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "leadi-q",
+    "name": "LeadiQ",
+    "description": "B2B lead generation and sales intelligence platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "lets-encrypt",
+    "name": "Let's Encrypt",
+    "description": "Free and automated SSL certificate authority",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "lifetime-value",
+    "name": "Lifetime Value",
+    "description": "Customer lifetime value software and analytics platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "lightbend",
+    "name": "Lightbend",
+    "description": "Reactive software development platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "lightspeed",
+    "name": "Lightspeed",
+    "description": "Point-of-sale and e-commerce solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "linaro",
+    "name": "Linaro",
+    "description": "Open-source collaborative engineering for ARM ecosystem",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "lincoln-loop",
+    "name": "Lincoln Loop",
+    "description": "Web development agency specializing in Python and Django",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "line-plus-corporation",
+    "name": "LINE Plus Corporation",
+    "description": "Subsidiary of LINE Corporation, provider of messaging and communication services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "link11",
+    "name": "Link11",
+    "description": "Cloud-based DDoS protection and cybersecurity solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "linked-in",
+    "name": "LinkedIn",
+    "description": "A professional networking site that includes remote job listings.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "linux-foundation",
+    "name": "Linux Foundation",
+    "description": "Non-profit organization supporting open-source projects and communities",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "lion-sher",
+    "name": "LionSher",
+    "description": "Software development and IT consulting company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "litmus",
+    "name": "Litmus",
+    "description": "Email marketing and testing platform",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "live-person",
+    "name": "LivePerson",
+    "description": "Conversational AI and customer engagement solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "livingston-research",
+    "name": "Livingston Research",
+    "description": "A platform that offers academic writing job opportunities for freelance writers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "loadsys-web-strategies",
+    "name": "Loadsys Web Strategies",
+    "description": "Web development and digital strategy agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "localistico",
+    "name": "Localistico",
+    "description": "Location data management and marketing platform",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "log-dna",
+    "name": "LogDNA",
+    "description": "Log management and analysis platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "logix-bpo",
+    "name": "Logix BPO",
+    "description": "Recruitment Process Outsourcing (RPO) company specializing in building and managing remote recruitment teams.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "lullabot",
+    "name": "Lullabot",
+    "description": "Strategy, design, and development for Drupal websites",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "luxoft",
+    "name": "Luxoft",
+    "description": "Global IT service provider and software development company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "lyseon-tech",
+    "name": "Lyseon Tech",
+    "description": "IT cooperative specializing in software development",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "lytx",
+    "name": "Lytx",
+    "description": "Video telematics and fleet management solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "madewithlove",
+    "name": "madewithlove",
+    "description": "Custom software development company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "madisoft",
+    "name": "Madisoft",
+    "description": "Software development and IT consulting agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "mailer-lite",
+    "name": "MailerLite",
+    "description": "Email marketing and automation platform",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "manifold",
+    "name": "Manifold",
+    "description": "Developer marketplace for APIs and cloud services",
+    "tags": "freelance",
+    "category": "freelance"
   },
   {
     "id": "manpower-genius",
@@ -273,9 +3654,247 @@
     "category": "agency"
   },
   {
-    "id": "ms-virtual-assistant",
-    "name": "MS Virtual Assistant",
-    "description": "Fully Australian-based but hires Filipino VAs for time zone alignment. Specializes in outbound calling, website management, and administr...",
+    "id": "mapbox",
+    "name": "Mapbox",
+    "description": "Location data platform and mapping tools",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "marco-polo",
+    "name": "Marco Polo",
+    "description": "Video communication and messaging app",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "marketade",
+    "name": "Marketade",
+    "description": "Digital marketing and UX consulting agency",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "mars-based",
+    "name": "MarsBased",
+    "description": "Development consultancy focused on web and mobile apps",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "massive-pixel-creation",
+    "name": "Massive Pixel Creation",
+    "description": "Web design and development studio",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "mayvue",
+    "name": "Mayvue",
+    "description": "Digital product development and consulting company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "media-shower",
+    "name": "Media Shower",
+    "description": "Agency that hires freelance writers for various projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "mediacurrent",
+    "name": "Mediacurrent",
+    "description": "Drupal web development and digital strategy agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "mediavine",
+    "name": "Mediavine",
+    "description": "Ad management platform for content creators and publishers",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "medium",
+    "name": "Medium",
+    "description": "Online publishing platform for writers and content creators",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "memberful",
+    "name": "Memberful",
+    "description": "Membership and subscription management platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "memory",
+    "name": "Memory",
+    "description": "AI-powered time tracking and productivity software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "mercari",
+    "name": "Mercari",
+    "description": "Online marketplace for buying and selling used goods",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "merico",
+    "name": "Merico",
+    "description": "Code analytics and software engineering platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "meridian-link",
+    "name": "MeridianLink",
+    "description": "Loan origination and digital banking solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "meta-lab",
+    "name": "MetaLab",
+    "description": "Digital product design agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "meta-mask",
+    "name": "MetaMask",
+    "description": "Ethereum wallet and decentralized app browser",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "meteor-ops",
+    "name": "MeteorOps",
+    "description": "DevOps automation and observability platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "description": "Technology company providing software, services, and devices",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "microwork",
+    "name": "Microwork",
+    "description": "A platform that provides micro-task opportunities for remote workers.",
+    "tags": "gig",
+    "category": "gig"
+  },
+  {
+    "id": "mindful",
+    "name": "Mindful",
+    "description": "Mental health and well-being platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "mixcloud",
+    "name": "Mixcloud",
+    "description": "Online audio streaming platform for DJs and radio presenters",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "mixmax",
+    "name": "Mixmax",
+    "description": "Email productivity and automation tools",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "mix-rank",
+    "name": "MixRank",
+    "description": "Competitive intelligence platform for digital advertising",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "mobile-jazz",
+    "name": "Mobile Jazz",
+    "description": "Mobile app development and consulting company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "modern-health",
+    "name": "Modern Health",
+    "description": "Mental health and wellness platform for employers",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "modern-tribe",
+    "name": "Modern Tribe",
+    "description": "WordPress web development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "modsquad",
+    "name": "Modsquad",
+    "description": "Global customer support and content moderation services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "molongski-freelancers",
+    "name": "Molongski Freelancers",
+    "description": "Filipino freelance community group for networking, support, and job leads.",
+    "tags": "ph-freelance-groups",
+    "category": "ph-freelance-groups"
+  },
+  {
+    "id": "molteo",
+    "name": "Molteo",
+    "description": "Software development and consulting company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "mongo-db",
+    "name": "MongoDB",
+    "description": "Document-oriented NoSQL database",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "monthly",
+    "name": "Monthly",
+    "description": "Subscription billing and management platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "mozilla",
+    "name": "Mozilla",
+    "description": "Non-profit organization developing open-source software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "mtc",
+    "name": "mtc.",
+    "description": "Digital agency providing web design and development services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "muck-rack",
+    "name": "Muck Rack",
+    "description": "Media database and PR software",
     "tags": "agency",
     "category": "agency"
   },
@@ -287,30 +3906,205 @@
     "category": "full-time"
   },
   {
-    "id": "my-cloud-assistant",
-    "name": "My Cloud Assistant",
-    "description": "Tailored VA services for professionals/SMBs.",
+    "id": "mux",
+    "name": "Mux",
+    "description": "Video infrastructure platform",
     "tags": "agency",
     "category": "agency"
   },
   {
+    "id": "my-cloud-assistant",
+    "name": "My Cloud Assistant",
+    "description": "My Cloud Assistant offers virtual assistant services tailored for busy professionals, small to medium-sized businesses, and individuals.",
+    "tags": "australia",
+    "category": "australia"
+  },
+  {
     "id": "my-freight-staff",
     "name": "My Freight Staff",
-    "description": "Freight/logistics-specific VAs.",
+    "description": "Provides virtual assistants trained specifically for the freight industry.",
     "tags": "agency",
     "category": "agency"
   },
   {
     "id": "my-virtudesk",
     "name": "My Virtudesk",
-    "description": "Industry-specific VAs (real estate, marketing).",
+    "description": "Offers virtual assistant services for various industries, including real estate and marketing.",
     "tags": "freelance",
     "category": "freelance"
   },
   {
+    "id": "mycelium",
+    "name": "Mycelium",
+    "description": "Blockchain and cryptocurrency development company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
     "id": "my-out-desk",
     "name": "MyOutDesk",
-    "description": "Real estate-focused VAs.",
+    "description": "Specializes in real estate VAs",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "my-sql",
+    "name": "MySQL",
+    "description": "Open-source relational database management system",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "nagarro",
+    "name": "Nagarro",
+    "description": "IT consulting and software development services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "n-dash",
+    "name": "nDash",
+    "description": "Platform that connects businesses with freelance writers.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "net-app",
+    "name": "NetApp",
+    "description": "Data management and cloud storage solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "netguru",
+    "name": "Netguru",
+    "description": "Software development and consulting company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "netris",
+    "name": "Netris",
+    "description": "Network automation and cybersecurity solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "netsparker",
+    "name": "Netsparker",
+    "description": "Web application security scanner",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "nettl-edinburgh",
+    "name": "Nettl Edinburgh",
+    "description": "Web design and digital marketing agency",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "new-context",
+    "name": "New Context",
+    "description": "DevSecOps and digital transformation services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "next",
+    "name": "NEXT",
+    "description": "Trucking technology platform for carriers and shippers",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "no-code-no-problem",
+    "name": "No Code No Problem",
+    "description": "No-code development resources and education",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "no-desk",
+    "name": "NoDesk",
+    "description": "Offers resources, job listings, and information for remote workers and businesses.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "node-source",
+    "name": "NodeSource",
+    "description": "Node.js solutions and enterprise-grade support",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "no-red-ink",
+    "name": "NoRedInk",
+    "description": "Online learning platform for English language skills",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "novoda",
+    "name": "Novoda",
+    "description": "Mobile app development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "npm",
+    "name": "npm",
+    "description": "Package manager for JavaScript",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "nuage",
+    "name": "Nuage",
+    "description": "IT services and solutions provider",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "nuna",
+    "name": "Nuna",
+    "description": "Data and analytics platform for healthcare",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "nvidia",
+    "name": "Nvidia",
+    "description": "Graphics processing units (GPUs) and AI computing solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "oreilly-media",
+    "name": "O'Reilly Media",
+    "description": "Technology learning resources and publishing",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ocient",
+    "name": "Ocient",
+    "description": "Data analytics and storage platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "octopus-deploy",
+    "name": "Octopus Deploy",
+    "description": "Automated deployment and release management tool",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "oddball",
+    "name": "Oddball",
+    "description": "Digital product and software development agency",
     "tags": "agency",
     "category": "agency"
   },
@@ -322,16 +4116,100 @@
     "category": "agency"
   },
   {
+    "id": "okay-relax",
+    "name": "OkayRelax",
+    "description": "A platform that connects users with virtual assistants for personal and professional tasks.",
+    "tags": "gig",
+    "category": "gig"
+  },
+  {
+    "id": "okrelax",
+    "name": "Okrelax",
+    "description": "A platform that connects users with virtual assistants for personal and professional tasks.",
+    "tags": "gig",
+    "category": "gig"
+  },
+  {
+    "id": "okta",
+    "name": "Okta",
+    "description": "Identity and access management platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "olark",
+    "name": "Olark",
+    "description": "Live chat and customer support software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "olist",
+    "name": "Olist",
+    "description": "E-commerce marketplace platform for small businesses",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
     "id": "olivia-pros",
     "name": "Olivia Pros",
-    "description": "WFH opportunities for Filipino VAs.",
+    "description": "WFH also for Filipino VAs",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ollie",
+    "name": "Ollie",
+    "description": "Customized dog food subscription service",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ollie-order",
+    "name": "Ollie Order",
+    "description": "Restaurant online ordering and delivery platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "olo",
+    "name": "Olo",
+    "description": "Digital ordering and delivery platform for restaurants",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ombu-labs",
+    "name": "OmbuLabs",
+    "description": "Ruby on Rails development and consulting services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "omni-ti",
+    "name": "OmniTI",
+    "description": "Scalable web infrastructure and performance engineering",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "one-space",
+    "name": "OneSpace",
+    "description": "A platform that offers remote work opportunities for various tasks, including content creation.",
+    "tags": "gig",
+    "category": "gig"
+  },
+  {
+    "id": "online-jobs-ph",
+    "name": "Online Jobs PH",
+    "description": "A job board that connects employers with talented Filipino remote workers.",
     "tags": "agency",
     "category": "agency"
   },
   {
     "id": "online-helpers",
     "name": "OnlineHelpers",
-    "description": "Australian-owned offshore virtual assistance for SMEs.",
+    "description": "Online Helpers is an Australian-owned company specializing in providing affordable offshore virtual assistance to small and medium-sized busin...",
     "tags": "agency",
     "category": "agency"
   },
@@ -343,32 +4221,95 @@
     "category": "freelance"
   },
   {
-    "id": "outshore",
-    "name": "Outshore",
-    "description": "Australian outsourcing firm placing Filipino remote staff for admin, digital, and dev roles.",
+    "id": "onna",
+    "name": "Onna",
+    "description": "Knowledge integration platform for enterprises",
     "tags": "agency",
     "category": "agency"
   },
   {
-    "id": "outsource-accelerator",
-    "name": "Outsource Accelerator",
-    "description": "Global marketplace listing 3,000+ BPOs for staff leasing and recruitment.",
-    "tags": "freelance",
-    "category": "freelance"
+    "id": "opencity-labs",
+    "name": "Opencity Labs",
+    "description": "Web and mobile app development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "open-craft",
+    "name": "OpenCraft",
+    "description": "Online learning platform development and consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "open-zeppelin",
+    "name": "OpenZeppelin",
+    "description": "Open-source development and security for decentralized apps",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "optoro",
+    "name": "Optoro",
+    "description": "Returns optimization and reverse logistics platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "oracle",
+    "name": "Oracle",
+    "description": "Technology corporation offering cloud and enterprise solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ordermentum",
+    "name": "Ordermentum",
+    "description": "B2B ordering and payments platform for the hospitality industry",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "our-hometown-inc",
+    "name": "Our-Hometown Inc.",
+    "description": "Newspaper and media publishing software solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "outshore",
+    "name": "Outshore",
+    "description": "Australian outsourcing firm placing Filipino remote staff for admin, digital, and dev roles.",
+    "tags": "australia",
+    "category": "australia"
   },
   {
     "id": "outsource-access",
     "name": "Outsource Access",
-    "description": "Focuses on SMEs with flexible hours and health plans for Mindanao-based talent.",
-    "tags": "part-time",
-    "category": "part-time"
+    "description": "Caters to solopreneurs and small businesses",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "outsource-plug",
+    "name": "Outsource Plug",
+    "description": "Provides virtual assistant services to help businesses with various tasks.",
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "outsource-workers",
     "name": "Outsource Workers",
     "description": "Australian company specialising in trained Filipino real estate virtual assistants.",
-    "tags": "agency",
-    "category": "agency"
+    "tags": "australia",
+    "category": "australia"
+  },
+  {
+    "id": "outsourcely",
+    "name": "Outsourcely",
+    "description": "Connects businesses with remote workers for long-term employment.",
+    "tags": "full-time",
+    "category": "full-time"
   },
   {
     "id": "outsourcey",
@@ -380,35 +4321,259 @@
   {
     "id": "outsourcing-angel",
     "name": "Outsourcing Angel",
-    "description": "Ethically sources top 10% of Filipino VAs, emphasizing sustainability and cultural alignment. Offers a lifetime replacement guarantee and...",
+    "description": "Ethical offshore staffing provider sourcing Filipino talent for admin, ops, and support roles.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "outsourcing-dev",
+    "name": "OutsourcingDev",
+    "description": "Software development and IT outsourcing services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ova-virtual",
+    "name": "OVA Virtual",
+    "description": "Provides skilled Filipina VAs for various roles",
     "tags": "agency",
     "category": "agency"
   },
   {
     "id": "ova-virtual-assistant",
     "name": "OVA Virtual Assistant",
-    "description": "Women-led VA company based in the Philippines.",
+    "description": "OVA Virtual is a women-led virtual assistant company based in the Philippines, specializing in providing skilled and reliable support for entr...",
     "tags": "agency",
     "category": "agency"
   },
   {
+    "id": "over",
+    "name": "Over",
+    "description": "Mobile app for adding text and artwork to photos",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "packlink",
+    "name": "Packlink",
+    "description": "Shipping and logistics platform for businesses",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "pagepro",
+    "name": "Pagepro",
+    "description": "Web development and design agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "pager-duty",
+    "name": "PagerDuty",
+    "description": "Digital operations management platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "paktor",
+    "name": "Paktor",
+    "description": "Dating and social networking app",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "palantirnet",
+    "name": "Palantir.net",
+    "description": "Web development and strategy agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "pangian",
+    "name": "Pangian",
+    "description": "Connects remote workers with job opportunities and offers resources for working remotely.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "panther-labs",
+    "name": "Panther Labs",
+    "description": "Cloud-scale intrusion detection and response platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "parabol",
+    "name": "Parabol",
+    "description": "Agile meeting and retrospective software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "park-assist",
+    "name": "Park Assist",
+    "description": "Parking guidance and management systems",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "parsely",
+    "name": "Parse.ly",
+    "description": "Content analytics and optimization platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "parsely-1",
+    "name": "Parsely",
+    "description": "Real-time analytics and audience insights for publishers",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "particular-software",
+    "name": "Particular Software",
+    "description": "Messaging and event-driven systems with NServiceBus",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "pathable",
+    "name": "Pathable",
+    "description": "Event app and community platform for conferences",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "payfully",
+    "name": "Payfully",
+    "description": "Instant rent payments and advances for vacation rentals",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "paylocity",
+    "name": "Paylocity",
+    "description": "HR and payroll software solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "pay-scale",
+    "name": "PayScale",
+    "description": "Compensation data and software solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "paytm-labs",
+    "name": "Paytm Labs",
+    "description": "Mobile payments and financial services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "pay-u",
+    "name": "PayU",
+    "description": "Online payment service provider",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "peachworks",
+    "name": "Peachworks",
+    "description": "Restaurant management software platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "people-doc",
+    "name": "PeopleDoc",
+    "description": "HR service delivery and employee experience platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "people-per-hour",
+    "name": "PeoplePerHour",
+    "description": "A marketplace for connecting businesses with freelancers for various tasks and projects.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
     "id": "pepper-virtual-assistants",
     "name": "Pepper Virtual Assistants",
-    "description": "Reliable VA services across industries.",
+    "description": "Range of virtual assistant services (quality, reliability)",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "percona",
+    "name": "Percona",
+    "description": "Open-source database software and services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "pex",
+    "name": "Pex",
+    "description": "Rights management and video analytics platform",
     "tags": "agency",
     "category": "agency"
   },
   {
     "id": "philippines-recruitment-uk",
     "name": "Philippines Recruitment UK",
-    "description": "UK recruitment agency that specialises in connecting Filipino freelancers (including VAs) with UK SMEs. They emphasise cost-effecti...",
+    "description": "UK recruitment agency that specialises in connecting Filipino freelancers (including VAs) with UK SMEs. They emphasise cost-effective, English...",
     "tags": "agency",
     "category": "agency"
   },
   {
+    "id": "phil-job-net",
+    "name": "PhilJobNet",
+    "description": "PhilJobNet is an online job portal that offers job listings across various industries and roles. It also provides career advice and resources ...",
+    "tags": "full-time",
+    "category": "full-time"
+  },
+  {
+    "id": "phyllis-song-agency",
+    "name": "Phyllis Song Agency",
+    "description": "Offers virtual staffing solutions for businesses, including virtual assistants.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "picoworkers",
+    "name": "Picoworkers",
+    "description": "Platform that offers remote work opportunities.",
+    "tags": "gig",
+    "category": "gig"
+  },
+  {
     "id": "pineapple-staffing",
     "name": "Pineapple Staffing",
-    "description": "Virtual staffing solutions including VAs.",
+    "description": "Provides virtual staffing solutions for businesses, including virtual assistants.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "pinoy-beats-ai",
+    "name": "Pinoy Beats AI",
+    "description": "Filipino freelance community group for networking, support, and job leads.",
+    "tags": "ph-freelance-groups",
+    "category": "ph-freelance-groups"
+  },
+  {
+    "id": "platform-builders",
+    "name": "Platform Builders",
+    "description": "Digital transformation and software development services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "platformsh",
+    "name": "Platform.sh",
+    "description": "Cloud hosting and development platform for web applications",
     "tags": "agency",
     "category": "agency"
   },
@@ -416,13 +4581,167 @@
     "id": "platinum-outsourcing",
     "name": "Platinum Outsourcing",
     "description": "Outsourcing provider offering Filipino staff for VA, customer support, design, and tech roles.",
+    "tags": "australia",
+    "category": "australia"
+  },
+  {
+    "id": "pleo",
+    "name": "Pleo",
+    "description": "Business expense management software",
     "tags": "agency",
     "category": "agency"
   },
   {
-    "id": "pmva-property-management-virtual-assistant",
-    "name": "PMVA (Property Management Virtual Assistant)",
-    "description": "Brisbane-based firm expanding into the Philippines, offering VAs skilled in real estate workflows, lease administration, and tenant coord...",
+    "id": "plex",
+    "name": "Plex",
+    "description": "Media streaming platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "pnc-financial-services",
+    "name": "PNC Financial Services",
+    "description": "Financial services and banking",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "polygon",
+    "name": "Polygon",
+    "description": "Blockchain scalability solutions and infrastructure",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "power-school",
+    "name": "PowerSchool",
+    "description": "Education technology platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "power-to-fly",
+    "name": "PowerToFly",
+    "description": "Connects businesses with diverse talent, including remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "pragma",
+    "name": "Pragma",
+    "description": "Venture builder and innovation consultancy",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "precision-nutrition",
+    "name": "Precision Nutrition",
+    "description": "Nutrition coaching and certification company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "predict-mobile",
+    "name": "Predict Mobile",
+    "description": "Mobile app development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "prelude",
+    "name": "Prelude",
+    "description": "Digital consultancy and software development",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "previous-next",
+    "name": "PreviousNext",
+    "description": "Drupal website development and support",
+    "tags": "australia",
+    "category": "australia"
+  },
+  {
+    "id": "prezi",
+    "name": "Prezi",
+    "description": "Presentation software and visual storytelling platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "prezly",
+    "name": "Prezly",
+    "description": "PR software for media relations and communications",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "pricewaterhouse-coopers",
+    "name": "PricewaterhouseCoopers",
+    "description": "Professional services and consulting firm",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "primer",
+    "name": "Primer",
+    "description": "Fintech company offering cross-border payments",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "priority-va",
+    "name": "Priority VA",
+    "description": "Specializes in providing high-quality virtual assistants for entrepreneurs and business owners.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "prisma",
+    "name": "Prisma",
+    "description": "Database toolkit for building and querying databases",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "privacy-cloud",
+    "name": "PrivacyCloud",
+    "description": "Privacy compliance and data protection solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "pro-blogger-job-board",
+    "name": "ProBlogger Job Board",
+    "description": "A job board focused on blogging and content writing job opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "procenge-tecnologia",
+    "name": "Procenge Tecnologia",
+    "description": "Software development and IT consulting services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "procurify",
+    "name": "Procurify",
+    "description": "Spend management and purchasing software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "progress-engine",
+    "name": "Progress Engine",
+    "description": "Software development and digital product consultancy",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "prominent-edge",
+    "name": "Prominent Edge",
+    "description": "Custom software development and consulting services",
     "tags": "agency",
     "category": "agency"
   },
@@ -437,71 +4756,743 @@
     "id": "pro-source",
     "name": "ProSource",
     "description": "Outsourcing agency recruiting Filipino VA contractors for admin, e-commerce, and marketing.",
+    "tags": "australia",
+    "category": "australia"
+  },
+  {
+    "id": "puppet",
+    "name": "Puppet",
+    "description": "IT automation and configuration management software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "quaderno",
+    "name": "Quaderno",
+    "description": "Automated tax compliance and invoicing software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "quality-text",
+    "name": "QualityText",
+    "description": "A platform that offers content writing services and hires freelance writers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "quantify",
+    "name": "Quantify",
+    "description": "Data analytics and business intelligence platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "quest-db",
+    "name": "QuestDB",
+    "description": "Open-source time-series database",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "quietly",
+    "name": "Quietly",
+    "description": "Agency that hires freelance writers for various projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "quora",
+    "name": "Quora",
+    "description": "Question-and-answer platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "raft",
+    "name": "Raft",
+    "description": "Software development and consulting services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "rainforest-qa",
+    "name": "Rainforest QA",
+    "description": "Continuous testing platform for web and mobile applications",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "rakuten-travel",
+    "name": "Rakuten Travel",
+    "description": "Online travel agency and booking platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ramp",
+    "name": "Ramp",
+    "description": "Corporate card and spend management platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "rare-job-ph",
+    "name": "Rare Job PH",
+    "description": "Offers online English teaching opportunities for Filipino tutors.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "reaction-commerce",
+    "name": "Reaction Commerce",
+    "description": "Open-source commerce platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "reactive-ops-inc",
+    "name": "ReactiveOps, Inc.",
+    "description": "Managed services and cloud infrastructure consulting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "realdigital",
+    "name": "real.digital",
+    "description": "E-commerce platform for online retailers",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "realtime-crm",
+    "name": "RealtimeCRM",
+    "description": "Customer relationship management software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "rebel-mouse",
+    "name": "RebelMouse",
+    "description": "Content management and digital publishing platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "reboot-studio",
+    "name": "Reboot Studio",
+    "description": "Software development and digital solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "re-charge",
+    "name": "ReCharge",
+    "description": "Subscription billing and payments platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "recurly",
+    "name": "Recurly",
+    "description": "Subscription management and billing platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "red-hat",
+    "name": "Red Hat",
+    "description": "Open-source software and enterprise solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "reddit",
+    "name": "Reddit",
+    "description": "Social news aggregation and discussion platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "red-monk",
+    "name": "RedMonk",
+    "description": "Developer-focused industry analyst firm",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "redox",
+    "name": "Redox",
+    "description": "Healthcare integration and interoperability platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "reducer",
+    "name": "Reducer",
+    "description": "Software development and consultancy services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "reinteractive",
+    "name": "reinteractive",
+    "description": "Ruby on Rails development and consulting services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remotasks",
+    "name": "Remotasks",
+    "description": "A platform that offers various tasks for remote workers, such as data annotation and transcription.",
+    "tags": "gig",
+    "category": "gig"
+  },
+  {
+    "id": "remote-bliss",
+    "name": "Remote Bliss",
+    "description": "A platform that helps users find remote work opportunities and resources.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-connections",
+    "name": "Remote Connections",
+    "description": "Provides resources and job listings for remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-co-worker",
+    "name": "Remote CoWorker",
+    "description": "Connects clients with suitable VAs (bilingual options, dedicated management)",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-employment",
+    "name": "Remote Employment",
+    "description": "A platform that offers remote job opportunities and resources.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-garage",
+    "name": "Remote Garage",
+    "description": "Web and mobile app development company in India",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-global",
+    "name": "Remote Global",
+    "description": "Offers a platform for finding remote jobs and freelance projects worldwide.",
     "tags": "freelance",
     "category": "freelance"
   },
   {
-    "id": "quantum-virtual-assistants",
-    "name": "Quantum Virtual Assistants",
-    "description": "Platform connecting European businesses with Filipino VAs for specialized tasks like digital marketing, content creation, and administrat...",
+    "id": "remote-health-jobs",
+    "name": "Remote Health Jobs",
+    "description": "A job board that specializes in remote healthcare job opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-job-market",
+    "name": "Remote Job Market",
+    "description": "A job board that focuses on remote work opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-jobs-center",
+    "name": "Remote Jobs Center",
+    "description": "A job board focused on remote job opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-jobs-club",
+    "name": "Remote Jobs Club",
+    "description": "Offers a curated list of remote job opportunities through a newsletter.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-jobseeker-1",
+    "name": "Remote Jobseeker",
+    "description": "Offers resources and job listings for remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-ok",
+    "name": "Remote OK",
+    "description": "A platform for finding remote jobs in various industries.",
     "tags": "freelance",
     "category": "freelance"
-  },
-  {
-    "id": "ramsay-health-care",
-    "name": "Ramsay Health Care",
-    "description": "Healthcare provider seeking remote administrative VAs for patient coordination and data entry 9.",
-    "tags": "agency",
-    "category": "agency"
-  },
-  {
-    "id": "reassist",
-    "name": "REassist",
-    "description": "Focuses on real estate VAs, helping Australian property businesses streamline rent roll management and client communication. Partners wit...",
-    "tags": "agency",
-    "category": "agency"
-  },
-  {
-    "id": "remote-raven",
-    "name": "Remote Raven",
-    "description": "Agency offering pre-vetted Filipino VAs for roles like social media management, customer support, and technical assistance. Known for its...",
-    "tags": "agency",
-    "category": "agency"
   },
   {
     "id": "remote-staff-australia",
     "name": "Remote Staff (Australia)",
     "description": "Australia-founded remote staffing firm hiring Filipino VAs for AU & NZ clients, with recruitment and management support.",
-    "tags": "agency",
-    "category": "agency"
+    "tags": "australia",
+    "category": "australia"
   },
   {
     "id": "remote-staff-philippines",
     "name": "Remote Staff Philippines",
-    "description": "A decade-old offshore staffing provider offering virtual assistance, web development, and digital marketing services with flexible pricing.",
-    "tags": "freelance",
-    "category": "freelance"
+    "description": "Focuses on providing permanent remote staffing solutions for global clients.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-weekly",
+    "name": "Remote Weekly",
+    "description": "Offers a curated list of remote job opportunities through a newsletter.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-woman",
+    "name": "Remote Woman",
+    "description": "A platform that offers remote job opportunities specifically for women.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-work",
+    "name": "Remote Work",
+    "description": "A platform that provides resources and job listings for remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-work-hub",
+    "name": "Remote Work Hub",
+    "description": "Provides resources and job listings for remote workers and businesses.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-work-life",
+    "name": "Remote Work Life",
+    "description": "Offers resources, job listings, and information for remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-work-pros",
+    "name": "Remote Work Pros",
+    "description": "Offers resources and information for remote workers and businesses.",
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "remote-workmate",
     "name": "Remote Workmate",
-    "description": "Australian platform offering free trials and employee swap programs for SMEs.",
+    "description": "Offers a variety of VA services with specialized roles",
     "tags": "agency",
     "category": "agency"
   },
   {
-    "id": "remotejobsph",
-    "name": "remotejobsph",
-    "description": "The best file-based, zero-API remote jobs directory for Filipinos.",
+    "id": "remote-year",
+    "name": "Remote Year",
+    "description": "A platform that offers remote work and travel programs, providing resources and job listings for remote workers.",
     "tags": "agency",
     "category": "agency"
   },
   {
-    "id": "scotiabank-canada",
-    "name": "Scotiabank Canada",
-    "description": "Offers remote administrative and customer service roles, with pathways for Filipino VAs through LMIA-supported positions 14.",
+    "id": "remoteco",
+    "name": "Remote.co",
+    "description": "Provides resources and job listings for remote workers and businesses.",
     "tags": "agency",
     "category": "agency"
+  },
+  {
+    "id": "remote4me",
+    "name": "Remote4Me",
+    "description": "A job aggregator that collects remote job listings from multiple sources.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-base",
+    "name": "RemoteBase",
+    "description": "A job board focused on remote job opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-co",
+    "name": "RemoteCo",
+    "description": "A job board that focuses on connecting businesses with remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remotees",
+    "name": "Remotees",
+    "description": "Aggregates remote job listings from multiple sources.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-habits",
+    "name": "RemoteHabits",
+    "description": "Offers resources and information for remote workers and businesses.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remotely",
+    "name": "Remotely",
+    "description": "A platform that focuses on remote job opportunities and resources.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remoters",
+    "name": "Remoters",
+    "description": "A platform that provides resources and job listings for remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-work-mate",
+    "name": "RemoteWorkMate",
+    "description": "Offers various remote staffing solutions for businesses, including virtual assistants.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remote-writer-jobs",
+    "name": "RemoteWriterJobs",
+    "description": "A job board focused on remote writing job opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "remotive",
+    "name": "Remotive",
+    "description": "A platform that connects remote workers with job opportunities and resources.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "reno-fi",
+    "name": "RenoFi",
+    "description": "Home renovation financing platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "replit",
+    "name": "Replit",
+    "description": "Online coding and collaboration platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "research-square",
+    "name": "Research Square",
+    "description": "Research communication and publishing platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "rev",
+    "name": "Rev",
+    "description": "Provides transcription, captioning, and translation services while hiring remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "reva-global",
+    "name": "Reva Global",
+    "description": "Offers virtual staffing solutions for businesses, including virtual assistants.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "revolut",
+    "name": "Revolut",
+    "description": "Digital banking and financial services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "roadtrippers",
+    "name": "Roadtrippers",
+    "description": "Trip planning and travel discovery platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "rocket-station",
+    "name": "Rocket Station",
+    "description": "Offers outsourcing solutions, including virtual assistant services for businesses.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "rocketchat",
+    "name": "Rocket.Chat",
+    "description": "Open-source team collaboration platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "rt-camp",
+    "name": "rtCamp",
+    "description": "WordPress development and consulting services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "safeguard-global",
+    "name": "Safeguard Global",
+    "description": "Global workforce management and HR services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "description": "Customer relationship management and cloud computing",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "scalac",
+    "name": "Scalac",
+    "description": "Software development and consulting services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "scandit",
+    "name": "Scandit",
+    "description": "Barcode scanning and computer vision solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "scopic-software",
+    "name": "Scopic Software",
+    "description": "Custom software development and IT solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "scraping-bee",
+    "name": "ScrapingBee",
+    "description": "Web scraping API and tools",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "scrapinghub",
+    "name": "Scrapinghub",
+    "description": "Web scraping and data extraction platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "scribe-media",
+    "name": "Scribe Media",
+    "description": "Agency that hires freelance writers for various projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "scribie",
+    "name": "Scribie",
+    "description": "Offers transcription services and hires remote transcriptionists.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "scripted",
+    "name": "Scripted",
+    "description": "A platform that connects businesses with freelance writers for various content writing projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "scylla-db",
+    "name": "ScyllaDB",
+    "description": "NoSQL database for real-time big data applications",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "seaplane",
+    "name": "Seaplane",
+    "description": "Infrastructure automation and deployment platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "security-scorecard",
+    "name": "SecurityScorecard",
+    "description": "Cybersecurity ratings and risk management platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "seeq",
+    "name": "Seeq",
+    "description": "Industrial analytics software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "semaphore",
+    "name": "Semaphore",
+    "description": "Continuous integration and delivery platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "sendwave",
+    "name": "Sendwave",
+    "description": "Money transfer and remittance platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "serp-api",
+    "name": "SerpApi",
+    "description": "API for search engine results scraping",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "server-density",
+    "name": "Server Density",
+    "description": "Server and infrastructure monitoring platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "serv-mask",
+    "name": "ServMask",
+    "description": "WordPress backup and migration plugins",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "session",
+    "name": "Session",
+    "description": "Private and secure messaging app",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "shareup",
+    "name": "Shareup",
+    "description": "Collaboration and knowledge sharing platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "shippabo",
+    "name": "Shippabo",
+    "description": "Shipping and logistics platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "shogun",
+    "name": "Shogun",
+    "description": "E-commerce website builder and optimization tools",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "shopify",
+    "name": "Shopify",
+    "description": "E-commerce platform for online stores",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "sigma-defense",
+    "name": "Sigma Defense",
+    "description": "Cybersecurity and threat intelligence solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "sign-easy",
+    "name": "SignEasy",
+    "description": "Electronic signature software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "silverfin",
+    "name": "Silverfin",
+    "description": "Financial process automation platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "simplabs",
+    "name": "simplabs",
+    "description": "Web and mobile app development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "simple-texting",
+    "name": "SimpleTexting",
+    "description": "Business SMS and text marketing platform",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "six-to-start",
+    "name": "Six to Start",
+    "description": "Game development and augmented reality experiences",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "skillcrush",
+    "name": "Skillcrush",
+    "description": "Online coding and digital skills training",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "skillshare",
+    "name": "Skillshare",
+    "description": "Online learning platform for creative and professional skills",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "skip-the-drive",
+    "name": "SkipTheDrive",
+    "description": "A platform that helps users find telecommuting and remote work opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "skyrocket-ventures",
+    "name": "Skyrocket Ventures",
+    "description": "Technology recruitment and talent acquisition",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "skyword",
+    "name": "Skyword",
+    "description": "Platform that connects businesses with freelance writers.",
+    "tags": "freelance",
+    "category": "freelance"
   },
   {
     "id": "smart-outsourcing-solution-sos",
@@ -511,16 +5502,142 @@
     "category": "agency"
   },
   {
-    "id": "sos-va-services--smart-outsourcing-solution",
-    "name": "SOS VA Services / Smart Outsourcing Solution",
-    "description": "Global outsourcing firm that offers Filipino virtual assistants covering admin, marketing, customer support; offers part-time and project...",
+    "id": "smart-cash",
+    "name": "SmartCash",
+    "description": "Cryptocurrency and blockchain-based financial platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "smileio",
+    "name": "Smile.io",
+    "description": "Customer loyalty and rewards platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "smmile-digital",
+    "name": "Smmile Digital",
+    "description": "Digital marketing agency based in Singapore",
     "tags": "freelance",
     "category": "freelance"
   },
   {
+    "id": "socket-supply-co",
+    "name": "Socket Supply Co.",
+    "description": "Electrical supply company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "software-mill",
+    "name": "SoftwareMill",
+    "description": "Software development and consulting services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "solid-gigs",
+    "name": "SolidGigs",
+    "description": "Curates freelance job opportunities and provides resources for freelancers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "sommo",
+    "name": "Sommo",
+    "description": "Human resources and employee management platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "soostone",
+    "name": "Soostone",
+    "description": "Data-driven pricing and revenue optimization solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "sos-va-services--smart-outsourcing-solution",
+    "name": "SOS VA Services / Smart Outsourcing Solution",
+    "description": "Global outsourcing firm that offers Filipino virtual assistants covering admin, marketing, customer support; offers part-time and project-base...",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "soshace",
+    "name": "Soshace",
+    "description": "Remote IT staffing and software development company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "speech-pad",
+    "name": "Speech Pad",
+    "description": "Offers transcription and captioning services, and hires remote workers for these tasks.",
+    "tags": "gig",
+    "category": "gig"
+  },
+  {
+    "id": "speedlancer",
+    "name": "Speedlancer",
+    "description": "A marketplace that connects businesses with freelancers for fast project completion.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "sphere-rocket",
+    "name": "Sphere Rocket",
+    "description": "Provides virtual assistant services to help businesses grow and succeed.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "spoqa",
+    "name": "Spoqa",
+    "description": "Loyalty and marketing platform for businesses in Korea",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "description": "Music streaming platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "spreaker",
+    "name": "Spreaker",
+    "description": "Podcast hosting and distribution platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "spreedly",
+    "name": "Spreedly",
+    "description": "Payment infrastructure and secure data tokenization",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "spruce",
+    "name": "Spruce",
+    "description": "Home services platform for property management",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "stack-exchange",
+    "name": "Stack Exchange",
+    "description": "Network of Q&A communities",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
     "id": "staff-avenue",
     "name": "Staff Avenue",
-    "description": "UK & Europe oriented staffing agency which connects UK businesses with virtual staff in the Philippines — emphasising admin, tech, and cu...",
+    "description": "UK & Europe oriented staffing agency which connects UK businesses with virtual staff in the Philippines — emphasising admin, tech, and custome...",
     "tags": "agency",
     "category": "agency"
   },
@@ -532,11 +5649,102 @@
     "category": "agency"
   },
   {
+    "id": "stairlin",
+    "name": "Stairlin",
+    "description": "IT consulting and software development company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "startup-lift",
+    "name": "Startup Lift",
+    "description": "A platform that offers website and app testing opportunities for remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "status",
+    "name": "Status",
+    "description": "Secure messaging and decentralized communication platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
     "id": "stellar-staff",
     "name": "Stellar Staff",
     "description": "Emerging agency providing dedicated Filipino VAs for real estate, marketing, and administrative roles.",
     "tags": "freelance",
     "category": "freelance"
+  },
+  {
+    "id": "stencil",
+    "name": "Stencil",
+    "description": "Graphic design tool for social media and marketing",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "sticker-mule",
+    "name": "Sticker Mule",
+    "description": "Custom sticker printing and packaging services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "stitch-fix",
+    "name": "Stitch Fix",
+    "description": "Online personal styling and clothing subscription service",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "stone-co",
+    "name": "StoneCo",
+    "description": "Financial technology and payment solutions provider",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "storm-x",
+    "name": "StormX",
+    "description": "Crypto cashback and rewards platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "strapi",
+    "name": "Strapi",
+    "description": "Open-source headless CMS and API development platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "stream-native",
+    "name": "StreamNative",
+    "description": "Cloud-native event streaming and messaging platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "description": "Online payment processing platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "study-soup",
+    "name": "StudySoup",
+    "description": "Online marketplace for study materials and tutoring",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "superplayer--co",
+    "name": "Superplayer & Co",
+    "description": "Audio content and streaming platform for businesses",
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "super-staff",
@@ -553,6 +5761,83 @@
     "category": "full-time"
   },
   {
+    "id": "surevine",
+    "name": "Surevine",
+    "description": "Secure collaboration and information sharing solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "suse",
+    "name": "SUSE",
+    "description": "Open-source software solutions and Linux distributions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "sutherland-cloud-source",
+    "name": "Sutherland CloudSource",
+    "description": "Business process outsourcing services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "sweet-rush",
+    "name": "SweetRush",
+    "description": "Custom eLearning and training solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "swimlane",
+    "name": "Swimlane",
+    "description": "Security operations management and automation platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "sysdig",
+    "name": "Sysdig",
+    "description": "Cloud-native security and monitoring solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "tag1-consulting",
+    "name": "Tag1 Consulting",
+    "description": "Web development and consulting services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "taplytics",
+    "name": "Taplytics",
+    "description": "Mobile A/B testing and optimization platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "taskade",
+    "name": "Taskade",
+    "description": "Collaborative workspace and task management tool",
+    "tags": "gig",
+    "category": "gig"
+  },
+  {
+    "id": "task-away",
+    "name": "TaskAway",
+    "description": "Provides skilled VAs for various tasks (administrative, project management)",
+    "tags": "gig",
+    "category": "gig"
+  },
+  {
+    "id": "taskbullet",
+    "name": "Taskbullet",
+    "description": "Platform offering a \"bucket system\" for virtual assistant services, suitable for flexible project-based and hourly task work.",
+    "tags": "gig",
+    "category": "gig"
+  },
+  {
     "id": "task-bullet",
     "name": "TaskBullet",
     "description": "Platform offering a \"bucket system\" for virtual assistant services, suitable for flexible project-based and hourly task work.",
@@ -560,65 +5845,590 @@
     "category": "gig"
   },
   {
+    "id": "tatva-soft",
+    "name": "TatvaSoft",
+    "description": "Software development and outsourcing company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "tax-jar",
+    "name": "TaxJar",
+    "description": "Sales tax automation and compliance software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "teamflow",
+    "name": "Teamflow",
+    "description": "Virtual office and team collaboration platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "team-snap",
+    "name": "TeamSnap",
+    "description": "Sports team management and communication platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "team-ultra",
+    "name": "TeamUltra",
+    "description": "IT service management and consulting services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ted",
+    "name": "TED",
+    "description": "Nonprofit organization for spreading ideas through talks",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "teleport",
+    "name": "Teleport",
+    "description": "Platform for digital nomads and remote work information",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "telerik",
+    "name": "Telerik",
+    "description": "UI/UX development tools and software solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "telestax",
+    "name": "Telestax",
+    "description": "CPaaS platform for building real-time communication apps",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "tenable",
+    "name": "Tenable",
+    "description": "Cybersecurity solutions and vulnerability management",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "teravision-technologies",
+    "name": "Teravision Technologies",
+    "description": "Custom software development company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "test-double",
+    "name": "Test Double",
+    "description": "Software development consulting and testing services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "test-gorilla",
+    "name": "TestGorilla",
+    "description": "Pre-employment assessment and screening platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "testing-time",
+    "name": "Testing Time",
+    "description": "Connects businesses with remote testers for user testing and feedback.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "textbroker",
+    "name": "Textbroker",
+    "description": "A content marketplace that connects businesses with freelance writers.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "text-master",
+    "name": "TextMaster",
+    "description": "A platform that provides translation, copywriting, and proofreading services.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "the-content-company",
+    "name": "The Content Company",
+    "description": "Agency that hires freelance writers for various projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "the-crafters-lab",
+    "name": "The Crafters Lab",
+    "description": "Digital agency offering software development services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "the-creative-group",
+    "name": "The Creative Group",
+    "description": "Agency that specializes in connecting businesses with creative talent.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "the-creative-loft",
+    "name": "The Creative Loft",
+    "description": "A job board focused on creative job opportunities, including writing and design.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "the-freelance-movement-tribe",
+    "name": "The Freelance Movement Tribe",
+    "description": "Filipino freelance community group for networking, support, and job leads.",
+    "tags": "ph-freelance-groups",
+    "category": "ph-freelance-groups"
+  },
+  {
+    "id": "the-grid",
+    "name": "The Grid",
+    "description": "Website creation and design platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
     "id": "the-property-va",
     "name": "The Property VA",
-    "description": "Agency specializing in connecting property investors with Filipino VAs for tasks like tenant communication, CRM management, and social me...",
+    "description": "UK agency focused on property-industry support. They source Filipino virtual assistants (especially for UK property investors/businesses) with...",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "the-publisher-desk",
+    "name": "The Publisher Desk",
+    "description": "Digital advertising and monetization platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "the-results-guy",
+    "name": "The Results Guy",
+    "description": "Provides virtual assistant services to help businesses grow and succeed.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "the-scale-factory",
+    "name": "The Scale Factory",
+    "description": "DevOps and cloud consulting services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "the-va-hub",
+    "name": "The VA Hub",
+    "description": "The VA Hub is a Philippine-based virtual assistant company that offers a wide range of virtual assistant services to businesses and entreprene...",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "the-wirecutter",
+    "name": "The Wirecutter",
+    "description": "Product reviews and buying guides website",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "the-writer-finder",
+    "name": "The Writer Finder",
+    "description": "Connects businesses with freelance writers for various content writing projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "theorem-one",
+    "name": "TheoremOne",
+    "description": "Data analytics and insights platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "thinkful",
+    "name": "Thinkful",
+    "description": "Online coding bootcamp and education platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "third-iron",
+    "name": "Third Iron",
+    "description": "Library software and tools for academic institutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "thorn",
+    "name": "Thorn",
+    "description": "Nonprofit organization fighting child exploitation online",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "time-etc",
+    "name": "Time Etc",
+    "description": "Provides virtual assistant services to help businesses with various tasks.",
     "tags": "gig",
     "category": "gig"
   },
   {
-    "id": "the-va-hub-ph",
-    "name": "The VA Hub PH",
-    "description": "Specialized training for real estate, marketing, and sales VAs (since 2016).",
+    "id": "time-spot",
+    "name": "TimeSpot",
+    "description": "Workforce management and time tracking solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "tipe",
+    "name": "Tipe",
+    "description": "Headless CMS and content infrastructure platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "toast",
+    "name": "Toast",
+    "description": "Restaurant management and point-of-sale solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "toggl",
+    "name": "toggl",
+    "description": "Time tracking and productivity software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "toptal",
+    "name": "Toptal",
+    "description": "A marketplace for hiring top-tier freelance professionals, including remote workers.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "tower",
+    "name": "Tower",
+    "description": "Git client and version control tool",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "transcribe-me",
+    "name": "Transcribe Me",
+    "description": "A platform that connects transcriptionists with clients for various transcription jobs.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "transition-technologies-advanced-solutions",
+    "name": "Transition Technologies Advanced Solutions",
+    "description": "Software development and IT services (Poland)",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "transloadit",
+    "name": "Transloadit",
+    "description": "File and media processing platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "travis",
+    "name": "Travis",
+    "description": "Personal website and blog",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "travis-ci",
+    "name": "Travis CI",
+    "description": "Continuous integration and deployment platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "treehouse",
+    "name": "Treehouse",
+    "description": "Online coding and technology education platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "trello",
+    "name": "Trello",
+    "description": "Collaborative project management tool",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "truelancer",
+    "name": "Truelancer",
+    "description": "A freelance marketplace that connects businesses with remote professionals.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "truelogic-software",
+    "name": "Truelogic Software",
+    "description": "Software development and consulting company (Latin America)",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "truss-works",
+    "name": "TrussWorks",
+    "description": "Digital consultancy and engineering services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "try-my-ui",
+    "name": "Try My UI",
+    "description": "A platform that offers remote usability testing opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "tuft--needle",
+    "name": "Tuft & Needle",
+    "description": "Mattress and bedding company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "turing",
+    "name": "Turing",
+    "description": "Platform for hiring remote software developers",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "twilio",
+    "name": "Twilio",
+    "description": "Cloud communications and customer engagement platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "twoai",
+    "name": "Two.ai",
+    "description": "AI-powered productivity tool",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "udacity",
+    "name": "Udacity",
+    "description": "Online education platform focused on technology skills",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "uhuru-network",
+    "name": "Uhuru Network",
+    "description": "Custom software development company (Africa)",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "uncapped",
+    "name": "Uncapped",
+    "description": "Revenue-based financing for startups",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "upwork",
+    "name": "Upwork",
+    "description": "The worlds largest freelance platform offering a vast range of remote opportunities for Filipino specialists and agencies.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "upworthy",
+    "name": "Upworthy",
+    "description": "Media company focusing on positive and inspiring content",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "usaa",
+    "name": "USAA",
+    "description": "Financial services company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "user-feel",
+    "name": "User Feel",
+    "description": "Provides remote usability testing services for businesses.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "user-testing",
+    "name": "User Testing",
+    "description": "A platform that provides remote usability testing services for businesses.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "userlytics",
+    "name": "Userlytics",
+    "description": "A platform that offers remote user testing opportunities for businesses.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "usertest-io",
+    "name": "Usertest IO",
+    "description": "Connects businesses with remote testers for website and app usability testing.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ushahidi",
+    "name": "Ushahidi",
+    "description": "Open-source platform for crowdsourced mapping and reporting",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "u-ship",
+    "name": "uShip",
+    "description": "Online marketplace for shipping and transport services",
     "tags": "freelance",
     "category": "freelance"
   },
   {
     "id": "usource",
     "name": "USource",
-    "description": "Full-time VAs for digital marketing/support.",
+    "description": "Range of services (digital marketing, customer support) with full-time VAs",
     "tags": "freelance",
     "category": "freelance"
+  },
+  {
+    "id": "usource-1",
+    "name": "USource",
+    "description": "Digital outsourcing company offering a large pool of digital talent with flexible hiring options.",
+    "tags": "part-time",
+    "category": "part-time"
+  },
+  {
+    "id": "utest",
+    "name": "Utest",
+    "description": "A platform that offers software testing opportunities for remote workers.",
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "va-staffer",
     "name": "VA Staffer",
-    "description": "Vetted virtual executive assistants with technical expertise.",
+    "description": "Offers virtual assistant services to help businesses grow and succeed.",
     "tags": "agency",
     "category": "agency"
   },
   {
-    "id": "vaxtra",
-    "name": "Vaxtra",
-    "description": "Provides end-to-end VA solutions, including seat leasing in Southeast Asia. Focuses on customer service and HR support, leveraging Filipi...",
+    "id": "valimail",
+    "name": "Valimail",
+    "description": "Email security and authentication solutions",
     "tags": "agency",
     "category": "agency"
   },
   {
-    "id": "virtalent-uk",
-    "name": "Virtalent UK",
-    "description": "UK-focused VA platform hiring experienced professionals (including Filipinos residing in the UK) for roles like diary management, marketi...",
-    "tags": "freelance",
-    "category": "freelance"
+    "id": "varnish-software",
+    "name": "Varnish Software",
+    "description": "Web application acceleration and content delivery solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "vast-limits",
+    "name": "vast limits",
+    "description": "Software development and consultancy services (Germany)",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "va-va-virtual-assistants",
+    "name": "VaVa Virtual Assistants",
+    "description": "Offers virtual staffing solutions, including virtual assistants and other remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "verbalink-jobs",
+    "name": "Verbalink Jobs",
+    "description": "A transcription service that hires remote transcriptionists.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "description": "Cloud platform for static sites and serverless functions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "veryfi",
+    "name": "Veryfi",
+    "description": "AI-powered data extraction and automation for financial apps",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "viperdev",
+    "name": "Viperdev",
+    "description": "Software development and consulting services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "virta-health",
+    "name": "Virta Health",
+    "description": "Digital healthcare platform for diabetes treatment",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "virtual-assistant-talent",
+    "name": "Virtual Assistant Talent",
+    "description": "Matches entrepreneurs with suitable VAs after consultation",
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "virtual-champions",
     "name": "Virtual Champions",
-    "description": "VAs for entrepreneurs/small businesses.",
+    "description": "Specializes in virtual assistants for entrepreneurs and small businesses",
     "tags": "agency",
     "category": "agency"
   },
   {
-    "id": "virtual-coworker",
+    "id": "virtual-coworker-1",
     "name": "Virtual Coworker",
-    "description": "Established Aussie agency (since 2011) placing vetted Filipino VAs across admin, marketing, tech, and real estate.",
-    "tags": "freelance",
-    "category": "freelance"
+    "description": "Agency that specializes in providing remote workers from the Philippines.",
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "virtual-done-well",
     "name": "Virtual Done Well",
-    "description": "Davao City-based VA provider for email management and customer service.",
+    "description": "Comprehensive VA services with a focus on quality and client satisfaction",
     "tags": "agency",
     "category": "agency"
   },
@@ -626,27 +6436,69 @@
     "id": "virtual-elves",
     "name": "Virtual Elves",
     "description": "Australian VA agency hiring Filipino VAs and matching them quickly with Aussie businesses.",
+    "tags": "australia",
+    "category": "australia"
+  },
+  {
+    "id": "virtual-freelancer-asia",
+    "name": "Virtual Freelancer Asia",
+    "description": "Virtual Freelancer Asia is a Philippine-based virtual assistant and outsourcing company that offers a variety of services to businesses and en...",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "virtual-gal-friday",
+    "name": "Virtual Gal Friday",
+    "description": "Offers a range of virtual assistant services, including administrative support, customer service, and more.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "virtual-latinos",
+    "name": "Virtual Latinos",
+    "description": "Connects businesses with bilingual virtual assistants from Latin America.",
     "tags": "agency",
     "category": "agency"
   },
   {
     "id": "virtual-staff-365",
     "name": "Virtual Staff 365",
-    "description": "Connects businesses with skilled virtual assistants.",
-    "tags": "agency",
-    "category": "agency"
+    "description": "Connects businesses with highly skilled virtual assistants for year-round support.",
+    "tags": "australia",
+    "category": "australia"
   },
   {
     "id": "virtual-staff-finder",
     "name": "Virtual Staff Finder",
-    "description": "Curated VA candidates.",
+    "description": "Curated selection of top VA candidates",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "virtual-staff-finder-1",
+    "name": "Virtual Staff Finder",
+    "description": "A platform that helps businesses connect with the best Filipino virtual assistants for their needs.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "virtual-vocations",
+    "name": "Virtual Vocations",
+    "description": "A job board that specializes in telecommuting and remote work opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "virtual-coworker",
+    "name": "VirtualCoworker",
+    "description": "Simplifies hiring with top resumes and paperwork handling",
     "tags": "agency",
     "category": "agency"
   },
   {
     "id": "virtual-hub-ph",
     "name": "VirtualHub PH",
-    "description": "VA services for Philippine-based businesses.",
+    "description": "Provides virtual assistant services, specializing in helping businesses in the Philippines.",
     "tags": "agency",
     "category": "agency"
   },
@@ -665,6 +6517,258 @@
     "category": "freelance"
   },
   {
+    "id": "vmware",
+    "name": "VMware",
+    "description": "Virtualization and cloud computing software and services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "voicebunny",
+    "name": "Voicebunny",
+    "description": "A marketplace for voiceover professionals, including remote work opportunities.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "voices",
+    "name": "Voices",
+    "description": "Connects businesses with voiceover artists for various projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "vox-media-product-team",
+    "name": "Vox Media (Product Team)",
+    "description": "Media company specializing in digital content and publishing",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "voxy",
+    "name": "Voxy",
+    "description": "Language learning platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "vpm-solutions",
+    "name": "VPM Solutions",
+    "description": "Offers virtual project management services for businesses.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "vshn",
+    "name": "VSHN",
+    "description": "DevOps and cloud hosting services (Switzerland)",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "wallet-hub",
+    "name": "WalletHub",
+    "description": "Financial information and comparison platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "way-with-words-jobs",
+    "name": "Way With Words Jobs",
+    "description": "A transcription service that hires remote transcriptionists for various projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "we-work-remotely",
+    "name": "We Work Remotely",
+    "description": "A job board that specializes in remote job opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "web-dev-studios",
+    "name": "WebDevStudios",
+    "description": "WordPress development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "web-fx",
+    "name": "WebFX",
+    "description": "Digital marketing agency",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "webikon",
+    "name": "Webikon",
+    "description": "Web development and design agency (Slovakia)",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "webrunners",
+    "name": "Webrunners",
+    "description": "Software development and IT consulting services (Germany)",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "wells-fargo",
+    "name": "Wells Fargo",
+    "description": "Financial services company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "wemakeservices",
+    "name": "wemake.services",
+    "description": "Software development and engineering services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "we-make-mvp",
+    "name": "WeMakeMVP",
+    "description": "Software development agency specializing in MVPs",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "wfh-philippines-jobs",
+    "name": "WFH Philippines Jobs",
+    "description": "Filipino freelance community group for networking, support, and job leads.",
+    "tags": "ph-freelance-groups",
+    "category": "ph-freelance-groups"
+  },
+  {
+    "id": "what-users-do",
+    "name": "What Users Do",
+    "description": "Connects businesses with remote testers for website and app usability testing.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "whitecap-seo",
+    "name": "Whitecap SEO",
+    "description": "Search engine optimization and digital marketing agency",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "whitespectre",
+    "name": "Whitespectre",
+    "description": "Custom software development agency",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "wiki-how-about-wiki-how",
+    "name": "wikiHow: About-wikiHow",
+    "description": "Collaborative website providing how-to guides and tutorials",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "wikimedia-foundation",
+    "name": "Wikimedia Foundation",
+    "description": "Non-profit organization supporting Wikipedia and others",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "wildbit",
+    "name": "Wildbit",
+    "description": "Web development and collaboration tools",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "wishup",
+    "name": "Wishup",
+    "description": "Offers professional virtual assistant services for entrepreneurs and businesses.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "wizeline",
+    "name": "Wizeline",
+    "description": "Product development and software engineering services",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "wolfram",
+    "name": "Wolfram",
+    "description": "Computational intelligence and technical computing",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "wolverine-trading",
+    "name": "Wolverine Trading",
+    "description": "Proprietary trading firm",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "wombat-security",
+    "name": "Wombat Security",
+    "description": "Cybersecurity awareness and training solutions",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "wood-bows",
+    "name": "WoodBows",
+    "description": "Provides dedicated virtual assistant services to help businesses scale.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "work-abroad-ph",
+    "name": "Work Abroad PH",
+    "description": "A job board that offers overseas job opportunities for Filipino workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "work-from-homies-ph",
+    "name": "Work From Homies PH",
+    "description": "Filipino freelance community group for networking, support, and job leads.",
+    "tags": "ph-freelance-groups",
+    "category": "ph-freelance-groups"
+  },
+  {
+    "id": "workbank",
+    "name": "Workbank",
+    "description": "Workbank is a job portal that offers job listings across various industries and roles in the Philippines. It also provides career advice and r...",
+    "tags": "full-time",
+    "category": "full-time"
+  },
+  {
+    "id": "workew",
+    "name": "Workew",
+    "description": "A platform that provides remote job listings and resources.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "workhub-atexto",
+    "name": "Workhub Atexto",
+    "description": "Offers transcription and data annotation services while hiring remote workers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "working-nomads",
+    "name": "Working Nomads",
+    "description": "A job board that focuses on remote work opportunities for digital nomads.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
     "id": "work-mate-pro",
     "name": "WorkMate Pro",
     "description": "Platform connecting Filipino VAs with international clients, focused on productivity and role matching.",
@@ -672,9 +6776,233 @@
     "category": "agency"
   },
   {
+    "id": "workshop-casting-words",
+    "name": "Workshop Casting Words",
+    "description": "Offers transcription services and hires remote workers for various projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
     "id": "workspace-co-outsourcing",
     "name": "WorkspaceCo Outsourcing",
     "description": "Australian firm hiring university-educated Filipino VAs for admin, social media, and e-commerce.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "worksvianet",
+    "name": "Worksvianet",
+    "description": "Worksvianet is a job portal that offers job listings across various industries and roles. It also provides career advice and resources to help...",
+    "tags": "full-time",
+    "category": "full-time"
+  },
+  {
+    "id": "wp-media",
+    "name": "WP-Media",
+    "description": "WordPress plugin development company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "writers-job-board",
+    "name": "Writer's Job Board",
+    "description": "Offers resources and job listings for freelance writers.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "writer-access",
+    "name": "WriterAccess",
+    "description": "A content marketplace that connects businesses with freelance writers.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "writer-bay",
+    "name": "WriterBay",
+    "description": "A platform that connects freelance writers with clients for various writing projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "writer-duet",
+    "name": "WriterDuet",
+    "description": "A collaborative screenwriting software that offers remote work opportunities.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "writer-pool",
+    "name": "WriterPool",
+    "description": "A platform that connects businesses with freelance writers for various content writing projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "writer-relief",
+    "name": "WriterRelief",
+    "description": "A service that helps writers find markets for their work and offers remote work opportunities.",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "writerzillas",
+    "name": "Writerzillas",
+    "description": "A platform that connects freelance writers with clients for various writing projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "write-zillas",
+    "name": "WriteZillas",
+    "description": "A platform that connects freelance writers with clients for various writing projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "writing-jobz",
+    "name": "WritingJobz",
+    "description": "A platform that connects freelance writers with clients for various writing projects.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "x-team",
+    "name": "X-Team",
+    "description": "Distributed software development team",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "xp-inc",
+    "name": "XP Inc",
+    "description": "Financial services and brokerage company (Brazil)",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "yandex",
+    "name": "Yandex",
+    "description": "Russian multinational technology company",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "yazio",
+    "name": "YAZIO",
+    "description": "Nutrition tracking app and platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "ylopo-llc",
+    "name": "Ylopo LLC",
+    "description": "Ylopo is a real estate technology company that provides digital marketing solutions for real estate agents and brokers",
+    "tags": "freelance",
+    "category": "freelance"
+  },
+  {
+    "id": "yodo1",
+    "name": "Yodo1",
+    "description": "Game publishing and monetization platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "yonder",
+    "name": "Yonder",
+    "description": "Distributed team for software development projects",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "you-need-a-budget",
+    "name": "You Need A Budget",
+    "description": "Personal budgeting software",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "you-can-bookme-ltd",
+    "name": "YouCanBook.me Ltd",
+    "description": "Online scheduling and booking platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "your-vabuddy",
+    "name": "YourVABuddy",
+    "description": "Filipino freelance community group for networking, support, and job leads.",
+    "tags": "ph-freelance-groups",
+    "category": "ph-freelance-groups"
+  },
+  {
+    "id": "zamp",
+    "name": "ZAMP",
+    "description": "Software development and consulting company (Brazil)",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "zapier",
+    "name": "Zapier",
+    "description": "Automation tool for connecting apps and workflows",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "zeitio",
+    "name": "Zeit.io",
+    "description": "Cloud deployment and hosting platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "zen-rows",
+    "name": "ZenRows",
+    "description": "Crypto trading and investment analytics platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "zignalycom",
+    "name": "Zignaly.com",
+    "description": "Cryptocurrency trading platform and signals",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "zipco",
+    "name": "Zip.co",
+    "description": "Digital wallet and buy now, pay later platform",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "zolar",
+    "name": "Zolar",
+    "description": "Solar energy provider and installation services (Germany)",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "zoomployee",
+    "name": "Zoomployee",
+    "description": "A platform that connects businesses with remote workers, including virtual assistants.",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "zup",
+    "name": "Zup",
+    "description": "Digital innovation and software development company (Brazil)",
+    "tags": "agency",
+    "category": "agency"
+  },
+  {
+    "id": "site",
+    "name": "Харо",
+    "description": "Bitcoin wallet and digital banking platform",
     "tags": "agency",
     "category": "agency"
   }

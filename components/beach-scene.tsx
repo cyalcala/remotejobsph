@@ -131,7 +131,7 @@ export default function BeachScene() {
       <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
           <h1 className="text-4xl md:text-6xl font-black text-white drop-shadow-lg tracking-tighter">REMOTEJOBS PH</h1>
           <p className="text-white/90 text-sm md:text-base font-medium mt-2 max-w-lg text-center drop-shadow-md">
-            Zero-API, File-Based Remote Jobs Directory
+            Remote Jobs for Filipinos: Search, Click, Get Hired.
           </p>
       </div>
     </div>

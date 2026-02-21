@@ -4,7 +4,7 @@ export const JobSiteSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/, 'Must be kebab-case'),
   name: z.string().min(1),
   url: z.string().url().startsWith('https://'),
-  category: z.enum(['freelance', 'full-time', 'part-time', 'gig', 'agency']),
+  category: z.enum(['freelance', 'full-time', 'part-time', 'gig', 'agency', 'usa', 'australia', 'ph-freelance-groups']),
   tags: z.string(), // raw semicolon-separated string from CSV
   remote_type: z.enum(['fully-remote', 'hybrid', 'remote-friendly', 'unknown']),
   rating: z.union([z.number().min(1).max(5), z.literal('')]),

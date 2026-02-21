@@ -9,11 +9,13 @@ const CSV_PATH = 'data/jobs.csv';
 
 // Helper to convert string to kebab-case
 function toKebabCase(str: string): string {
-  return str
+  const result = str
     .replace(/([a-z])([A-Z])/g, "$1-$2")
     .replace(/[\s_]+/g, '-')
     .toLowerCase()
     .replace(/[^a-z0-9-]/g, '');
+  
+  return result || 'site'; // Fallback if name is non-latin
 }
 
 async function buildData() {
@@ -31,6 +33,7 @@ async function buildData() {
       columns: true,
       skip_empty_lines: true,
       trim: true,
+      relax_quotes: true,
     });
   } catch (err) {
     console.error('❌ Failed to parse CSV:', err);
@@ -70,7 +73,7 @@ async function buildData() {
     }
 
     if (record.description.length > 150) {
-      // Silently truncate — descriptions are sourced from the CSV and may exceed 150 chars
+      // Silently truncate
       record.description = record.description.substring(0, 147) + '...';
     }
 
@@ -90,7 +93,6 @@ async function buildData() {
 
     // Check custom rules
     if (ids.has(job.id)) {
-      // Append a number to make it unique rather than failing
       let uniqueId = job.id;
       let counter = 1;
       while(ids.has(uniqueId)) {
@@ -106,11 +108,6 @@ async function buildData() {
       continue;
     }
     urls.add(job.url);
-
-    if (job.description.length > 150) {
-      console.warn(`⚠️ Warning on line ${lineNumber}: Description over 150 chars (ID: ${job.id}). Truncating.`);
-      job.description = job.description.substring(0, 147) + '...';
-    }
 
     validJobs.push(job);
   }

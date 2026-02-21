@@ -40,9 +40,12 @@ export default function JobCard({ job }: { job: JobSiteUI }) {
           job.category === 'ph-freelance-groups' ? 'bg-indigo-100 text-indigo-800' :
           job.category === 'usa' ? 'bg-blue-100 text-blue-800' :
           job.category === 'australia' ? 'bg-sky-100 text-sky-800' :
+          job.category === 'hiring-filipino-vas' ? 'bg-teal-100 text-teal-800' :
           'bg-gray-100 text-gray-800'
         }`}>
-          {job.category === 'ph-freelance-groups' ? 'groups' : job.category.replace('-', ' ')}
+          {job.category === 'ph-freelance-groups' ? 'groups' : 
+           job.category === 'hiring-filipino-vas' ? 'Pinoy VA jobs' :
+           job.category.replace('-', ' ')}
         </span>
         <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-medium bg-sky-100 text-sky-800">
           {job.remote_type.replace('-', ' ')}

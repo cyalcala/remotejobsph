@@ -52,8 +52,8 @@
     "id": "24x7-direct",
     "name": "24x7 Direct",
     "description": "Offers 24/7 virtual assistant services for customer support and admin tasks.",
-    "tags": "gig",
-    "category": "gig"
+    "tags": "australia",
+    "category": "australia"
   },
   {
     "id": "42-technologies",
@@ -206,8 +206,8 @@
     "id": "agent-sync",
     "name": "AgentSync",
     "description": "Offers Essential and Elite Filipino VAs for Australian clients, full-time or part-time.",
-    "tags": "full-time",
-    "category": "full-time"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "ag-flow",
@@ -444,8 +444,8 @@
     "id": "arm-a-sourcing",
     "name": "ArmA Sourcing",
     "description": "Provides Filipino VA staffing solutions tailored for Australian businesses.",
-    "tags": "agency",
-    "category": "agency"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "art--logic",
@@ -500,8 +500,8 @@
     "id": "athena-go",
     "name": "Athena Go",
     "description": "Premier agency offering world-class training and high-paying full-time executive assistant roles for top-tier global clients.",
-    "tags": "full-time",
-    "category": "full-time"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "atlassian",
@@ -640,8 +640,8 @@
     "id": "beepo",
     "name": "Beepo",
     "description": "Australian outsourcing platform offering Filipino VAs for admin and support roles.",
-    "tags": "australia",
-    "category": "australia"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "belay-solutions",
@@ -773,8 +773,8 @@
     "id": "blog-mutt",
     "name": "BlogMutt",
     "description": "Platform that connects businesses with freelance writers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "blue-cat-networks",
@@ -1179,8 +1179,8 @@
     "id": "cloudstaff-careers",
     "name": "Cloudstaff Careers",
     "description": "Leading remote staffing firm offering premium work habitats and long-term careers for Philippine professionals.",
-    "tags": "full-time",
-    "category": "full-time"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "coalition-technologies",
@@ -1284,8 +1284,8 @@
     "id": "composely",
     "name": "Compose.ly",
     "description": "Platform that connects businesses with freelance writers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "compucorp",
@@ -1354,15 +1354,15 @@
     "id": "contently",
     "name": "Contently",
     "description": "Platform that connects businesses with freelance writers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "contently-asia",
     "name": "ContentlyAsia",
     "description": "Platform that connects businesses with freelance writers in Asia.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "content-writers-ph",
@@ -1452,8 +1452,8 @@
     "id": "crea-think-solutions",
     "name": "CreaThink Solutions",
     "description": "UK-Philippines outsourcing advisor/firm that supports UK businesses to hire Filipino VAs.",
-    "tags": "agency",
-    "category": "agency"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "creative-earners-philippines",
@@ -1683,8 +1683,8 @@
     "id": "digital-sps",
     "name": "Digital SPS",
     "description": "UK digital agency advertising Filipino virtual assistants for remote tasks, with flexible global hiring model.",
-    "tags": "part-time",
-    "category": "part-time"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "digital-ocean",
@@ -1704,8 +1704,8 @@
     "id": "digi-works",
     "name": "DigiWorks",
     "description": "Platform that allows small/medium UK (and other) businesses to hire Filipino remote staff including virtual assistants, with their system hand...",
-    "tags": "agency",
-    "category": "agency"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "discord",
@@ -1802,8 +1802,8 @@
     "id": "easy-outsourcing",
     "name": "Easy Outsourcing",
     "description": "Boutique UK/Philippines outsourcing agency offering Filipino VAs for UK & Europe.",
-    "tags": "part-time",
-    "category": "part-time"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "eat-street",
@@ -1893,8 +1893,8 @@
     "id": "enroll-app",
     "name": "Enroll App",
     "description": "Allows users to test websites and provide feedback for businesses.",
-    "tags": "gig",
-    "category": "gig"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "entrision",
@@ -2180,8 +2180,8 @@
     "id": "flat-planet",
     "name": "Flat Planet",
     "description": "Australian agency linking Aussie businesses with Filipino VAs for admin, support, and marketing roles. 5. Virtual Assistant Team - https:/ /ww...",
-    "tags": "australia",
-    "category": "australia"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "flexera",
@@ -2509,15 +2509,15 @@
     "id": "global-hola",
     "name": "Global Hola",
     "description": "Promotes a fun and inclusive virtual culture for Filipino VAs.",
-    "tags": "agency",
-    "category": "agency"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "global-teams",
     "name": "Global Teams",
     "description": "Australian remote staffing firm hiring Philippines-based VAs through local career pages.",
-    "tags": "full-time",
-    "category": "full-time"
+    "tags": "australia",
+    "category": "australia"
   },
   {
     "id": "gluware",
@@ -2761,8 +2761,8 @@
     "id": "hello-rache",
     "name": "Hello Rache",
     "description": "Specialized staffing agency for healthcare professionals, providing stable remote roles for registered nurses as medical scribes.",
-    "tags": "full-time",
-    "category": "full-time"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "hello-rache-1",
@@ -3286,8 +3286,8 @@
     "id": "kdci-outsourcing",
     "name": "KDCI Outsourcing",
     "description": "Outsourcing firm servicing global markets including UK, offering Filipino virtual assistants",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "kea",
@@ -3650,8 +3650,8 @@
     "id": "manpower-genius",
     "name": "Manpower Genius",
     "description": "British-owned headhunter/remote staffing agency that specialises in helping UK businesses hire Filipino virtual assistants and remote staff.",
-    "tags": "agency",
-    "category": "agency"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "mapbox",
@@ -3902,8 +3902,8 @@
     "id": "multiply-mii",
     "name": "MultiplyMii",
     "description": "End-to-end recruitment firm connecting talented Filipinos with high-growth e-commerce businesses globally.",
-    "tags": "full-time",
-    "category": "full-time"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "mux",
@@ -3965,8 +3965,8 @@
     "id": "n-dash",
     "name": "nDash",
     "description": "Platform that connects businesses with freelance writers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "net-app",
@@ -4112,8 +4112,8 @@
     "id": "officium",
     "name": "Officium",
     "description": "A UK company mentioned in job-threads that provides managed Filipino VA services to UK clients.",
-    "tags": "agency",
-    "category": "agency"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "okay-relax",
@@ -4154,8 +4154,8 @@
     "id": "olivia-pros",
     "name": "Olivia Pros",
     "description": "WFH also for Filipino VAs",
-    "tags": "agency",
-    "category": "agency"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "ollie",
@@ -4210,8 +4210,8 @@
     "id": "online-helpers",
     "name": "OnlineHelpers",
     "description": "Online Helpers is an Australian-owned company specializing in providing affordable offshore virtual assistance to small and medium-sized busin...",
-    "tags": "agency",
-    "category": "agency"
+    "tags": "australia",
+    "category": "australia"
   },
   {
     "id": "online-jobs",
@@ -4315,8 +4315,8 @@
     "id": "outsourcey",
     "name": "Outsourcey",
     "description": "Australian-owned agency specializing in high-quality Filipino virtual assistants for SMEs.",
-    "tags": "agency",
-    "category": "agency"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "outsourcing-angel",
@@ -4546,8 +4546,8 @@
     "id": "picoworkers",
     "name": "Picoworkers",
     "description": "Platform that offers remote work opportunities.",
-    "tags": "gig",
-    "category": "gig"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "pineapple-staffing",
@@ -4749,15 +4749,15 @@
     "id": "prop-va",
     "name": "PropVA",
     "description": "UK agency specialising in Filipino VAs for UK property / e-commerce / marketing.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "pro-source",
     "name": "ProSource",
     "description": "Outsourcing agency recruiting Filipino VA contractors for admin, e-commerce, and marketing.",
-    "tags": "australia",
-    "category": "australia"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "puppet",
@@ -5036,8 +5036,8 @@
     "id": "remote-staff-australia",
     "name": "Remote Staff (Australia)",
     "description": "Australia-founded remote staffing firm hiring Filipino VAs for AU & NZ clients, with recruitment and management support.",
-    "tags": "australia",
-    "category": "australia"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "remote-staff-philippines",
@@ -5491,8 +5491,8 @@
     "id": "skyword",
     "name": "Skyword",
     "description": "Platform that connects businesses with freelance writers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "smart-outsourcing-solution-sos",
@@ -5561,8 +5561,8 @@
     "id": "sos-va-services--smart-outsourcing-solution",
     "name": "SOS VA Services / Smart Outsourcing Solution",
     "description": "Global outsourcing firm that offers Filipino virtual assistants covering admin, marketing, customer support; offers part-time and project-base...",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "soshace",
@@ -5645,8 +5645,8 @@
     "id": "staffing-solutionsio-ssio",
     "name": "StaffingSolutions.io (SSIO)",
     "description": "Helps Australian companies hire Filipino VAs with scalable, cost-effective staffing options.",
-    "tags": "agency",
-    "category": "agency"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "stairlin",
@@ -5673,8 +5673,8 @@
     "id": "stellar-staff",
     "name": "Stellar Staff",
     "description": "Emerging agency providing dedicated Filipino VAs for real estate, marketing, and administrative roles.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "stencil",
@@ -5757,8 +5757,8 @@
     "id": "support-shepherd",
     "name": "Support Shepherd",
     "description": "Executive headhunting firm focused on long-term, high-quality remote career placements for Filipino professionals.",
-    "tags": "full-time",
-    "category": "full-time"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "surevine",
@@ -6002,8 +6002,8 @@
     "id": "the-property-va",
     "name": "The Property VA",
     "description": "UK agency focused on property-industry support. They source Filipino virtual assistants (especially for UK property investors/businesses) with...",
-    "tags": "agency",
-    "category": "agency"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "the-publisher-desk",
@@ -6436,8 +6436,8 @@
     "id": "virtual-elves",
     "name": "Virtual Elves",
     "description": "Australian VA agency hiring Filipino VAs and matching them quickly with Aussie businesses.",
-    "tags": "australia",
-    "category": "australia"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "virtual-freelancer-asia",
@@ -6478,8 +6478,8 @@
     "id": "virtual-staff-finder-1",
     "name": "Virtual Staff Finder",
     "description": "A platform that helps businesses connect with the best Filipino virtual assistants for their needs.",
-    "tags": "agency",
-    "category": "agency"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "virtual-vocations",
@@ -6772,8 +6772,8 @@
     "id": "work-mate-pro",
     "name": "WorkMate Pro",
     "description": "Platform connecting Filipino VAs with international clients, focused on productivity and role matching.",
-    "tags": "agency",
-    "category": "agency"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "workshop-casting-words",
@@ -6786,8 +6786,8 @@
     "id": "workspace-co-outsourcing",
     "name": "WorkspaceCo Outsourcing",
     "description": "Australian firm hiring university-educated Filipino VAs for admin, social media, and e-commerce.",
-    "tags": "agency",
-    "category": "agency"
+    "tags": "hiring-filipino-vas",
+    "category": "hiring-filipino-vas"
   },
   {
     "id": "worksvianet",

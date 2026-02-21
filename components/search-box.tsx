@@ -72,7 +72,7 @@ export default function SearchBox({ jobs }: { jobs: JobSiteUI[] }) {
         <div className="flex flex-col md:flex-row gap-4 justify-between items-start md:items-center mb-2">
             
           <div className="flex flex-wrap gap-2 items-center" role="group" aria-label="Category Filters">
-            {['all', 'freelance', 'full-time', 'part-time', 'gig', 'agency', 'ph-freelance-groups', 'usa', 'australia'].map(cat => (
+            {['all', 'freelance', 'full-time', 'part-time', 'gig', 'agency', 'ph-freelance-groups', 'usa', 'australia', 'hiring-filipino-vas'].map(cat => (
               <button
                 key={cat}
                 onClick={() => setFilterCategory(cat)}
@@ -87,13 +87,16 @@ export default function SearchBox({ jobs }: { jobs: JobSiteUI[] }) {
                     cat === 'ph-freelance-groups' ? 'bg-indigo-600 text-white shadow-md' :
                     cat === 'usa' ? 'bg-blue-700 text-white shadow-md' :
                     cat === 'australia' ? 'bg-sky-600 text-white shadow-md' :
+                    cat === 'hiring-filipino-vas' ? 'bg-teal-600 text-white shadow-md' :
                     'bg-sky-500 text-white shadow-md'
                   )
                   : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                 }`}
                 aria-pressed={filterCategory === cat}
               >
-                {cat === 'ph-freelance-groups' ? 'Freelance Groups' : cat.charAt(0).toUpperCase() + cat.slice(1).replace('-', ' ')}
+                {cat === 'ph-freelance-groups' ? 'Freelance Groups' : 
+                 cat === 'hiring-filipino-vas' ? 'Find Pinoy VA Jobs' : 
+                 cat.charAt(0).toUpperCase() + cat.slice(1).replace(/-/g, ' ')}
               </button>
             ))}
           </div>

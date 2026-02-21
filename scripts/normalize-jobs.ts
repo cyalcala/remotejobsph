@@ -1,6 +1,7 @@
 // @ts-nocheck
 import { readFileSync, writeFileSync } from 'fs';
 import { parse } from 'csv-parse/sync';
+import { stringify } from 'csv-stringify/sync';
 
 const CSV_PATH = './data/jobs.csv';
 
@@ -13,7 +14,7 @@ const records = parse(raw, {
 
 const MANUAL_OVERRIDE: Record<string, { category: string, about: string }> = {
   'Athena': {
-    category: 'full-time',
+    category: 'hiring-filipino-vas',
     about: 'Premier agency offering world-class training and high-paying full-time executive assistant roles for top-tier global clients.'
   },
   'OnlineJobs': {
@@ -25,15 +26,15 @@ const MANUAL_OVERRIDE: Record<string, { category: string, about: string }> = {
     about: 'A popular marketplace where Filipinos can create profiles and find direct remote work from employers in the US, UK, and Australia.'
   },
   'Hello Rache': {
-    category: 'full-time',
+    category: 'hiring-filipino-vas',
     about: 'Specialized staffing agency for healthcare professionals, providing stable remote roles for registered nurses as medical scribes.'
   },
   'Support Shepherd': {
-    category: 'full-time',
+    category: 'hiring-filipino-vas',
     about: 'Executive headhunting firm focused on long-term, high-quality remote career placements for Filipino professionals.'
   },
   'MultiplyMii': {
-    category: 'full-time',
+    category: 'hiring-filipino-vas',
     about: 'End-to-end recruitment firm connecting talented Filipinos with high-growth e-commerce businesses globally.'
   },
   'TaskBullet': {
@@ -61,20 +62,20 @@ const MANUAL_OVERRIDE: Record<string, { category: string, about: string }> = {
     about: 'Modern hiring platform connecting Filipino remote talent directly with international business owners.'
   },
   'BruntWork': {
-    category: 'full-time',
+    category: 'hiring-filipino-vas',
     about: 'Remote staffing company providing stable, high-paying full-time roles with health benefits and equipment for Filipinos.'
   },
   'Cloudstaff': {
-    category: 'full-time',
+    category: 'hiring-filipino-vas',
     about: 'Leading remote staffing firm offering premium work habitats and long-term careers for Philippine professionals.'
   }
 };
 
 const normalize = (records: any[]) => {
   return records.map((r: any) => {
-    let name = r['Remote Work Website'].trim();
+    const name = r['Remote Work Website'].trim();
     const url = r['Links'].trim();
-    const aboutRaw = r['About'];
+    const aboutRaw = r['About'] || '';
     
     // Check for manual overrides first (fuzzy match)
     const matchKey = Object.keys(MANUAL_OVERRIDE).find(key => name.toLowerCase().includes(key.toLowerCase()));
@@ -92,10 +93,21 @@ const normalize = (records: any[]) => {
     const lowerAbout = aboutRaw.toLowerCase();
     const lowerName = name.toLowerCase();
 
-    // Preserve special categories from merge script
-    const specialCategories = ['usa', 'australia', 'ph-freelance-groups'];
-    if (!specialCategories.includes(category)) {
-        // Heuristics
+    // Mapping priorities
+    const specialCategories = ['usa', 'australia', 'ph-freelance-groups', 'hiring-filipino-vas'];
+    
+    // 1. Detect "Hiring Filipino VAs" first as it's the user's focus
+    if (lowerAbout.includes('filipino va') || lowerAbout.includes('virtual assistant from the philippines') || lowerAbout.includes('filipino virtual assistant') || lowerAbout.includes('hire filipino')) {
+        category = 'hiring-filipino-vas';
+    } 
+    // 2. Location based
+    else if (url.includes('.com.au') || lowerAbout.includes('australian company') || lowerAbout.includes('aussie') || lowerAbout.includes('australia')) {
+        category = 'australia';
+    } else if (lowerAbout.includes('usa based') || lowerAbout.includes('united states') || lowerAbout.includes('u.s. company') || lowerAbout.includes('u.s. based')) {
+        category = 'usa';
+    }
+    // 3. Fallback to standard categories if not already a special category
+    else if (!specialCategories.includes(category)) {
         if (lowerAbout.includes('marketplace') || lowerAbout.includes('direct hiring') || lowerAbout.includes('direct hire') || lowerAbout.includes('link') || lowerAbout.includes('market') || lowerAbout.includes('platform for finding')) {
           category = 'freelance';
         } else if (lowerAbout.includes('full-time') || lowerAbout.includes('career') || lowerAbout.includes('stable') || lowerAbout.includes('long-term')) {
@@ -104,17 +116,8 @@ const normalize = (records: any[]) => {
           category = 'part-time';
         } else if (lowerAbout.includes('task') || lowerAbout.includes('project-based') || lowerAbout.includes('gig') || lowerAbout.includes('hourly')) {
           category = 'gig';
-        } else if (lowerAbout.includes('agency') || lowerAbout.includes('staffing') || lowerAbout.includes('outsourcing') || lowerAbout.includes('bpo')) {
+        } else {
           category = 'agency';
-        }
-    }
-
-    // Secondary location check (if still 'agency' or 'freelance')
-    if (category === 'agency' || category === 'freelance') {
-        if (url.includes('.com.au') || lowerAbout.includes('australian company') || lowerAbout.includes('aussie')) {
-            category = 'australia';
-        } else if (lowerAbout.includes('usa based') || lowerAbout.includes('united states') || lowerAbout.includes('u.s. company')) {
-            category = 'usa';
         }
     }
 
@@ -139,10 +142,10 @@ const normalize = (records: any[]) => {
       desc = desc.substring(0, 142) + '...';
     }
 
-    // Final validation to ensure category matches schema enum
-    const validEnums = ['freelance', 'full-time', 'part-time', 'gig', 'agency', 'usa', 'australia', 'ph-freelance-groups'];
+    // Final validation
+    const validEnums = ['freelance', 'full-time', 'part-time', 'gig', 'agency', 'usa', 'australia', 'ph-freelance-groups', 'hiring-filipino-vas'];
     if (!validEnums.includes(category)) {
-        category = 'agency'; // Fallback for things like 'design services'
+        category = 'agency';
     }
 
     return {
@@ -153,8 +156,6 @@ const normalize = (records: any[]) => {
     };
   });
 };
-
-import { stringify } from 'csv-stringify/sync';
 
 const updated = normalize(records);
 

@@ -60,21 +60,27 @@ function mergeData() {
         addRecord(r['Remote Work Website'], r['Links'], r['About'], r['Category']);
     });
 
-    // 2. Add Jobs8 (USA/Australia logic)
+    // 2. Add Jobs8 (USA/Australia/Filipino VA logic)
     jobs8Records.forEach((r: any) => {
         let cat = r['Category'] || 'agency';
         const about = r['About'] || '';
         const url = r['Links'] || '';
         const name = r['Remote Work Website'] || '';
 
-        // Intelligent Location categorization
         const lowerAbout = about.toLowerCase();
         const lowerName = name.toLowerCase();
         const lowerUrl = url.toLowerCase();
 
-        if (lowerUrl.includes('.com.au') || lowerUrl.includes('.org.au') || lowerAbout.includes('australia') || lowerAbout.includes('aussie') || lowerName.includes('(australia)')) {
+        // Priority 1: Hiring Filipino VAs (Very specific intent)
+        if (lowerAbout.includes('filipino va') || lowerAbout.includes('virtual assistant from the philippines') || lowerAbout.includes('filipino virtual assistant')) {
+            cat = 'hiring-filipino-vas';
+        }
+        // Priority 2: Australia
+        else if (lowerUrl.includes('.com.au') || lowerUrl.includes('.org.au') || lowerAbout.includes('australia') || lowerAbout.includes('aussie') || lowerAbout.includes('australian company') || lowerName.includes('(australia)')) {
             cat = 'australia';
-        } else if (lowerAbout.includes('u.s.') || lowerAbout.includes('usa') || lowerAbout.includes('united states') || lowerUrl.includes('.us/')) {
+        } 
+        // Priority 3: USA
+        else if (lowerAbout.includes('u.s.') || lowerAbout.includes('usa') || lowerAbout.includes('united states') || lowerAbout.includes('u.s. based') || lowerUrl.includes('.us/')) {
             cat = 'usa';
         }
 

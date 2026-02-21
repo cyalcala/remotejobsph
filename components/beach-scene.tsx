@@ -1,7 +1,7 @@
 'use client';
 import { Canvas, useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
-import { useMemo, useRef, Suspense } from 'react';
+import { useMemo, useRef, Suspense, useEffect, useState } from 'react';
 
 // Basic WebGL Ocean
 function Ocean() {
@@ -100,7 +100,15 @@ function Particles() {
 }
 
 export default function BeachScene() {
-  // Mobile check or prefers-reduced-motion check can be done via CSS/state if needed
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
+  if (!mounted) {
+      return (
+          <div className="w-full h-64 bg-gradient-to-b from-sky-400 to-sky-200" />
+      );
+  }
+
   return (
     <div className="w-full h-64 relative bg-gradient-to-b from-sky-400 to-sky-200 overflow-hidden">
       <Canvas

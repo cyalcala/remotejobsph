@@ -32,7 +32,13 @@ export default function JobCard({ job }: { job: JobSiteUI }) {
       </p>
 
       <div className="flex flex-wrap gap-2 mt-auto">
-        <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-semibold bg-gray-100 text-gray-800">
+        <span className={`inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-semibold ${
+          job.category === 'freelance' ? 'bg-purple-100 text-purple-800' :
+          job.category === 'full-time' ? 'bg-emerald-100 text-emerald-800' :
+          job.category === 'part-time' ? 'bg-orange-100 text-orange-800' :
+          job.category === 'gig' ? 'bg-pink-100 text-pink-800' :
+          'bg-gray-100 text-gray-800'
+        }`}>
           {job.category.replace('-', ' ')}
         </span>
         <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-medium bg-sky-100 text-sky-800">

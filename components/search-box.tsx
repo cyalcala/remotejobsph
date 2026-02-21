@@ -78,7 +78,14 @@ export default function SearchBox({ jobs }: { jobs: JobSiteUI[] }) {
                 onClick={() => setFilterCategory(cat)}
                 className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${
                   filterCategory === cat 
-                  ? 'bg-sky-500 text-white shadow-md' 
+                  ? (
+                    cat === 'freelance' ? 'bg-purple-500 text-white shadow-md' :
+                    cat === 'full-time' ? 'bg-emerald-500 text-white shadow-md' :
+                    cat === 'part-time' ? 'bg-orange-500 text-white shadow-md' :
+                    cat === 'gig' ? 'bg-pink-500 text-white shadow-md' :
+                    cat === 'agency' ? 'bg-blue-600 text-white shadow-md' :
+                    'bg-sky-500 text-white shadow-md'
+                  )
                   : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                 }`}
                 aria-pressed={filterCategory === cat}

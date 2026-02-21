@@ -47,12 +47,14 @@ async function buildData() {
     const lineNumber = i + 2; // +1 for header, +1 for 0-index
     
     // Map from the actual CSV headers to our schema
+    const categoryFromCsv = (rawRecord['Category'] || 'freelance').toLowerCase();
+    
     const record: any = {
       id: toKebabCase(rawRecord['Remote Work Website'] || `site-${i}`),
       name: rawRecord['Remote Work Website'] || '',
       url: rawRecord['Links'] || '',
-      category: 'freelance', // Default since CSV category doesn't match enum
-      tags: rawRecord['Category'] || 'General',
+      category: categoryFromCsv,
+      tags: rawRecord['Tags'] || rawRecord['Category'] || 'General',
       remote_type: 'fully-remote', // Default
       rating: '', // Default
       last_verified: new Date().toISOString().split('T')[0], // Default to today

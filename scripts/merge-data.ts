@@ -55,12 +55,12 @@ function mergeData() {
     };
 
     // 1. Add Primary (highest priority)
-    primaryRecords.forEach(r => {
+    primaryRecords.forEach((r: any) => {
         addRecord(r['Remote Work Website'], r['Links'], r['About'], r['Category']);
     });
 
     // 2. Add Jobs8 (USA/Australia logic)
-    jobs8Records.forEach(r => {
+    jobs8Records.forEach((r: any) => {
         let cat = r['Category'] || 'agency';
         const about = r['About'] || '';
         const url = r['Links'] || '';
@@ -81,7 +81,7 @@ function mergeData() {
     });
 
     // 3. Add Jobs9 (PH Freelance Groups)
-    jobs9Records.forEach(r => {
+    jobs9Records.forEach((r: any) => {
         const name = r['Group Name'] || r['Remote Work Website'];
         const url = r['Facebook Link'] || r['Links'];
         addRecord(name, url, 'Filipino freelance community group for networking, support, and job leads.', 'ph-freelance-groups');

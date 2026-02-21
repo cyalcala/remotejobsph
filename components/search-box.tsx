@@ -172,7 +172,7 @@ export default function SearchBox({ jobs, phJobs }: { jobs: JobSiteUI[], phJobs:
       {/* 7. HERO SECTION */}
       <section className="bg-base px-6 py-12 text-center max-w-[1200px] mx-auto w-full">
         <h2 className="text-[2.5rem] font-bold text-primary tracking-tight leading-tight">
-            🌏 Find Remote Work as a Filipino
+            🌏 Top Remote Jobs for Filipino Talent
         </h2>
         <p className="text-secondary mt-2">
             Browse {sanitizedJobs.length} remote-friendly companies — updated regularly

@@ -14,29 +14,23 @@ export default async function HomePage() {
   return (
     <main className="relative min-h-screen">
       {/* Cinematic Background */}
-      <div className="fixed inset-0 -z-10">
-        <div className="absolute inset-0 bg-black/30 z-10" /> {/* Cinematic Overlay */}
+      <div className="fixed inset-0 -z-10 bg-[#001a2a]">
+        <div className="absolute inset-0 bg-black/20 z-10" /> {/* Subtle Cinematic Overlay */}
         <img 
-          src="/lush-background.png" 
-          alt="Lush Tropical Beach" 
-          className="w-full h-full object-cover scale-105 animate-pulse-slow font-serif"
-          style={{ animationDuration: '20s' }}
+          src="/philippines-beach.png" 
+          alt="Relaxing Philippines Beach" 
+          className="w-full h-full object-cover scale-100 animate-fade-in"
         />
       </div>
 
-      <div className="relative z-20 max-w-7xl mx-auto px-4 py-12 md:py-24">
+      <div className="relative z-20 max-w-7xl mx-auto px-4 py-16 md:py-32">
         {/* Floating Hero Section */}
         <div className="flex flex-col items-center mb-16 text-center">
-            <h1 className="text-5xl md:text-8xl font-black text-white drop-shadow-2xl tracking-tighter mb-4">
+            <h1 className="text-6xl md:text-9xl font-black text-white drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)] tracking-tighter mb-4 uppercase">
                 REMOTEJOBS<span className="text-teal-400">PH</span>
             </h1>
-            <div className="glass px-6 py-2 rounded-full border border-white/20">
-                <p className="text-white md:text-lg font-medium tracking-wide">
-                    Lush & Modern Remote Job Portal for Filipinos
-                </p>
-            </div>
-            <p className="text-white/80 text-sm md:text-base font-medium mt-6 max-w-lg drop-shadow-md">
-                Search, Click, and Get Hired. Experience the premium way to find your next remote career.
+            <p className="text-white/90 text-sm md:text-lg font-bold mt-4 max-w-lg drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)] uppercase tracking-[0.2em]">
+                Your Gateway to Global Careers
             </p>
         </div>
 

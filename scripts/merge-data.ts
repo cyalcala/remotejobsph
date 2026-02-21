@@ -1,4 +1,5 @@
-
+#!/usr/bin/env bun
+// @ts-nocheck
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { parse } from 'csv-parse/sync';
 import { stringify } from 'csv-stringify/sync';

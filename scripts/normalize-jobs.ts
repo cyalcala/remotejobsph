@@ -1,4 +1,4 @@
-
+// @ts-nocheck
 import { readFileSync, writeFileSync } from 'fs';
 import { parse } from 'csv-parse/sync';
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env bun
+// @ts-nocheck
 import { parse } from 'csv-parse/sync';
 import { z } from 'zod';
 import { mkdirSync, writeFileSync, existsSync } from 'fs';

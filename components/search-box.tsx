@@ -72,30 +72,31 @@ export default function SearchBox({ jobs }: { jobs: JobSiteUI[] }) {
         <div className="flex flex-col md:flex-row gap-4 justify-between items-start md:items-center mb-2">
             
           <div className="flex flex-wrap gap-2 items-center" role="group" aria-label="Category Filters">
-            {['all', 'freelance', 'full-time', 'part-time', 'gig', 'agency', 'ph-freelance-groups', 'usa', 'australia', 'hiring-filipino-vas'].map(cat => (
+            {['all', 'hiring-filipino-vas', 'gig', 'agency', 'ph-freelance-groups', 'usa', 'australia'].map(cat => (
               <button
                 key={cat}
                 onClick={() => setFilterCategory(cat)}
-                className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${
+                className={`px-4 py-2 rounded-full text-sm font-semibold transition-all ${
                   filterCategory === cat 
                   ? (
-                    cat === 'freelance' ? 'bg-purple-500 text-white shadow-md' :
-                    cat === 'full-time' ? 'bg-emerald-500 text-white shadow-md' :
-                    cat === 'part-time' ? 'bg-orange-500 text-white shadow-md' :
-                    cat === 'gig' ? 'bg-pink-500 text-white shadow-md' :
-                    cat === 'agency' ? 'bg-blue-600 text-white shadow-md' :
-                    cat === 'ph-freelance-groups' ? 'bg-indigo-600 text-white shadow-md' :
-                    cat === 'usa' ? 'bg-blue-700 text-white shadow-md' :
-                    cat === 'australia' ? 'bg-sky-600 text-white shadow-md' :
-                    cat === 'hiring-filipino-vas' ? 'bg-teal-600 text-white shadow-md' :
-                    'bg-sky-500 text-white shadow-md'
+                    cat === 'hiring-filipino-vas' ? 'bg-teal-600 text-white shadow-lg scale-105' :
+                    cat === 'gig' ? 'bg-pink-500 text-white shadow-lg scale-105' :
+                    cat === 'agency' ? 'bg-blue-600 text-white shadow-lg scale-105' :
+                    cat === 'ph-freelance-groups' ? 'bg-indigo-600 text-white shadow-lg scale-105' :
+                    cat === 'usa' ? 'bg-blue-700 text-white shadow-lg scale-105' :
+                    cat === 'australia' ? 'bg-sky-600 text-white shadow-lg scale-105' :
+                    'bg-sky-500 text-white shadow-lg scale-105'
                   )
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                  : 'bg-white/80 text-gray-600 hover:bg-white hover:shadow-sm border border-gray-200'
                 }`}
                 aria-pressed={filterCategory === cat}
               >
-                {cat === 'ph-freelance-groups' ? 'Freelance Groups' : 
-                 cat === 'hiring-filipino-vas' ? 'Find Pinoy VA Jobs' : 
+                {cat === 'all' ? '✨ All Jobs' :
+                 cat === 'hiring-filipino-vas' ? '🔥 Pinoy VA Jobs' :
+                 cat === 'ph-freelance-groups' ? '👥 Freelance Groups' :
+                 cat === 'gig' ? '🎯 Gig' :
+                 cat === 'usa' ? '🇺🇸 USA' :
+                 cat === 'australia' ? '🇦🇺 Australia' :
                  cat.charAt(0).toUpperCase() + cat.slice(1).replace(/-/g, ' ')}
               </button>
             ))}

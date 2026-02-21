@@ -143,8 +143,8 @@
     "id": "active-campaign",
     "name": "ActiveCampaign",
     "description": "Email marketing and automation software",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "ad-hoc",
@@ -213,8 +213,8 @@
     "id": "ag-flow",
     "name": "AgFlow",
     "description": "Agricultural commodities marketplace",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "aha",
@@ -360,8 +360,8 @@
     "id": "animalz",
     "name": "Animalz",
     "description": "Content marketing agency",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "annertech",
@@ -395,8 +395,8 @@
     "id": "appinio",
     "name": "Appinio",
     "description": "Mobile market research platform",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "applaudo",
@@ -542,8 +542,8 @@
     "id": "aws-mechanical-turk",
     "name": "AWS Mechanical Turk",
     "description": "A crowdsourcing marketplace for micro-tasks, offering remote work opportunities.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "axelerant",
@@ -738,8 +738,8 @@
     "id": "bizink",
     "name": "Bizink",
     "description": "Digital marketing and website solutions",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "bka-content",
@@ -836,8 +836,8 @@
     "id": "bounteous",
     "name": "Bounteous",
     "description": "Digital marketing and commerce agency",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "brainstorm-force",
@@ -1130,8 +1130,8 @@
     "id": "clear-voice",
     "name": "ClearVoice",
     "description": "A content marketplace that connects businesses with freelance writers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "clevertech",
@@ -1172,8 +1172,8 @@
     "id": "cloud-peeps",
     "name": "CloudPeeps",
     "description": "A marketplace for freelance professionals, including virtual assistants and remote workers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "cloudstaff-careers",
@@ -1186,15 +1186,15 @@
     "id": "coalition-technologies",
     "name": "Coalition Technologies",
     "description": "Web design and digital marketing agency",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "coconut-va",
     "name": "Coconut VA",
     "description": "Provides virtual assistant services to help businesses with various tasks.",
-    "tags": "gig",
-    "category": "gig"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "code-like-a-girl",
@@ -1270,8 +1270,8 @@
     "id": "comet",
     "name": "Comet",
     "description": "Talent marketplace for freelancers",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "compose",
@@ -1333,15 +1333,15 @@
     "id": "content-da",
     "name": "ContentDa",
     "description": "A content marketplace that connects businesses with freelance writers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "content-da-da",
     "name": "ContentDaDa",
     "description": "A content marketplace that connects businesses with freelance writers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "contentify",
@@ -1382,8 +1382,8 @@
     "id": "conversio",
     "name": "Conversio",
     "description": "E-commerce marketing platform",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "convert",
@@ -1410,8 +1410,8 @@
     "id": "copify",
     "name": "Copify",
     "description": "A content marketplace that connects businesses with freelance writers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "copy-press",
@@ -1487,8 +1487,8 @@
     "id": "crowd-content",
     "name": "Crowd Content",
     "description": "A content marketplace that connects businesses with freelance writers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "crowdstrike",
@@ -1823,8 +1823,8 @@
     "id": "ebyline",
     "name": "Ebyline",
     "description": "A marketplace for freelance journalists and content creators.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "eco-mind",
@@ -1907,8 +1907,8 @@
     "id": "envato",
     "name": "Envato",
     "description": "Marketplace for creative assets and services",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "envato-careers",
@@ -1991,8 +1991,8 @@
     "id": "etsy",
     "name": "Etsy",
     "description": "Online marketplace for handmade and vintage items",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "euro-freelancers",
@@ -2019,8 +2019,8 @@
     "id": "e-virtual-assistants",
     "name": "eVirtualAssistants",
     "description": "Marketplace platform focused on providing direct communication between clients and Filipino virtual assistants.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "evrone",
@@ -2075,8 +2075,8 @@
     "id": "fancy-hands",
     "name": "Fancy Hands",
     "description": "Subscription-based service for various administrative tasks with a pool of VAs",
-    "tags": "gig",
-    "category": "gig"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "fast-track-fba",
@@ -2152,8 +2152,8 @@
     "id": "fire-engine-red",
     "name": "Fire Engine Red",
     "description": "Marketing and technology solutions",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "fireball-labs",
@@ -2166,15 +2166,15 @@
     "id": "fiverr",
     "name": "Fiverr",
     "description": "A marketplace for freelance services, including virtual assistance and other remote work.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "fivex-l",
     "name": "FivexL",
     "description": "Data-driven digital marketing agency",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "flat-planet",
@@ -2194,8 +2194,8 @@
     "id": "flex-jobs",
     "name": "FlexJobs",
     "description": "A job board that offers flexible and remote job opportunities.",
-    "tags": "part-time",
-    "category": "part-time"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "flight-aware",
@@ -2313,8 +2313,8 @@
     "id": "freelancer",
     "name": "Freelancer",
     "description": "A marketplace for freelance services, including virtual assistance and other remote work.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "freelance-writing-jobs",
@@ -2334,8 +2334,8 @@
     "id": "free-up",
     "name": "FreeUp",
     "description": "High-end freelance marketplace that pre-vets talent, connecting top 1% of Filipino freelancers with global business owners.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "fuel-made",
@@ -2348,8 +2348,8 @@
     "id": "full-fabric",
     "name": "FullFabric",
     "description": "CRM and marketing automation for higher education",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "functionize",
@@ -2383,8 +2383,8 @@
     "id": "general-assembly",
     "name": "General Assembly",
     "description": "Education and career transformation platform",
-    "tags": "full-time",
-    "category": "full-time"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "geo-jobe",
@@ -2453,8 +2453,8 @@
     "id": "gig-salad",
     "name": "GigSalad",
     "description": "Online marketplace for booking live entertainment",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "gitbook",
@@ -2558,8 +2558,8 @@
     "id": "golance",
     "name": "Golance",
     "description": "A platform for finding and hiring freelancers, including virtual assistants and remote workers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "go-remote",
@@ -2614,8 +2614,8 @@
     "id": "greatlance",
     "name": "Greatlance",
     "description": "A platform for finding and hiring freelance professionals, including remote workers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "gremlin",
@@ -2649,8 +2649,8 @@
     "id": "growth-assistant",
     "name": "GrowthAssistant",
     "description": "Growth marketing team that hires for various roles and offers a positive workplace culture.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "grubhub",
@@ -2677,8 +2677,8 @@
     "id": "guru",
     "name": "Guru",
     "description": "A platform for finding and hiring freelance professionals, including virtual assistants.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "hack-reactor-remote",
@@ -2803,8 +2803,8 @@
     "id": "hire-writers",
     "name": "HireWriters",
     "description": "A content marketplace that connects businesses with freelance writers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "home-service-va",
@@ -2894,8 +2894,8 @@
     "id": "husl-digital",
     "name": "HUSL Digital",
     "description": "Digital marketing agency",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "hypergiant",
@@ -2978,8 +2978,8 @@
     "id": "implisense",
     "name": "Implisense",
     "description": "AI-based company and market intelligence platform",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "indeed",
@@ -3202,8 +3202,8 @@
     "id": "job-market",
     "name": "JobMarket",
     "description": "JobMarket is a job portal that offers job listings across various industries and roles. It also provides career advice and resources to help j...",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "job-quest",
@@ -3216,8 +3216,8 @@
     "id": "jobs180",
     "name": "Jobs180",
     "description": "Jobs180 is a job portal that offers job listings across various industries and roles. It also provides career advice and resources to help job...",
-    "tags": "full-time",
-    "category": "full-time"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "jobspresso",
@@ -3349,8 +3349,8 @@
     "id": "klaviyo",
     "name": "Klaviyo",
     "description": "Marketing automation and email platform",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "knack",
@@ -3545,8 +3545,8 @@
     "id": "litmus",
     "name": "Litmus",
     "description": "Email marketing and testing platform",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "live-person",
@@ -3573,8 +3573,8 @@
     "id": "localistico",
     "name": "Localistico",
     "description": "Location data management and marketing platform",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "log-dna",
@@ -3636,15 +3636,15 @@
     "id": "mailer-lite",
     "name": "MailerLite",
     "description": "Email marketing and automation platform",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "manifold",
     "name": "Manifold",
     "description": "Developer marketplace for APIs and cloud services",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "manpower-genius",
@@ -3671,8 +3671,8 @@
     "id": "marketade",
     "name": "Marketade",
     "description": "Digital marketing and UX consulting agency",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "mars-based",
@@ -3741,8 +3741,8 @@
     "id": "mercari",
     "name": "Mercari",
     "description": "Online marketplace for buying and selling used goods",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "merico",
@@ -3790,8 +3790,8 @@
     "id": "microwork",
     "name": "Microwork",
     "description": "A platform that provides micro-task opportunities for remote workers.",
-    "tags": "gig",
-    "category": "gig"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "mindful",
@@ -3930,8 +3930,8 @@
     "id": "my-virtudesk",
     "name": "My Virtudesk",
     "description": "Offers virtual assistant services for various industries, including real estate and marketing.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "mycelium",
@@ -4000,8 +4000,8 @@
     "id": "nettl-edinburgh",
     "name": "Nettl Edinburgh",
     "description": "Web design and digital marketing agency",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "new-context",
@@ -4119,15 +4119,15 @@
     "id": "okay-relax",
     "name": "OkayRelax",
     "description": "A platform that connects users with virtual assistants for personal and professional tasks.",
-    "tags": "gig",
-    "category": "gig"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "okrelax",
     "name": "Okrelax",
     "description": "A platform that connects users with virtual assistants for personal and professional tasks.",
-    "tags": "gig",
-    "category": "gig"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "okta",
@@ -4147,8 +4147,8 @@
     "id": "olist",
     "name": "Olist",
     "description": "E-commerce marketplace platform for small businesses",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "olivia-pros",
@@ -4196,8 +4196,8 @@
     "id": "one-space",
     "name": "OneSpace",
     "description": "A platform that offers remote work opportunities for various tasks, including content creation.",
-    "tags": "gig",
-    "category": "gig"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "online-jobs-ph",
@@ -4217,8 +4217,8 @@
     "id": "online-jobs",
     "name": "OnlineJobs",
     "description": "The largest and most established marketplace for finding direct-hire remote jobs in the Philippines with thousands of listings.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "onna",
@@ -4294,8 +4294,8 @@
     "id": "outsource-plug",
     "name": "Outsource Plug",
     "description": "Provides virtual assistant services to help businesses with various tasks.",
-    "tags": "gig",
-    "category": "gig"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "outsource-workers",
@@ -4308,8 +4308,8 @@
     "id": "outsourcely",
     "name": "Outsourcely",
     "description": "Connects businesses with remote workers for long-term employment.",
-    "tags": "full-time",
-    "category": "full-time"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "outsourcey",
@@ -4497,8 +4497,8 @@
     "id": "people-per-hour",
     "name": "PeoplePerHour",
     "description": "A marketplace for connecting businesses with freelancers for various tasks and projects.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "pepper-virtual-assistants",
@@ -4532,8 +4532,8 @@
     "id": "phil-job-net",
     "name": "PhilJobNet",
     "description": "PhilJobNet is an online job portal that offers job listings across various industries and roles. It also provides career advice and resources ...",
-    "tags": "full-time",
-    "category": "full-time"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "phyllis-song-agency",
@@ -4945,8 +4945,8 @@
     "id": "remotasks",
     "name": "Remotasks",
     "description": "A platform that offers various tasks for remote workers, such as data annotation and transcription.",
-    "tags": "gig",
-    "category": "gig"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "remote-bliss",
@@ -4987,8 +4987,8 @@
     "id": "remote-global",
     "name": "Remote Global",
     "description": "Offers a platform for finding remote jobs and freelance projects worldwide.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "remote-health-jobs",
@@ -5029,8 +5029,8 @@
     "id": "remote-ok",
     "name": "Remote OK",
     "description": "A platform for finding remote jobs in various industries.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "remote-staff-australia",
@@ -5449,8 +5449,8 @@
     "id": "simple-texting",
     "name": "SimpleTexting",
     "description": "Business SMS and text marketing platform",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "six-to-start",
@@ -5519,8 +5519,8 @@
     "id": "smmile-digital",
     "name": "Smmile Digital",
     "description": "Digital marketing agency based in Singapore",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "socket-supply-co",
@@ -5575,15 +5575,15 @@
     "id": "speech-pad",
     "name": "Speech Pad",
     "description": "Offers transcription and captioning services, and hires remote workers for these tasks.",
-    "tags": "gig",
-    "category": "gig"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "speedlancer",
     "name": "Speedlancer",
     "description": "A marketplace that connects businesses with freelancers for fast project completion.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "sphere-rocket",
@@ -5596,8 +5596,8 @@
     "id": "spoqa",
     "name": "Spoqa",
     "description": "Loyalty and marketing platform for businesses in Korea",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "spotify",
@@ -5680,8 +5680,8 @@
     "id": "stencil",
     "name": "Stencil",
     "description": "Graphic design tool for social media and marketing",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "sticker-mule",
@@ -5736,8 +5736,8 @@
     "id": "study-soup",
     "name": "StudySoup",
     "description": "Online marketplace for study materials and tutoring",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "superplayer--co",
@@ -5820,15 +5820,15 @@
     "id": "taskade",
     "name": "Taskade",
     "description": "Collaborative workspace and task management tool",
-    "tags": "gig",
-    "category": "gig"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "task-away",
     "name": "TaskAway",
     "description": "Provides skilled VAs for various tasks (administrative, project management)",
-    "tags": "gig",
-    "category": "gig"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "taskbullet",
@@ -5946,8 +5946,8 @@
     "id": "textbroker",
     "name": "Textbroker",
     "description": "A content marketplace that connects businesses with freelance writers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "text-master",
@@ -6079,8 +6079,8 @@
     "id": "time-etc",
     "name": "Time Etc",
     "description": "Provides virtual assistant services to help businesses with various tasks.",
-    "tags": "gig",
-    "category": "gig"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "time-spot",
@@ -6114,8 +6114,8 @@
     "id": "toptal",
     "name": "Toptal",
     "description": "A marketplace for hiring top-tier freelance professionals, including remote workers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "tower",
@@ -6177,8 +6177,8 @@
     "id": "truelancer",
     "name": "Truelancer",
     "description": "A freelance marketplace that connects businesses with remote professionals.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "truelogic-software",
@@ -6254,8 +6254,8 @@
     "id": "upwork",
     "name": "Upwork",
     "description": "The worlds largest freelance platform offering a vast range of remote opportunities for Filipino specialists and agencies.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "upworthy",
@@ -6310,22 +6310,22 @@
     "id": "u-ship",
     "name": "uShip",
     "description": "Online marketplace for shipping and transport services",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "usource",
     "name": "USource",
     "description": "Range of services (digital marketing, customer support) with full-time VAs",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "usource-1",
     "name": "USource",
     "description": "Digital outsourcing company offering a large pool of digital talent with flexible hiring options.",
-    "tags": "part-time",
-    "category": "part-time"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "utest",
@@ -6506,15 +6506,15 @@
     "id": "virtual-staff",
     "name": "VirtualStaff",
     "description": "A popular marketplace where Filipinos can create profiles and find direct remote work from employers in the US, UK, and Australia.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "virtual-staffph",
     "name": "VirtualStaff.ph",
     "description": "A popular marketplace where Filipinos can create profiles and find direct remote work from employers in the US, UK, and Australia.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "vmware",
@@ -6527,8 +6527,8 @@
     "id": "voicebunny",
     "name": "Voicebunny",
     "description": "A marketplace for voiceover professionals, including remote work opportunities.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "voices",
@@ -6597,8 +6597,8 @@
     "id": "web-fx",
     "name": "WebFX",
     "description": "Digital marketing agency",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "webikon",
@@ -6653,8 +6653,8 @@
     "id": "whitecap-seo",
     "name": "Whitecap SEO",
     "description": "Search engine optimization and digital marketing agency",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "whitespectre",
@@ -6744,8 +6744,8 @@
     "id": "workbank",
     "name": "Workbank",
     "description": "Workbank is a job portal that offers job listings across various industries and roles in the Philippines. It also provides career advice and r...",
-    "tags": "full-time",
-    "category": "full-time"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "workew",
@@ -6793,8 +6793,8 @@
     "id": "worksvianet",
     "name": "Worksvianet",
     "description": "Worksvianet is a job portal that offers job listings across various industries and roles. It also provides career advice and resources to help...",
-    "tags": "full-time",
-    "category": "full-time"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "wp-media",
@@ -6814,8 +6814,8 @@
     "id": "writer-access",
     "name": "WriterAccess",
     "description": "A content marketplace that connects businesses with freelance writers.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "gig",
+    "category": "gig"
   },
   {
     "id": "writer-bay",
@@ -6842,8 +6842,8 @@
     "id": "writer-relief",
     "name": "WriterRelief",
     "description": "A service that helps writers find markets for their work and offers remote work opportunities.",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "writerzillas",
@@ -6898,8 +6898,8 @@
     "id": "ylopo-llc",
     "name": "Ylopo LLC",
     "description": "Ylopo is a real estate technology company that provides digital marketing solutions for real estate agents and brokers",
-    "tags": "freelance",
-    "category": "freelance"
+    "tags": "agency",
+    "category": "agency"
   },
   {
     "id": "yodo1",

@@ -33,17 +33,14 @@ export default function JobCard({ job }: { job: JobSiteUI }) {
 
       <div className="flex flex-wrap gap-2 mt-auto">
         <span className={`inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-semibold ${
-          job.category === 'freelance' ? 'bg-purple-100 text-purple-800' :
-          job.category === 'full-time' ? 'bg-emerald-100 text-emerald-800' :
-          job.category === 'part-time' ? 'bg-orange-100 text-orange-800' :
           job.category === 'gig' ? 'bg-pink-100 text-pink-800' :
           job.category === 'ph-freelance-groups' ? 'bg-indigo-100 text-indigo-800' :
           job.category === 'usa' ? 'bg-blue-100 text-blue-800' :
           job.category === 'australia' ? 'bg-sky-100 text-sky-800' :
           job.category === 'hiring-filipino-vas' ? 'bg-teal-100 text-teal-800' :
-          'bg-gray-100 text-gray-800'
+          'bg-blue-50 text-blue-700'
         }`}>
-          {job.category === 'ph-freelance-groups' ? 'groups' : 
+          {job.category === 'ph-freelance-groups' ? 'freelance groups' : 
            job.category === 'hiring-filipino-vas' ? 'Pinoy VA jobs' :
            job.category.replace('-', ' ')}
         </span>

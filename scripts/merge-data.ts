@@ -41,28 +41,34 @@ function mergeData() {
 
     const merged = new Map<string, any>();
 
-    // Helper to add record with deduplication
     const addRecord = (name: string, url: string, about: string, category: string) => {
         if (!url || !name) return;
         const cleanUrl = url.trim().toLowerCase().replace(/\/$/, '');
         if (merged.has(cleanUrl)) return;
         
+        // Final mapping to narrowed categories
+        const validEnums = ['gig', 'agency', 'usa', 'australia', 'ph-freelance-groups', 'hiring-filipino-vas'];
+        let finalCat = category.toLowerCase().trim();
+        if (!validEnums.includes(finalCat)) {
+            finalCat = 'agency';
+        }
+
         merged.set(cleanUrl, {
             'Remote Work Website': (name || '').trim(),
             'Links': (url || '').trim(),
             'About': (about || '').trim(),
-            'Category': (category || 'agency').trim()
+            'Category': finalCat
         });
     };
 
-    // 1. Add Primary (highest priority)
+    // 1. Add Primary
     primaryRecords.forEach((r: any) => {
         addRecord(r['Remote Work Website'], r['Links'], r['About'], r['Category']);
     });
 
-    // 2. Add Jobs8 (USA/Australia/Filipino VA logic)
+    // 2. Add Jobs8 (USA/Australia/Pinoy VA)
     jobs8Records.forEach((r: any) => {
-        let cat = r['Category'] || 'agency';
+        let cat = 'agency'; 
         const about = r['About'] || '';
         const url = r['Links'] || '';
         const name = r['Remote Work Website'] || '';
@@ -71,17 +77,14 @@ function mergeData() {
         const lowerName = name.toLowerCase();
         const lowerUrl = url.toLowerCase();
 
-        // Priority 1: Hiring Filipino VAs (Very specific intent)
         if (lowerAbout.includes('filipino va') || lowerAbout.includes('virtual assistant from the philippines') || lowerAbout.includes('filipino virtual assistant')) {
             cat = 'hiring-filipino-vas';
-        }
-        // Priority 2: Australia
-        else if (lowerUrl.includes('.com.au') || lowerUrl.includes('.org.au') || lowerAbout.includes('australia') || lowerAbout.includes('aussie') || lowerAbout.includes('australian company') || lowerName.includes('(australia)')) {
+        } else if (lowerUrl.includes('.com.au') || lowerUrl.includes('.org.au') || lowerAbout.includes('australia') || lowerAbout.includes('aussie')) {
             cat = 'australia';
-        } 
-        // Priority 3: USA
-        else if (lowerAbout.includes('u.s.') || lowerAbout.includes('usa') || lowerAbout.includes('united states') || lowerAbout.includes('u.s. based') || lowerUrl.includes('.us/')) {
+        } else if (lowerAbout.includes('u.s.') || lowerAbout.includes('usa') || lowerAbout.includes('united states') || lowerUrl.includes('.us/')) {
             cat = 'usa';
+        } else if (lowerAbout.includes('marketplace') || lowerAbout.includes('gig')) {
+            cat = 'gig';
         }
 
         addRecord(name, url, about, cat);
@@ -95,11 +98,9 @@ function mergeData() {
     });
 
     const finalRecords = Array.from(merged.values());
-    
     const csvContent = stringify(finalRecords, { header: true });
     writeFileSync(PRIMARY_CSV, csvContent);
-    
-    console.log(`✅ Merged data. Total records: ${finalRecords.length}`);
+    console.log(`✅ Merged data. Total narrowed records: ${finalRecords.length}`);
 }
 
 mergeData();

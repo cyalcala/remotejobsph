@@ -18,11 +18,11 @@ const MANUAL_OVERRIDE: Record<string, { category: string, about: string }> = {
     about: 'Premier agency offering world-class training and high-paying full-time executive assistant roles for top-tier global clients.'
   },
   'OnlineJobs': {
-    category: 'freelance',
+    category: 'gig',
     about: 'The largest and most established marketplace for finding direct-hire remote jobs in the Philippines with thousands of listings.'
   },
   'VirtualStaff': {
-    category: 'freelance',
+    category: 'gig',
     about: 'A popular marketplace where Filipinos can create profiles and find direct remote work from employers in the US, UK, and Australia.'
   },
   'Hello Rache': {
@@ -46,19 +46,19 @@ const MANUAL_OVERRIDE: Record<string, { category: string, about: string }> = {
     about: 'On-demand personal assistant app connecting users with VAs for quick tasks and 24/7 on-demand support.'
   },
   'FreeUp': {
-    category: 'freelance',
+    category: 'gig',
     about: 'High-end freelance marketplace that pre-vets talent, connecting top 1% of Filipino freelancers with global business owners.'
   },
   'Upwork': {
-    category: 'freelance',
+    category: 'gig',
     about: 'The worlds largest freelance platform offering a vast range of remote opportunities for Filipino specialists and agencies.'
   },
   'EVirtualAssistants': {
-    category: 'freelance',
+    category: 'gig',
     about: 'Marketplace platform focused on providing direct communication between clients and Filipino virtual assistants.'
   },
   'GoHireNow': {
-    category: 'freelance',
+    category: 'gig',
     about: 'Modern hiring platform connecting Filipino remote talent directly with international business owners.'
   },
   'BruntWork': {
@@ -91,34 +91,29 @@ const normalize = (records: any[]) => {
 
     let category = r['Category'] || 'agency'; 
     const lowerAbout = aboutRaw.toLowerCase();
-    const lowerName = name.toLowerCase();
 
-    // Mapping priorities
-    const specialCategories = ['usa', 'australia', 'ph-freelance-groups', 'hiring-filipino-vas'];
-    
-    // 1. Detect "Hiring Filipino VAs" first as it's the user's focus
+    // Narrowed Categorization Heuristics
+    // Priority 1: Hiring Filipino VAs (the primary intent)
     if (lowerAbout.includes('filipino va') || lowerAbout.includes('virtual assistant from the philippines') || lowerAbout.includes('filipino virtual assistant') || lowerAbout.includes('hire filipino')) {
         category = 'hiring-filipino-vas';
     } 
-    // 2. Location based
+    // Priority 2: Geographic
     else if (url.includes('.com.au') || lowerAbout.includes('australian company') || lowerAbout.includes('aussie') || lowerAbout.includes('australia')) {
         category = 'australia';
     } else if (lowerAbout.includes('usa based') || lowerAbout.includes('united states') || lowerAbout.includes('u.s. company') || lowerAbout.includes('u.s. based')) {
         category = 'usa';
     }
-    // 3. Fallback to standard categories if not already a special category
-    else if (!specialCategories.includes(category)) {
-        if (lowerAbout.includes('marketplace') || lowerAbout.includes('direct hiring') || lowerAbout.includes('direct hire') || lowerAbout.includes('link') || lowerAbout.includes('market') || lowerAbout.includes('platform for finding')) {
-          category = 'freelance';
-        } else if (lowerAbout.includes('full-time') || lowerAbout.includes('career') || lowerAbout.includes('stable') || lowerAbout.includes('long-term')) {
-          category = 'full-time';
-        } else if (lowerAbout.includes('part-time') || lowerAbout.includes('flexible') || lowerAbout.includes('boutique')) {
-          category = 'part-time';
-        } else if (lowerAbout.includes('task') || lowerAbout.includes('project-based') || lowerAbout.includes('gig') || lowerAbout.includes('hourly')) {
-          category = 'gig';
-        } else {
-          category = 'agency';
-        }
+    // Priority 3: Groups
+    else if (category === 'ph-freelance-groups' || url.includes('facebook.com/groups')) {
+        category = 'ph-freelance-groups';
+    }
+    // Priority 4: Gigs / Marketplaces
+    else if (lowerAbout.includes('marketplace') || lowerAbout.includes('bucket system') || lowerAbout.includes('hourly task') || lowerAbout.includes('gigs') || lowerAbout.includes('platform for finding freelancer')) {
+        category = 'gig';
+    }
+    // Priority 5: Default to Agency (simplified catch-all)
+    else {
+        category = 'agency';
     }
 
     // Clean description
@@ -142,8 +137,8 @@ const normalize = (records: any[]) => {
       desc = desc.substring(0, 142) + '...';
     }
 
-    // Final validation
-    const validEnums = ['freelance', 'full-time', 'part-time', 'gig', 'agency', 'usa', 'australia', 'ph-freelance-groups', 'hiring-filipino-vas'];
+    // Final check against narrowed enums
+    const validEnums = ['gig', 'agency', 'usa', 'australia', 'ph-freelance-groups', 'hiring-filipino-vas'];
     if (!validEnums.includes(category)) {
         category = 'agency';
     }
@@ -165,4 +160,4 @@ const csvContent = stringify(updated, {
 });
 
 writeFileSync(CSV_PATH, csvContent);
-console.log('✅ Successfully re-categorized with intelligent descriptions.');
+console.log('✅ Narrowed down categories successfully.');

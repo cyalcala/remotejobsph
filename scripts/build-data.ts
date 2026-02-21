@@ -68,7 +68,7 @@ async function buildData() {
     }
 
     if (record.description.length > 150) {
-      console.warn(`⚠️ Warning on line ${lineNumber}: Description over 150 chars (ID: ${record.id}). Truncating.`);
+      // Silently truncate — descriptions are sourced from the CSV and may exceed 150 chars
       record.description = record.description.substring(0, 147) + '...';
     }
 

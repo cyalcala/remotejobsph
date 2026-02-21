@@ -50,17 +50,17 @@ export default function SearchBox({ jobs }: { jobs: JobSiteUI[] }) {
   const ariaMessage = `${results.length} result${results.length === 1 ? '' : 's'} found.`;
 
   return (
-    <div className="w-full max-w-5xl mx-auto -mt-6 relative z-10 px-4">
-      {/* Search Input */}
-      <div className="bg-white/80 backdrop-blur-xl shadow-xl rounded-2xl p-4 md:p-6 border border-white/40">
+    <div className="w-full max-w-5xl mx-auto relative z-10">
+      {/* Search Input Container */}
+      <div className="glass rounded-[2rem] p-6 md:p-8 mb-12 shadow-2xl">
         
-        <div className="relative mb-6">
-          <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-            <Search className="h-5 w-5 text-gray-400" />
+        <div className="relative mb-8">
+          <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
+            <Search className="h-6 w-6 text-white/50" />
           </div>
           <input
             type="text"
-            className="block w-full pl-11 pr-4 py-4 bg-gray-50/50 border border-gray-200 placeholder-gray-400 text-gray-900 rounded-xl focus:ring-2 focus:ring-sky-500 focus:border-transparent transition-all"
+            className="block w-full pl-14 pr-6 py-5 bg-white/5 border border-white/10 placeholder-white/40 text-white rounded-2xl focus:ring-2 focus:ring-teal-400 focus:bg-white/10 focus:border-transparent transition-all outline-none"
             placeholder="Search roles, skills, or companies..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
@@ -69,56 +69,56 @@ export default function SearchBox({ jobs }: { jobs: JobSiteUI[] }) {
         </div>
 
         {/* Filters */}
-        <div className="flex flex-col md:flex-row gap-4 justify-between items-start md:items-center mb-2">
+        <div className="flex flex-col md:flex-row gap-6 justify-between items-start md:items-center">
             
-          <div className="flex flex-wrap gap-2 items-center" role="group" aria-label="Category Filters">
+          <div className="flex flex-wrap gap-2.5 items-center" role="group" aria-label="Category Filters">
             {['all', 'hiring-filipino-vas', 'gig', 'agency', 'ph-freelance-groups', 'usa', 'australia'].map(cat => (
               <button
                 key={cat}
                 onClick={() => setFilterCategory(cat)}
-                className={`px-4 py-2 rounded-full text-sm font-semibold transition-all ${
+                className={`px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300 ${
                   filterCategory === cat 
                   ? (
-                    cat === 'hiring-filipino-vas' ? 'bg-teal-600 text-white shadow-lg scale-105' :
-                    cat === 'gig' ? 'bg-pink-500 text-white shadow-lg scale-105' :
-                    cat === 'agency' ? 'bg-blue-600 text-white shadow-lg scale-105' :
-                    cat === 'ph-freelance-groups' ? 'bg-indigo-600 text-white shadow-lg scale-105' :
-                    cat === 'usa' ? 'bg-blue-700 text-white shadow-lg scale-105' :
-                    cat === 'australia' ? 'bg-sky-600 text-white shadow-lg scale-105' :
-                    'bg-sky-500 text-white shadow-lg scale-105'
+                    cat === 'hiring-filipino-vas' ? 'bg-teal-500 text-white shadow-[0_0_20px_rgba(20,184,166,0.4)] scale-105' :
+                    cat === 'gig' ? 'bg-pink-500 text-white shadow-[0_0_20px_rgba(236,72,153,0.4)] scale-105' :
+                    cat === 'agency' ? 'bg-blue-600 text-white shadow-[0_0_20px_rgba(37,99,235,0.4)] scale-105' :
+                    cat === 'ph-freelance-groups' ? 'bg-indigo-600 text-white shadow-[0_0_20px_rgba(79,70,229,0.4)] scale-105' :
+                    cat === 'usa' ? 'bg-blue-700 text-white shadow-[0_0_20px_rgba(29,78,216,0.4)] scale-105' :
+                    cat === 'australia' ? 'bg-sky-600 text-white shadow-[0_0_20px_rgba(2,132,199,0.4)] scale-105' :
+                    'bg-white text-gray-900 shadow-xl scale-105 border-transparent'
                   )
-                  : 'bg-white/80 text-gray-600 hover:bg-white hover:shadow-sm border border-gray-200'
+                  : 'bg-white/5 text-white/70 hover:bg-white/10 hover:text-white border border-white/10'
                 }`}
                 aria-pressed={filterCategory === cat}
               >
-                {cat === 'all' ? '✨ All Jobs' :
-                 cat === 'hiring-filipino-vas' ? '🔥 Pinoy VA Jobs' :
-                 cat === 'ph-freelance-groups' ? '👥 Freelance Groups' :
-                 cat === 'gig' ? '🎯 Gig' :
-                 cat === 'usa' ? '🇺🇸 USA' :
-                 cat === 'australia' ? '🇦🇺 Australia' :
+                {cat === 'all' ? 'All Jobs' :
+                 cat === 'hiring-filipino-vas' ? 'Pinoy VA Jobs' :
+                 cat === 'ph-freelance-groups' ? 'PH Freelancing' :
+                 cat === 'gig' ? 'Gigs' :
+                 cat === 'usa' ? 'USA' :
+                 cat === 'australia' ? 'Australia' :
                  cat.charAt(0).toUpperCase() + cat.slice(1).replace(/-/g, ' ')}
               </button>
             ))}
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-4">
               <select 
                 value={filterRemote} 
                 onChange={e => setFilterRemote(e.target.value)}
-                className="bg-gray-100 text-gray-700 text-sm rounded-lg focus:ring-sky-500 focus:border-sky-500 block p-2 border-none"
+                className="bg-white/5 text-white/80 text-sm font-medium rounded-xl focus:ring-2 focus:ring-teal-400 block p-3 border border-white/10 outline-none cursor-pointer hover:bg-white/10 transition-all"
                 aria-label="Filter by remote type"
               >
-                  <option value="all">Any Remote Type</option>
-                  <option value="fully-remote">Fully Remote</option>
-                  <option value="hybrid">Hybrid</option>
-                  <option value="remote-friendly">Remote-Friendly</option>
+                  <option value="all" className="bg-gray-900">Any Remote Type</option>
+                  <option value="fully-remote" className="bg-gray-900">Fully Remote</option>
+                  <option value="hybrid" className="bg-gray-900">Hybrid</option>
+                  <option value="remote-friendly" className="bg-gray-900">Remote-Friendly</option>
               </select>
 
               {(filterCategory !== 'all' || filterRemote !== 'all' || query !== '') && (
                   <button 
                       onClick={() => { setFilterCategory('all'); setFilterRemote('all'); setQuery(''); }}
-                      className="p-2 text-gray-400 hover:text-rose-500 transition-colors"
+                      className="p-3 bg-rose-500/20 text-rose-400 hover:bg-rose-500 hover:text-white rounded-xl transition-all"
                       aria-label="Clear filters"
                   >
                       <FilterX className="h-5 w-5" />
@@ -133,20 +133,28 @@ export default function SearchBox({ jobs }: { jobs: JobSiteUI[] }) {
       </div>
           
       {/* Results Header */}
-      <div className="mt-8 mb-4 flex justify-between items-end px-2">
-          <h2 className="text-xl font-bold tracking-tight text-gray-900">
+      <div className="mb-8 flex justify-between items-end px-4">
+          <h2 className="text-2xl font-black tracking-tight text-white drop-shadow-lg uppercase">
              {results.length > 0 ? "Latest Opportunities" : "No results found"}
           </h2>
-          <p className="text-sm font-medium text-gray-500">{results.length} result{results.length !== 1 && 's'}</p>
+          <div className="glass px-4 py-1.5 rounded-full">
+            <p className="text-sm font-bold text-white/90">{results.length} results</p>
+          </div>
       </div>
 
       {/* Grid */}
       <JobGrid jobs={results} />
 
       {results.length === 0 && (
-          <div className="py-20 text-center text-gray-500 flex flex-col items-center">
-              <Search className="h-12 w-12 text-gray-300 mb-4" />
-              <p className="text-lg">Try adjusting your filters or search terms.</p>
+          <div className="py-24 glass rounded-[2rem] text-center text-white/40 flex flex-col items-center">
+              <Search className="h-16 w-16 mb-6 opacity-20" />
+              <p className="text-xl font-medium">No matches found for your current search.</p>
+              <button 
+                onClick={() => { setFilterCategory('all'); setFilterRemote('all'); setQuery(''); }}
+                className="mt-6 text-teal-400 hover:text-teal-300 font-bold underline underline-offset-4"
+              >
+                Clear all filters
+              </button>
           </div>
       )}
 

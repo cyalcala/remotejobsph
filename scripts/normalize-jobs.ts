@@ -91,27 +91,29 @@ const normalize = (records: any[]) => {
 
     let category = r['Category'] || 'agency'; 
     const lowerAbout = aboutRaw.toLowerCase();
+    const lowerName = name.toLowerCase();
 
-    // Narrowed Categorization Heuristics
-    // Priority 1: Hiring Filipino VAs (the primary intent)
-    if (lowerAbout.includes('filipino va') || lowerAbout.includes('virtual assistant from the philippines') || lowerAbout.includes('filipino virtual assistant') || lowerAbout.includes('hire filipino')) {
+    // 1. Smart Routing (Filipino VA Focus) - Priority 1
+    const vaKeywords = ['virtual assistant', ' va ', ' va,', ' va.', 'executive assistant', 'admin support'];
+    const hasVAKeyword = vaKeywords.some(kw => lowerAbout.includes(kw) || lowerName.includes(kw));
+
+    if (hasVAKeyword || lowerAbout.includes('filipino') || lowerAbout.includes('philippine') || lowerAbout.includes('pinoy')) {
         category = 'hiring-filipino-vas';
     } 
-    // Priority 2: Geographic
+    // 2. Geographic - Priority 2
     else if (url.includes('.com.au') || lowerAbout.includes('australian company') || lowerAbout.includes('aussie') || lowerAbout.includes('australia')) {
         category = 'australia';
-    } else if (lowerAbout.includes('usa based') || lowerAbout.includes('united states') || lowerAbout.includes('u.s. company') || lowerAbout.includes('u.s. based')) {
+    } else if (lowerAbout.includes('usa based') || lowerAbout.includes('united states') || lowerAbout.includes('u.s. company') || lowerAbout.includes('u.s. based') || lowerAbout.includes('usa')) {
         category = 'usa';
     }
-    // Priority 3: Groups
+    // 3. Groups - Priority 3
     else if (category === 'ph-freelance-groups' || url.includes('facebook.com/groups')) {
         category = 'ph-freelance-groups';
     }
-    // Priority 4: Gigs / Marketplaces
-    else if (lowerAbout.includes('marketplace') || lowerAbout.includes('bucket system') || lowerAbout.includes('hourly task') || lowerAbout.includes('gigs') || lowerAbout.includes('platform for finding freelancer')) {
+    // 4. Gigs / Marketplaces
+    else if (lowerAbout.includes('marketplace') || lowerAbout.includes('bucket system') || lowerAbout.includes('hourly task') || lowerAbout.includes('gigs')) {
         category = 'gig';
     }
-    // Priority 5: Default to Agency (simplified catch-all)
     else {
         category = 'agency';
     }
@@ -160,4 +162,4 @@ const csvContent = stringify(updated, {
 });
 
 writeFileSync(CSV_PATH, csvContent);
-console.log('✅ Narrowed down categories successfully.');
+console.log('✅ Data Logic upgraded with Smart Routing and Narrowed Categories.');

@@ -1,61 +1,52 @@
+'use client';
 import { JobSiteUI } from '../lib/types';
-import { ExternalLink, Star } from 'lucide-react';
+import { ExternalLink, Zap } from 'lucide-react';
 
 export default function JobCard({ job }: { job: JobSiteUI }) {
-  // Simple 3D tilt effect on hover via CSS classes
+  if (!job) return null;
+
   return (
-    <a
-      href={job.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="group block overflow-hidden rounded-2xl bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-100/50 hover:bg-sky-50 focus:outline-none focus:ring-4 focus:ring-sky-500/20"
-      aria-label={`Open ${job.name} in new tab`}
-    >
-      <div className="flex justify-between items-start mb-4">
-        <h3 className="text-lg font-bold text-gray-900 group-hover:text-sky-600 transition-colors">
+    <div className="glass-card group flex flex-col h-full p-6 rounded-[1.5rem] relative overflow-hidden">
+      {/* Accent Glow */}
+      <div className="absolute -top-12 -right-12 w-24 h-24 bg-white/5 blur-3xl rounded-full group-hover:bg-teal-400/10 transition-colors" />
+
+      <div className="flex justify-between items-start mb-6">
+        <h3 className="text-xl font-black text-white group-hover:text-teal-400 transition-colors duration-300 tracking-tight leading-tight">
           {job.name}
         </h3>
-        
-        <div className="flex items-center space-x-2">
-            {job.rating !== "" && (
-              <span className="flex items-center text-xs font-medium text-amber-500 bg-amber-50 px-2 py-1 rounded-full">
-                <Star className="w-3 h-3 mr-1 fill-amber-500" />
-                {job.rating}
-              </span>
-            )}
-            <ExternalLink className="h-4 w-4 text-gray-400 group-hover:text-sky-400 opacity-0 group-hover:opacity-100 transition-all -translate-y-1 translate-x-1 group-hover:translate-x-0 group-hover:translate-y-0" />
-        </div>
+        <a 
+          href={job.url} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="p-3 bg-white/5 hover:bg-teal-500 hover:text-white rounded-xl transition-all shadow-lg"
+          aria-label={`Visit ${job.name} website`}
+        >
+          <ExternalLink className="h-4 w-4" />
+        </a>
       </div>
 
-      <p className="text-gray-600 text-sm mb-6 line-clamp-2 leading-relaxed h-10">
-        {job.description || "No description provided."}
+      <p className="text-white/70 text-[0.95rem] leading-relaxed mb-8 flex-grow font-medium">
+        {job.description}
       </p>
 
-      <div className="flex flex-wrap gap-2 mt-auto">
-        <span className={`inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-semibold ${
-          job.category === 'gig' ? 'bg-pink-100 text-pink-800' :
-          job.category === 'ph-freelance-groups' ? 'bg-indigo-100 text-indigo-800' :
-          job.category === 'usa' ? 'bg-blue-100 text-blue-800' :
-          job.category === 'australia' ? 'bg-sky-100 text-sky-800' :
-          job.category === 'hiring-filipino-vas' ? 'bg-teal-100 text-teal-800' :
-          'bg-blue-50 text-blue-700'
+      <div className="flex flex-wrap gap-2.5 mt-auto pt-6 border-t border-white/5">
+        <span className={`inline-flex items-center px-3 py-1.5 rounded-xl text-[0.7rem] font-black uppercase tracking-widest ${
+          job.category === 'gig' ? 'bg-pink-500/20 text-pink-300' :
+          job.category === 'ph-freelance-groups' ? 'bg-indigo-500/20 text-indigo-300' :
+          job.category === 'usa' ? 'bg-blue-500/20 text-blue-300' :
+          job.category === 'australia' ? 'bg-sky-500/20 text-sky-300' :
+          job.category === 'hiring-filipino-vas' ? 'bg-teal-500/20 text-teal-300' :
+          'bg-white/10 text-white/70'
         }`}>
-          {job.category === 'ph-freelance-groups' ? 'freelance groups' : 
-           job.category === 'hiring-filipino-vas' ? 'Pinoy VA jobs' :
+          <Zap className="h-3 w-3 mr-1.5 fill-current" />
+          {job.category === 'ph-freelance-groups' ? 'PH Freelance' : 
+           job.category === 'hiring-filipino-vas' ? 'Pinoy VA' :
            job.category.replace('-', ' ')}
         </span>
-        <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-medium bg-sky-100 text-sky-800">
+        <span className="inline-flex items-center px-3 py-1.5 rounded-xl text-[0.7rem] font-black uppercase tracking-widest bg-white/5 text-white/50 border border-white/5">
           {job.remote_type.replace('-', ' ')}
         </span>
-        
-        {job.tags && job.tags.map((tag, idx) => (
-          tag.trim() && (
-             <span key={idx} className="inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-medium border border-gray-200 text-gray-500">
-                {tag.trim()}
-             </span>
-          )
-        )).slice(0, 2)} {/* Show max 2 tags */}
       </div>
-    </a>
+    </div>
   );
 }
